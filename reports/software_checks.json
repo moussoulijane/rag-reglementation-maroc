@@ -1,0 +1,36 @@
+{
+  "recorded_at_utc": "2026-10-17",
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows",
+    "model_tests_enabled": true
+  },
+  "checks": [
+    {
+      "command": "python -m pytest -q",
+      "exit_code": 0,
+      "passed": 125,
+      "skipped": 0,
+      "warnings": 1,
+      "duration_seconds": 22.66
+    },
+    {
+      "command": "python -m ruff check .",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m ruff format --check .",
+      "exit_code": 0,
+      "files": 31
+    },
+    {
+      "command": "python -m pip check",
+      "exit_code": 0
+    },
+    {
+      "command": "docker compose config --quiet",
+      "exit_code": 0
+    }
+  ],
+  "note": "Recorded outcomes of the final local run; not a relevance benchmark or remote CI execution."
+}

@@ -1,0 +1,363 @@
+{
+  "scope": "Error counts on frozen internal new topics; not generated-answer accuracy.",
+  "cases_sha256": "ae92d94c0316bf3b68320b34e6e5a514c2cc4b4a6817334713e5d5031a9929cb",
+  "analyses": [
+    {
+      "mode": "bm25",
+      "n_cases": 80,
+      "n_topic_groups": 20,
+      "overall": {
+        "direction": "overall",
+        "n_cases": 80,
+        "n_topic_groups": 20,
+        "n_positive": 48,
+        "n_negative": 32,
+        "recall_at_5": 0.4375,
+        "mrr_at_5": 0.3784722222222222,
+        "mean_search_latency_ms": 2.3667450000104395,
+        "coverage": 0.3,
+        "positive_answer_rate": 0.375,
+        "negative_abstention_rate": 0.8125,
+        "answerability_precision": 0.75,
+        "answerability_balanced_accuracy": 0.59375
+      },
+      "positive_missing_any_expected_article": [
+        "v2_p01_payment_funds_liquidation_fr_ar",
+        "v2_p01_payment_funds_liquidation_ar_fr",
+        "v2_p02_legal_forms_ar_ar",
+        "v2_p02_legal_forms_fr_ar",
+        "v2_p02_legal_forms_ar_fr",
+        "v2_p03_paid_capital_fr_ar",
+        "v2_p03_paid_capital_ar_fr",
+        "v2_p04_mandatory_identity_mentions_ar_ar",
+        "v2_p04_mandatory_identity_mentions_fr_ar",
+        "v2_p04_mandatory_identity_mentions_ar_fr",
+        "v2_p05_competition_review_fr_ar",
+        "v2_p05_competition_review_ar_fr",
+        "v2_p06_financial_statements_calendar_fr_ar",
+        "v2_p06_financial_statements_calendar_ar_fr",
+        "v2_p07_board_committees_fr_ar",
+        "v2_p07_board_committees_ar_fr",
+        "v2_p08_aml_internal_vigilance_fr_ar",
+        "v2_p08_aml_internal_vigilance_ar_fr",
+        "v2_p09_statutory_auditors_fr_ar",
+        "v2_p09_statutory_auditors_ar_fr",
+        "v2_p10_dormant_accounts_fr_ar",
+        "v2_p10_dormant_accounts_ar_fr",
+        "v2_p11_monetary_sanction_notice_ar_ar",
+        "v2_p11_monetary_sanction_notice_fr_ar",
+        "v2_p11_monetary_sanction_notice_ar_fr",
+        "v2_p12_rating_agency_confidentiality_fr_ar",
+        "v2_p12_rating_agency_confidentiality_ar_fr"
+      ],
+      "positive_accepted_with_incomplete_article_recall": [],
+      "positive_refused_with_full_article_recall": [
+        "v2_p01_payment_funds_liquidation_ar_ar",
+        "v2_p04_mandatory_identity_mentions_fr_fr",
+        "v2_p10_dormant_accounts_ar_ar"
+      ],
+      "negative_accepted": [
+        {
+          "id": "v2_n01_cyber_incident_deadline_fr_fr",
+          "group_id": "v2_n01_cyber_incident_deadline",
+          "direction": "fr->fr",
+          "negative_type": "related_missing_operational_rule"
+        },
+        {
+          "id": "v2_n01_cyber_incident_deadline_ar_ar",
+          "group_id": "v2_n01_cyber_incident_deadline",
+          "direction": "ar->ar",
+          "negative_type": "related_missing_operational_rule"
+        },
+        {
+          "id": "v2_n02_recovery_plan_template_fr_fr",
+          "group_id": "v2_n02_recovery_plan_template",
+          "direction": "fr->fr",
+          "negative_type": "related_missing_template"
+        },
+        {
+          "id": "v2_n02_recovery_plan_template_ar_ar",
+          "group_id": "v2_n02_recovery_plan_template",
+          "direction": "ar->ar",
+          "negative_type": "related_missing_template"
+        },
+        {
+          "id": "v2_n05_bank_swift_directory_ar_ar",
+          "group_id": "v2_n05_bank_swift_directory",
+          "direction": "ar->ar",
+          "negative_type": "commercial_directory_fact"
+        },
+        {
+          "id": "v2_n07_deposit_guarantee_numeric_cap_fr_fr",
+          "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+          "direction": "fr->fr",
+          "negative_type": "related_missing_numeric_parameter"
+        }
+      ],
+      "negative_accepted_by_type": {
+        "related_missing_operational_rule": 2,
+        "related_missing_template": 2,
+        "commercial_directory_fact": 1,
+        "related_missing_numeric_parameter": 1
+      }
+    },
+    {
+      "mode": "semantic",
+      "n_cases": 80,
+      "n_topic_groups": 20,
+      "overall": {
+        "direction": "overall",
+        "n_cases": 80,
+        "n_topic_groups": 20,
+        "n_positive": 48,
+        "n_negative": 32,
+        "recall_at_5": 0.8958333333333334,
+        "mrr_at_5": 0.7322916666666667,
+        "mean_search_latency_ms": 19.981509999992397,
+        "coverage": 0.675,
+        "positive_answer_rate": 0.875,
+        "negative_abstention_rate": 0.625,
+        "answerability_precision": 0.7777777777777778,
+        "answerability_balanced_accuracy": 0.75
+      },
+      "positive_missing_any_expected_article": [
+        "v2_p01_payment_funds_liquidation_fr_ar",
+        "v2_p01_payment_funds_liquidation_ar_fr",
+        "v2_p02_legal_forms_fr_ar",
+        "v2_p04_mandatory_identity_mentions_fr_fr",
+        "v2_p11_monetary_sanction_notice_ar_fr"
+      ],
+      "positive_accepted_with_incomplete_article_recall": [
+        "v2_p01_payment_funds_liquidation_fr_ar",
+        "v2_p01_payment_funds_liquidation_ar_fr",
+        "v2_p02_legal_forms_fr_ar",
+        "v2_p11_monetary_sanction_notice_ar_fr"
+      ],
+      "positive_refused_with_full_article_recall": [
+        "v2_p04_mandatory_identity_mentions_ar_ar",
+        "v2_p04_mandatory_identity_mentions_fr_ar",
+        "v2_p08_aml_internal_vigilance_fr_ar",
+        "v2_p11_monetary_sanction_notice_fr_fr",
+        "v2_p11_monetary_sanction_notice_fr_ar"
+      ],
+      "negative_accepted": [
+        {
+          "id": "v2_n01_cyber_incident_deadline_fr_fr",
+          "group_id": "v2_n01_cyber_incident_deadline",
+          "direction": "fr->fr",
+          "negative_type": "related_missing_operational_rule"
+        },
+        {
+          "id": "v2_n01_cyber_incident_deadline_ar_ar",
+          "group_id": "v2_n01_cyber_incident_deadline",
+          "direction": "ar->ar",
+          "negative_type": "related_missing_operational_rule"
+        },
+        {
+          "id": "v2_n02_recovery_plan_template_fr_fr",
+          "group_id": "v2_n02_recovery_plan_template",
+          "direction": "fr->fr",
+          "negative_type": "related_missing_template"
+        },
+        {
+          "id": "v2_n02_recovery_plan_template_ar_ar",
+          "group_id": "v2_n02_recovery_plan_template",
+          "direction": "ar->ar",
+          "negative_type": "related_missing_template"
+        },
+        {
+          "id": "v2_n07_deposit_guarantee_numeric_cap_fr_fr",
+          "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+          "direction": "fr->fr",
+          "negative_type": "related_missing_numeric_parameter"
+        },
+        {
+          "id": "v2_n07_deposit_guarantee_numeric_cap_ar_ar",
+          "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+          "direction": "ar->ar",
+          "negative_type": "related_missing_numeric_parameter"
+        },
+        {
+          "id": "v2_n07_deposit_guarantee_numeric_cap_fr_ar",
+          "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+          "direction": "fr->ar",
+          "negative_type": "related_missing_numeric_parameter"
+        },
+        {
+          "id": "v2_n07_deposit_guarantee_numeric_cap_ar_fr",
+          "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+          "direction": "ar->fr",
+          "negative_type": "related_missing_numeric_parameter"
+        },
+        {
+          "id": "v2_n08_open_banking_api_contract_fr_fr",
+          "group_id": "v2_n08_open_banking_api_contract",
+          "direction": "fr->fr",
+          "negative_type": "missing_technical_interface_contract"
+        },
+        {
+          "id": "v2_n08_open_banking_api_contract_ar_ar",
+          "group_id": "v2_n08_open_banking_api_contract",
+          "direction": "ar->ar",
+          "negative_type": "missing_technical_interface_contract"
+        },
+        {
+          "id": "v2_n08_open_banking_api_contract_fr_ar",
+          "group_id": "v2_n08_open_banking_api_contract",
+          "direction": "fr->ar",
+          "negative_type": "missing_technical_interface_contract"
+        },
+        {
+          "id": "v2_n08_open_banking_api_contract_ar_fr",
+          "group_id": "v2_n08_open_banking_api_contract",
+          "direction": "ar->fr",
+          "negative_type": "missing_technical_interface_contract"
+        }
+      ],
+      "negative_accepted_by_type": {
+        "related_missing_operational_rule": 2,
+        "related_missing_template": 2,
+        "related_missing_numeric_parameter": 4,
+        "missing_technical_interface_contract": 4
+      }
+    },
+    {
+      "mode": "hybrid",
+      "n_cases": 80,
+      "n_topic_groups": 20,
+      "overall": {
+        "direction": "overall",
+        "n_cases": 80,
+        "n_topic_groups": 20,
+        "n_positive": 48,
+        "n_negative": 32,
+        "recall_at_5": 0.875,
+        "mrr_at_5": 0.7402777777777778,
+        "mean_search_latency_ms": 18.694919999995818,
+        "coverage": 0.775,
+        "positive_answer_rate": 0.9791666666666666,
+        "negative_abstention_rate": 0.53125,
+        "answerability_precision": 0.7580645161290323,
+        "answerability_balanced_accuracy": 0.7552083333333333
+      },
+      "positive_missing_any_expected_article": [
+        "v2_p01_payment_funds_liquidation_fr_ar",
+        "v2_p01_payment_funds_liquidation_ar_fr",
+        "v2_p02_legal_forms_ar_ar",
+        "v2_p02_legal_forms_fr_ar",
+        "v2_p11_monetary_sanction_notice_ar_ar",
+        "v2_p11_monetary_sanction_notice_ar_fr"
+      ],
+      "positive_accepted_with_incomplete_article_recall": [
+        "v2_p01_payment_funds_liquidation_fr_ar",
+        "v2_p01_payment_funds_liquidation_ar_fr",
+        "v2_p02_legal_forms_ar_ar",
+        "v2_p02_legal_forms_fr_ar",
+        "v2_p11_monetary_sanction_notice_ar_ar",
+        "v2_p11_monetary_sanction_notice_ar_fr"
+      ],
+      "positive_refused_with_full_article_recall": [
+        "v2_p04_mandatory_identity_mentions_fr_fr"
+      ],
+      "negative_accepted": [
+        {
+          "id": "v2_n01_cyber_incident_deadline_fr_fr",
+          "group_id": "v2_n01_cyber_incident_deadline",
+          "direction": "fr->fr",
+          "negative_type": "related_missing_operational_rule"
+        },
+        {
+          "id": "v2_n01_cyber_incident_deadline_ar_ar",
+          "group_id": "v2_n01_cyber_incident_deadline",
+          "direction": "ar->ar",
+          "negative_type": "related_missing_operational_rule"
+        },
+        {
+          "id": "v2_n01_cyber_incident_deadline_ar_fr",
+          "group_id": "v2_n01_cyber_incident_deadline",
+          "direction": "ar->fr",
+          "negative_type": "related_missing_operational_rule"
+        },
+        {
+          "id": "v2_n02_recovery_plan_template_fr_fr",
+          "group_id": "v2_n02_recovery_plan_template",
+          "direction": "fr->fr",
+          "negative_type": "related_missing_template"
+        },
+        {
+          "id": "v2_n02_recovery_plan_template_ar_ar",
+          "group_id": "v2_n02_recovery_plan_template",
+          "direction": "ar->ar",
+          "negative_type": "related_missing_template"
+        },
+        {
+          "id": "v2_n02_recovery_plan_template_fr_ar",
+          "group_id": "v2_n02_recovery_plan_template",
+          "direction": "fr->ar",
+          "negative_type": "related_missing_template"
+        },
+        {
+          "id": "v2_n02_recovery_plan_template_ar_fr",
+          "group_id": "v2_n02_recovery_plan_template",
+          "direction": "ar->fr",
+          "negative_type": "related_missing_template"
+        },
+        {
+          "id": "v2_n07_deposit_guarantee_numeric_cap_fr_fr",
+          "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+          "direction": "fr->fr",
+          "negative_type": "related_missing_numeric_parameter"
+        },
+        {
+          "id": "v2_n07_deposit_guarantee_numeric_cap_ar_ar",
+          "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+          "direction": "ar->ar",
+          "negative_type": "related_missing_numeric_parameter"
+        },
+        {
+          "id": "v2_n07_deposit_guarantee_numeric_cap_fr_ar",
+          "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+          "direction": "fr->ar",
+          "negative_type": "related_missing_numeric_parameter"
+        },
+        {
+          "id": "v2_n07_deposit_guarantee_numeric_cap_ar_fr",
+          "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+          "direction": "ar->fr",
+          "negative_type": "related_missing_numeric_parameter"
+        },
+        {
+          "id": "v2_n08_open_banking_api_contract_fr_fr",
+          "group_id": "v2_n08_open_banking_api_contract",
+          "direction": "fr->fr",
+          "negative_type": "missing_technical_interface_contract"
+        },
+        {
+          "id": "v2_n08_open_banking_api_contract_ar_ar",
+          "group_id": "v2_n08_open_banking_api_contract",
+          "direction": "ar->ar",
+          "negative_type": "missing_technical_interface_contract"
+        },
+        {
+          "id": "v2_n08_open_banking_api_contract_fr_ar",
+          "group_id": "v2_n08_open_banking_api_contract",
+          "direction": "fr->ar",
+          "negative_type": "missing_technical_interface_contract"
+        },
+        {
+          "id": "v2_n08_open_banking_api_contract_ar_fr",
+          "group_id": "v2_n08_open_banking_api_contract",
+          "direction": "ar->fr",
+          "negative_type": "missing_technical_interface_contract"
+        }
+      ],
+      "negative_accepted_by_type": {
+        "related_missing_operational_rule": 3,
+        "related_missing_template": 4,
+        "related_missing_numeric_parameter": 4,
+        "missing_technical_interface_contract": 4
+      }
+    }
+  ],
+  "limits": "Expected articles are internal annotations. Missing a labeled article may also reveal an incomplete gold label. Article recall does not measure passage support. Four language directions share topics; no independence confidence intervals."
+}

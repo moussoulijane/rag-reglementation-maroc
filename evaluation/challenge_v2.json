@@ -1,0 +1,1488 @@
+{
+  "benchmark_version": "bam-10312-challenge-v2",
+  "corpus_edition": "2022-03-31",
+  "created_at_utc": "2026-10-18T22:15:47Z",
+  "construction_note": "Internal new-topic challenge after historical results were known to the team. These new questions were authored from source articles without running retrieval or consulting their rankings. No independent legal expert adjudication is claimed.",
+  "topic_annotations": [
+    {
+      "group_id": "v2_p01_payment_funds_liquidation",
+      "kind": "positive",
+      "article_ids": [
+        "17"
+      ],
+      "scope_article_ids": [
+        "17"
+      ],
+      "label": "Fonds des comptes de paiement en liquidation",
+      "rationale": "L'article protège les fonds contre les créanciers de l'établissement de paiement et les affecte au remboursement des titulaires en liquidation.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-17",
+          "article_id": "17",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 11,
+          "page_end": 12,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-17",
+          "article_id": "17",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 12,
+          "page_end": 12,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_p02_legal_forms",
+      "kind": "positive",
+      "article_ids": [
+        "35"
+      ],
+      "scope_article_ids": [
+        "35"
+      ],
+      "label": "Formes juridiques des établissements",
+      "rationale": "L'article distingue les formes des établissements de crédit au Maroc et celles des établissements de paiement, avec l'exception du statut particulier.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-35",
+          "article_id": "35",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 25,
+          "page_end": 26,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-35",
+          "article_id": "35",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 26,
+          "page_end": 26,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_p03_paid_capital",
+      "kind": "positive",
+      "article_ids": [
+        "36"
+      ],
+      "scope_article_ids": [
+        "36"
+      ],
+      "label": "Libération du capital ou versement de la dotation",
+      "rationale": "L'article exige un capital intégralement libéré ou une dotation totalement versée pour l'établissement public ; aucun montant chiffré n'est demandé.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-36",
+          "article_id": "36",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 26,
+          "page_end": 26,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-36",
+          "article_id": "36",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 26,
+          "page_end": 26,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_p04_mandatory_identity_mentions",
+      "kind": "positive",
+      "article_ids": [
+        "46"
+      ],
+      "scope_article_ids": [
+        "46"
+      ],
+      "label": "Mentions d'identité dans les publications",
+      "rationale": "L'article énumère les mentions d'identité, de capital, de siège, d'immatriculation, de catégorie et d'agrément.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-46",
+          "article_id": "46",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 30,
+          "page_end": 30,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-46",
+          "article_id": "46",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 30,
+          "page_end": 30,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_p05_competition_review",
+      "kind": "positive",
+      "article_ids": [
+        "50"
+      ],
+      "scope_article_ids": [
+        "50"
+      ],
+      "label": "Examen concurrentiel d'une concentration bancaire",
+      "rationale": "L'article prévoit la demande d'avis au Conseil de la concurrence et un délai maximal d'un mois ; le thème diffère de l'autorité d'agrément.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-50",
+          "article_id": "50",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 31,
+          "page_end": 31,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-50",
+          "article_id": "50",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 32,
+          "page_end": 32,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_p06_financial_statements_calendar",
+      "kind": "positive",
+      "article_ids": [
+        "73"
+      ],
+      "scope_article_ids": [
+        "73"
+      ],
+      "label": "Périodicité et bases des états de synthèse",
+      "rationale": "L'article vise la clôture de l'exercice et la fin du premier semestre, sur les bases individuelle et consolidée ou sous-consolidée.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-73",
+          "article_id": "73",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 40,
+          "page_end": 41,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-73",
+          "article_id": "73",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 41,
+          "page_end": 41,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_p07_board_committees",
+      "kind": "positive",
+      "article_ids": [
+        "78"
+      ],
+      "scope_article_ids": [
+        "78"
+      ],
+      "label": "Comités de gouvernance pour contrôle et risques",
+      "rationale": "L'article impose deux comités rattachés au conseil d'administration ou de surveillance, comprenant des membres indépendants.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-78",
+          "article_id": "78",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 42,
+          "page_end": 42,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-78",
+          "article_id": "78",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 43,
+          "page_end": 43,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_p08_aml_internal_vigilance",
+      "kind": "positive",
+      "article_ids": [
+        "97"
+      ],
+      "scope_article_ids": [
+        "97"
+      ],
+      "label": "Vigilance interne contre le blanchiment et le financement du terrorisme",
+      "rationale": "L'article exige une vigilance et une veille interne LBC/FT, thème distinct du dispositif ancien de réclamations clientèle.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-97",
+          "article_id": "97",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 48,
+          "page_end": 48,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-97",
+          "article_id": "97",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 49,
+          "page_end": 49,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_p09_statutory_auditors",
+      "kind": "positive",
+      "article_ids": [
+        "99"
+      ],
+      "scope_article_ids": [
+        "99"
+      ],
+      "label": "Commissaires aux comptes : nombre et exception",
+      "rationale": "L'article pose deux commissaires approuvés par Bank Al-Maghrib et l'exception sous un seuil de total bilan ; le chiffre du seuil n'est pas demandé.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-99",
+          "article_id": "99",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 49,
+          "page_end": 49,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-99",
+          "article_id": "99",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 49,
+          "page_end": 50,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_p10_dormant_accounts",
+      "kind": "positive",
+      "article_ids": [
+        "152"
+      ],
+      "scope_article_ids": [
+        "152"
+      ],
+      "label": "Fonds des comptes sans opération ni réclamation",
+      "rationale": "L'article décrit la clôture après dix ans, le dépôt à la CDG et le nouveau délai de cinq ans avant acquisition par le Trésor.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-152",
+          "article_id": "152",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 67,
+          "page_end": 67,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-152",
+          "article_id": "152",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 67,
+          "page_end": 68,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_p11_monetary_sanction_notice",
+      "kind": "positive",
+      "article_ids": [
+        "174"
+      ],
+      "scope_article_ids": [
+        "174"
+      ],
+      "label": "Délai minimal de notification d'une sanction pécuniaire",
+      "rationale": "L'article fixe un minimum de huit jours depuis l'envoi de la notification ; le mécanisme de recouvrement n'est pas demandé.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-174",
+          "article_id": "174",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 75,
+          "page_end": 75,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-174",
+          "article_id": "174",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 76,
+          "page_end": 76,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_p12_rating_agency_confidentiality",
+      "kind": "positive",
+      "article_ids": [
+        "180"
+      ],
+      "scope_article_ids": [
+        "180"
+      ],
+      "label": "Agences de notation et confidentialité",
+      "rationale": "L'article permet la communication nécessaire à la notation et impose la confidentialité aux destinataires ; l'ensemble des exceptions au secret n'est pas demandé.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-180",
+          "article_id": "180",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 77,
+          "page_end": 78,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-180",
+          "article_id": "180",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 77,
+          "page_end": 78,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_n01_cyber_incident_deadline",
+      "kind": "negative",
+      "article_ids": [],
+      "scope_article_ids": [
+        "77"
+      ],
+      "label": "Délai chiffré de notification d'un incident cyber",
+      "rationale": "La loi pose un contrôle général des risques mais ne donne pas le délai horaire demandé pour un incident cyber.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-77",
+          "article_id": "77",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 42,
+          "page_end": 42,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-77",
+          "article_id": "77",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 43,
+          "page_end": 43,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_n02_recovery_plan_template",
+      "kind": "negative",
+      "article_ids": [],
+      "scope_article_ids": [
+        "79"
+      ],
+      "label": "Modèle détaillé d'un plan de redressement de crise",
+      "rationale": "L'article permet d'exiger un plan et renvoie ses modalités ; le corpus ne fournit ni gabarit de fichier ni liste de champs.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-79",
+          "article_id": "79",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 43,
+          "page_end": 43,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-79",
+          "article_id": "79",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 43,
+          "page_end": 44,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_n03_personal_mortgage_quote",
+      "kind": "negative",
+      "article_ids": [],
+      "scope_article_ids": [],
+      "label": "Mensualité exacte d'une offre individuelle de prêt immobilier",
+      "rationale": "Une offre individuelle suppose taux, frais, assurance et décision commerciale absents de cette loi. Les seuls nombres fournis ne déterminent pas le montant.",
+      "source_refs": []
+    },
+    {
+      "group_id": "v2_n04_vat_banking_fees_2026",
+      "kind": "negative",
+      "article_ids": [],
+      "scope_article_ids": [],
+      "label": "TVA actuelle sur les commissions bancaires",
+      "rationale": "Il faut des dispositions fiscales actuelles, hors de la loi bancaire consolidée en 2022 ; aucun taux courant ne doit en être inventé.",
+      "source_refs": []
+    },
+    {
+      "group_id": "v2_n05_bank_swift_directory",
+      "kind": "negative",
+      "article_ids": [],
+      "scope_article_ids": [],
+      "label": "Code BIC/SWIFT d'un établissement nommé",
+      "rationale": "Le code d'une banque nommée relève d'un annuaire bancaire ou d'informations commerciales, pas des deux textes de la loi.",
+      "source_refs": []
+    },
+    {
+      "group_id": "v2_n06_mobile_access_recovery",
+      "kind": "negative",
+      "article_ids": [],
+      "scope_article_ids": [],
+      "label": "Récupération d'accès à une application bancaire",
+      "rationale": "La récupération d'accès dépend du service et de la banque ; ce parcours utilisateur n'est pas fourni par le corpus légal.",
+      "source_refs": []
+    },
+    {
+      "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+      "kind": "negative",
+      "article_ids": [],
+      "scope_article_ids": [
+        "138"
+      ],
+      "label": "Montant exact du plafond de garantie des dépôts",
+      "rationale": "La loi indique que Bank Al-Maghrib fixe le plafond, sans en donner la valeur ; retrouver cette délégation ne répond pas au chiffre demandé.",
+      "source_refs": [
+        {
+          "id": "bam-10312-fr:article-138",
+          "article_id": "138",
+          "language": "fr",
+          "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 63,
+          "page_end": 63,
+          "sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+        },
+        {
+          "id": "bam-10312-ar:article-138",
+          "article_id": "138",
+          "language": "ar",
+          "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+          "version_date": "2022-03-31",
+          "page_start": 63,
+          "page_end": 63,
+          "sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+        }
+      ]
+    },
+    {
+      "group_id": "v2_n08_open_banking_api_contract",
+      "kind": "negative",
+      "article_ids": [],
+      "scope_article_ids": [],
+      "label": "Contrat technique d'une API d'open banking",
+      "rationale": "Les deux textes ne fournissent aucune spécification des routes, paramètres ou contrats techniques d'une API d'open banking.",
+      "source_refs": []
+    }
+  ],
+  "cases": [
+    {
+      "id": "v2_p01_payment_funds_liquidation_fr_fr",
+      "group_id": "v2_p01_payment_funds_liquidation",
+      "split": "test",
+      "question": "Si un établissement de paiement est liquidé, à qui doivent revenir les fonds des comptes de ses clients et ses propres créanciers peuvent-ils les saisir ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "17"
+      ]
+    },
+    {
+      "id": "v2_p01_payment_funds_liquidation_ar_ar",
+      "group_id": "v2_p01_payment_funds_liquidation",
+      "split": "test",
+      "question": "إذا خضعت مؤسسة أداء للتصفية، لمن ترصد أموال حسابات زبنائها وهل يستطيع دائنو المؤسسة حجزها؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "17"
+      ]
+    },
+    {
+      "id": "v2_p01_payment_funds_liquidation_fr_ar",
+      "group_id": "v2_p01_payment_funds_liquidation",
+      "split": "test",
+      "question": "Si un établissement de paiement est liquidé, à qui doivent revenir les fonds des comptes de ses clients et ses propres créanciers peuvent-ils les saisir ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "17"
+      ]
+    },
+    {
+      "id": "v2_p01_payment_funds_liquidation_ar_fr",
+      "group_id": "v2_p01_payment_funds_liquidation",
+      "split": "test",
+      "question": "إذا خضعت مؤسسة أداء للتصفية، لمن ترصد أموال حسابات زبنائها وهل يستطيع دائنو المؤسسة حجزها؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "17"
+      ]
+    },
+    {
+      "id": "v2_p02_legal_forms_fr_fr",
+      "group_id": "v2_p02_legal_forms",
+      "split": "test",
+      "question": "En dehors d'un statut légal particulier, quelles formes juridiques peut prendre un établissement de crédit ayant son siège au Maroc, et les mêmes choix valent-ils pour un établissement de paiement ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "35"
+      ]
+    },
+    {
+      "id": "v2_p02_legal_forms_ar_ar",
+      "group_id": "v2_p02_legal_forms",
+      "split": "test",
+      "question": "عند غياب نظام قانوني خاص، ما الأشكال القانونية المتاحة لمؤسسة ائتمان مقرها بالمغرب، وهل هي نفسها المتاحة لمؤسسة أداء؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "35"
+      ]
+    },
+    {
+      "id": "v2_p02_legal_forms_fr_ar",
+      "group_id": "v2_p02_legal_forms",
+      "split": "test",
+      "question": "En dehors d'un statut légal particulier, quelles formes juridiques peut prendre un établissement de crédit ayant son siège au Maroc, et les mêmes choix valent-ils pour un établissement de paiement ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "35"
+      ]
+    },
+    {
+      "id": "v2_p02_legal_forms_ar_fr",
+      "group_id": "v2_p02_legal_forms",
+      "split": "test",
+      "question": "عند غياب نظام قانوني خاص، ما الأشكال القانونية المتاحة لمؤسسة ائتمان مقرها بالمغرب، وهل هي نفسها المتاحة لمؤسسة أداء؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "35"
+      ]
+    },
+    {
+      "id": "v2_p03_paid_capital_fr_fr",
+      "group_id": "v2_p03_paid_capital",
+      "split": "test",
+      "question": "Une institution de crédit dont le siège est au Maroc peut-elle justifier son capital par de simples promesses d'apport, ou les sommes doivent-elles déjà être versées ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "36"
+      ]
+    },
+    {
+      "id": "v2_p03_paid_capital_ar_ar",
+      "group_id": "v2_p03_paid_capital",
+      "split": "test",
+      "question": "هل يمكن لمؤسسة ائتمان مقرها بالمغرب إثبات رأس مالها بمجرد وعود بالمساهمة، أم يجب أن تكون المبالغ قد دفعت فعلا؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "36"
+      ]
+    },
+    {
+      "id": "v2_p03_paid_capital_fr_ar",
+      "group_id": "v2_p03_paid_capital",
+      "split": "test",
+      "question": "Une institution de crédit dont le siège est au Maroc peut-elle justifier son capital par de simples promesses d'apport, ou les sommes doivent-elles déjà être versées ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "36"
+      ]
+    },
+    {
+      "id": "v2_p03_paid_capital_ar_fr",
+      "group_id": "v2_p03_paid_capital",
+      "split": "test",
+      "question": "هل يمكن لمؤسسة ائتمان مقرها بالمغرب إثبات رأس مالها بمجرد وعود بالمساهمة، أم يجب أن تكون المبالغ قد دفعت فعلا؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "36"
+      ]
+    },
+    {
+      "id": "v2_p04_mandatory_identity_mentions_fr_fr",
+      "group_id": "v2_p04_mandatory_identity_mentions",
+      "split": "test",
+      "question": "Dans les documents et publications d'une banque, un nom commercial suffit-il ou faut-il aussi des mentions d'identité et d'autorisation ? Lesquelles ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "46"
+      ]
+    },
+    {
+      "id": "v2_p04_mandatory_identity_mentions_ar_ar",
+      "group_id": "v2_p04_mandatory_identity_mentions",
+      "split": "test",
+      "question": "هل يكفي الاسم التجاري في وثائق البنك ومنشوراته، أم يجب ذكر بيانات تعريفية ومعلومات عن الترخيص أيضا؟ وما هذه البيانات؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "46"
+      ]
+    },
+    {
+      "id": "v2_p04_mandatory_identity_mentions_fr_ar",
+      "group_id": "v2_p04_mandatory_identity_mentions",
+      "split": "test",
+      "question": "Dans les documents et publications d'une banque, un nom commercial suffit-il ou faut-il aussi des mentions d'identité et d'autorisation ? Lesquelles ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "46"
+      ]
+    },
+    {
+      "id": "v2_p04_mandatory_identity_mentions_ar_fr",
+      "group_id": "v2_p04_mandatory_identity_mentions",
+      "split": "test",
+      "question": "هل يكفي الاسم التجاري في وثائق البنك ومنشوراته، أم يجب ذكر بيانات تعريفية ومعلومات عن الترخيص أيضا؟ وما هذه البيانات؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "46"
+      ]
+    },
+    {
+      "id": "v2_p05_competition_review_fr_fr",
+      "group_id": "v2_p05_competition_review",
+      "split": "test",
+      "question": "Si une fusion bancaire paraît contraire aux règles de concurrence, quelle consultation Bank Al-Maghrib doit-elle demander et quel est le délai maximal de réponse ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "50"
+      ]
+    },
+    {
+      "id": "v2_p05_competition_review_ar_ar",
+      "group_id": "v2_p05_competition_review",
+      "split": "test",
+      "question": "إذا بدا اندماج بنكي مخالفا لقواعد المنافسة، فما الرأي الذي يجب أن يطلبه بنك المغرب وما الأجل الأقصى لإرساله؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "50"
+      ]
+    },
+    {
+      "id": "v2_p05_competition_review_fr_ar",
+      "group_id": "v2_p05_competition_review",
+      "split": "test",
+      "question": "Si une fusion bancaire paraît contraire aux règles de concurrence, quelle consultation Bank Al-Maghrib doit-elle demander et quel est le délai maximal de réponse ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "50"
+      ]
+    },
+    {
+      "id": "v2_p05_competition_review_ar_fr",
+      "group_id": "v2_p05_competition_review",
+      "split": "test",
+      "question": "إذا بدا اندماج بنكي مخالفا لقواعد المنافسة، فما الرأي الذي يجب أن يطلبه بنك المغرب وما الأجل الأقصى لإرساله؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "50"
+      ]
+    },
+    {
+      "id": "v2_p06_financial_statements_calendar_fr_fr",
+      "group_id": "v2_p06_financial_statements_calendar",
+      "split": "test",
+      "question": "Un établissement de crédit prépare-t-il ses états de synthèse seulement en fin d'année, ou aussi en cours d'exercice, et sur quelles bases doivent-ils être établis ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "73"
+      ]
+    },
+    {
+      "id": "v2_p06_financial_statements_calendar_ar_ar",
+      "group_id": "v2_p06_financial_statements_calendar",
+      "split": "test",
+      "question": "هل تعد مؤسسة ائتمان قوائمها التركيبية عند نهاية السنة فقط أم خلال السنة أيضا، وعلى أي أسس يجب إعدادها؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "73"
+      ]
+    },
+    {
+      "id": "v2_p06_financial_statements_calendar_fr_ar",
+      "group_id": "v2_p06_financial_statements_calendar",
+      "split": "test",
+      "question": "Un établissement de crédit prépare-t-il ses états de synthèse seulement en fin d'année, ou aussi en cours d'exercice, et sur quelles bases doivent-ils être établis ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "73"
+      ]
+    },
+    {
+      "id": "v2_p06_financial_statements_calendar_ar_fr",
+      "group_id": "v2_p06_financial_statements_calendar",
+      "split": "test",
+      "question": "هل تعد مؤسسة ائتمان قوائمها التركيبية عند نهاية السنة فقط أم خلال السنة أيضا، وعلى أي أسس يجب إعدادها؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "73"
+      ]
+    },
+    {
+      "id": "v2_p07_board_committees_fr_fr",
+      "group_id": "v2_p07_board_committees",
+      "split": "test",
+      "question": "Quels comités une banque doit-elle créer pour surveiller son contrôle interne et ses risques, et de quels organes doivent venir leurs membres ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "78"
+      ]
+    },
+    {
+      "id": "v2_p07_board_committees_ar_ar",
+      "group_id": "v2_p07_board_committees",
+      "split": "test",
+      "question": "ما اللجان التي يجب أن يحدثها البنك لمتابعة المراقبة الداخلية والمخاطر، ومن أي أجهزة يجب أن ينبثق أعضاؤها؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "78"
+      ]
+    },
+    {
+      "id": "v2_p07_board_committees_fr_ar",
+      "group_id": "v2_p07_board_committees",
+      "split": "test",
+      "question": "Quels comités une banque doit-elle créer pour surveiller son contrôle interne et ses risques, et de quels organes doivent venir leurs membres ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "78"
+      ]
+    },
+    {
+      "id": "v2_p07_board_committees_ar_fr",
+      "group_id": "v2_p07_board_committees",
+      "split": "test",
+      "question": "ما اللجان التي يجب أن يحدثها البنك لمتابعة المراقبة الداخلية والمخاطر، ومن أي أجهزة يجب أن ينبثق أعضاؤها؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "78"
+      ]
+    },
+    {
+      "id": "v2_p08_aml_internal_vigilance_fr_fr",
+      "group_id": "v2_p08_aml_internal_vigilance",
+      "split": "test",
+      "question": "Quelle organisation interne la loi impose-t-elle aux organismes contrôlés par Bank Al-Maghrib pour prévenir le blanchiment et le financement du terrorisme ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "97"
+      ]
+    },
+    {
+      "id": "v2_p08_aml_internal_vigilance_ar_ar",
+      "group_id": "v2_p08_aml_internal_vigilance",
+      "split": "test",
+      "question": "ما النظام الداخلي الذي يفرضه القانون على الهيئات الخاضعة لمراقبة بنك المغرب لمكافحة غسل الأموال وتمويل الإرهاب؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "97"
+      ]
+    },
+    {
+      "id": "v2_p08_aml_internal_vigilance_fr_ar",
+      "group_id": "v2_p08_aml_internal_vigilance",
+      "split": "test",
+      "question": "Quelle organisation interne la loi impose-t-elle aux organismes contrôlés par Bank Al-Maghrib pour prévenir le blanchiment et le financement du terrorisme ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "97"
+      ]
+    },
+    {
+      "id": "v2_p08_aml_internal_vigilance_ar_fr",
+      "group_id": "v2_p08_aml_internal_vigilance",
+      "split": "test",
+      "question": "ما النظام الداخلي الذي يفرضه القانون على الهيئات الخاضعة لمراقبة بنك المغرب لمكافحة غسل الأموال وتمويل الإرهاب؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "97"
+      ]
+    },
+    {
+      "id": "v2_p09_statutory_auditors_fr_fr",
+      "group_id": "v2_p09_statutory_auditors",
+      "split": "test",
+      "question": "Un seul commissaire aux comptes suffit-il pour tous les établissements de crédit ? Quel est le principe, quelle exception existe et qui approuve la désignation ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "99"
+      ]
+    },
+    {
+      "id": "v2_p09_statutory_auditors_ar_ar",
+      "group_id": "v2_p09_statutory_auditors",
+      "split": "test",
+      "question": "هل يكفي مراقب واحد للحسابات في جميع مؤسسات الائتمان؟ ما القاعدة والاستثناء ومن يوافق على التعيين؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "99"
+      ]
+    },
+    {
+      "id": "v2_p09_statutory_auditors_fr_ar",
+      "group_id": "v2_p09_statutory_auditors",
+      "split": "test",
+      "question": "Un seul commissaire aux comptes suffit-il pour tous les établissements de crédit ? Quel est le principe, quelle exception existe et qui approuve la désignation ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "99"
+      ]
+    },
+    {
+      "id": "v2_p09_statutory_auditors_ar_fr",
+      "group_id": "v2_p09_statutory_auditors",
+      "split": "test",
+      "question": "هل يكفي مراقب واحد للحسابات في جميع مؤسسات الائتمان؟ ما القاعدة والاستثناء ومن يوافق على التعيين؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "99"
+      ]
+    },
+    {
+      "id": "v2_p10_dormant_accounts_fr_fr",
+      "group_id": "v2_p10_dormant_accounts",
+      "split": "test",
+      "question": "Après combien d'années sans opération ni réclamation un compte est-il clôturé, où vont ses fonds et combien de temps y restent-ils avant de revenir au Trésor ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "152"
+      ]
+    },
+    {
+      "id": "v2_p10_dormant_accounts_ar_ar",
+      "group_id": "v2_p10_dormant_accounts",
+      "split": "test",
+      "question": "بعد كم سنة دون عملية أو مطالبة يقفل الحساب، وإلى أين تودع أمواله وكم تبقى هناك قبل أن تؤول إلى الخزينة؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "152"
+      ]
+    },
+    {
+      "id": "v2_p10_dormant_accounts_fr_ar",
+      "group_id": "v2_p10_dormant_accounts",
+      "split": "test",
+      "question": "Après combien d'années sans opération ni réclamation un compte est-il clôturé, où vont ses fonds et combien de temps y restent-ils avant de revenir au Trésor ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "152"
+      ]
+    },
+    {
+      "id": "v2_p10_dormant_accounts_ar_fr",
+      "group_id": "v2_p10_dormant_accounts",
+      "split": "test",
+      "question": "بعد كم سنة دون عملية أو مطالبة يقفل الحساب، وإلى أين تودع أمواله وكم تبقى هناك قبل أن تؤول إلى الخزينة؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "152"
+      ]
+    },
+    {
+      "id": "v2_p11_monetary_sanction_notice_fr_fr",
+      "group_id": "v2_p11_monetary_sanction_notice",
+      "split": "test",
+      "question": "Une notification de sanction pécuniaire peut-elle prévoir un délai de deux jours seulement, et quel événement fait démarrer le minimum prévu par la loi ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "174"
+      ]
+    },
+    {
+      "id": "v2_p11_monetary_sanction_notice_ar_ar",
+      "group_id": "v2_p11_monetary_sanction_notice",
+      "split": "test",
+      "question": "هل يمكن أن يتضمن تبليغ عقوبة مالية أجلا من يومين فقط، ومن أي تاريخ يبدأ احتساب الحد الأدنى الذي يفرضه القانون؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "174"
+      ]
+    },
+    {
+      "id": "v2_p11_monetary_sanction_notice_fr_ar",
+      "group_id": "v2_p11_monetary_sanction_notice",
+      "split": "test",
+      "question": "Une notification de sanction pécuniaire peut-elle prévoir un délai de deux jours seulement, et quel événement fait démarrer le minimum prévu par la loi ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "174"
+      ]
+    },
+    {
+      "id": "v2_p11_monetary_sanction_notice_ar_fr",
+      "group_id": "v2_p11_monetary_sanction_notice",
+      "split": "test",
+      "question": "هل يمكن أن يتضمن تبليغ عقوبة مالية أجلا من يومين فقط، ومن أي تاريخ يبدأ احتساب الحد الأدنى الذي يفرضه القانون؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "174"
+      ]
+    },
+    {
+      "id": "v2_p12_rating_agency_confidentiality_fr_fr",
+      "group_id": "v2_p12_rating_agency_confidentiality",
+      "split": "test",
+      "question": "Une banque peut-elle transmettre des informations couvertes par le secret professionnel à une agence pour sa notation, et cette agence doit-elle ensuite les garder confidentielles ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "180"
+      ]
+    },
+    {
+      "id": "v2_p12_rating_agency_confidentiality_ar_ar",
+      "group_id": "v2_p12_rating_agency_confidentiality",
+      "split": "test",
+      "question": "هل يجوز للبنك تقديم معلومات مشمولة بالسر المهني إلى وكالة لتنقيطه، وهل تظل الوكالة ملزمة بالحفاظ على سريتها؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "180"
+      ]
+    },
+    {
+      "id": "v2_p12_rating_agency_confidentiality_fr_ar",
+      "group_id": "v2_p12_rating_agency_confidentiality",
+      "split": "test",
+      "question": "Une banque peut-elle transmettre des informations couvertes par le secret professionnel à une agence pour sa notation, et cette agence doit-elle ensuite les garder confidentielles ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "180"
+      ]
+    },
+    {
+      "id": "v2_p12_rating_agency_confidentiality_ar_fr",
+      "group_id": "v2_p12_rating_agency_confidentiality",
+      "split": "test",
+      "question": "هل يجوز للبنك تقديم معلومات مشمولة بالسر المهني إلى وكالة لتنقيطه، وهل تظل الوكالة ملزمة بالحفاظ على سريتها؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "180"
+      ]
+    },
+    {
+      "id": "v2_n01_cyber_incident_deadline_fr_fr",
+      "group_id": "v2_n01_cyber_incident_deadline",
+      "split": "test",
+      "question": "Après une fuite de données provoquée par une cyberattaque, en combien d'heures une banque doit-elle avertir Bank Al-Maghrib ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_operational_rule"
+    },
+    {
+      "id": "v2_n01_cyber_incident_deadline_ar_ar",
+      "group_id": "v2_n01_cyber_incident_deadline",
+      "split": "test",
+      "question": "بعد تسرب بيانات بسبب هجوم إلكتروني، خلال كم ساعة يجب على البنك إشعار بنك المغرب؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_operational_rule"
+    },
+    {
+      "id": "v2_n01_cyber_incident_deadline_fr_ar",
+      "group_id": "v2_n01_cyber_incident_deadline",
+      "split": "test",
+      "question": "Après une fuite de données provoquée par une cyberattaque, en combien d'heures une banque doit-elle avertir Bank Al-Maghrib ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_operational_rule"
+    },
+    {
+      "id": "v2_n01_cyber_incident_deadline_ar_fr",
+      "group_id": "v2_n01_cyber_incident_deadline",
+      "split": "test",
+      "question": "بعد تسرب بيانات بسبب هجوم إلكتروني، خلال كم ساعة يجب على البنك إشعار بنك المغرب؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_operational_rule"
+    },
+    {
+      "id": "v2_n02_recovery_plan_template_fr_fr",
+      "group_id": "v2_n02_recovery_plan_template",
+      "split": "test",
+      "question": "Quel modèle de fichier et quelle liste complète de champs une banque doit-elle utiliser pour transmettre son plan de redressement de crise interne à Bank Al-Maghrib ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_template"
+    },
+    {
+      "id": "v2_n02_recovery_plan_template_ar_ar",
+      "group_id": "v2_n02_recovery_plan_template",
+      "split": "test",
+      "question": "ما نموذج الملف والقائمة الكاملة للخانات التي يجب أن يستعملها البنك لإرسال خطة لمعالجة أزمة داخلية إلى بنك المغرب؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_template"
+    },
+    {
+      "id": "v2_n02_recovery_plan_template_fr_ar",
+      "group_id": "v2_n02_recovery_plan_template",
+      "split": "test",
+      "question": "Quel modèle de fichier et quelle liste complète de champs une banque doit-elle utiliser pour transmettre son plan de redressement de crise interne à Bank Al-Maghrib ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_template"
+    },
+    {
+      "id": "v2_n02_recovery_plan_template_ar_fr",
+      "group_id": "v2_n02_recovery_plan_template",
+      "split": "test",
+      "question": "ما نموذج الملف والقائمة الكاملة للخانات التي يجب أن يستعملها البنك لإرسال خطة لمعالجة أزمة داخلية إلى بنك المغرب؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_template"
+    },
+    {
+      "id": "v2_n03_personal_mortgage_quote_fr_fr",
+      "group_id": "v2_n03_personal_mortgage_quote",
+      "split": "test",
+      "question": "Avec un salaire de 10 000 dirhams, quelle mensualité exacte ma banque me proposera-t-elle pour emprunter 700 000 dirhams sur vingt ans ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "individual_commercial_offer"
+    },
+    {
+      "id": "v2_n03_personal_mortgage_quote_ar_ar",
+      "group_id": "v2_n03_personal_mortgage_quote",
+      "split": "test",
+      "question": "إذا كان راتبي 10000 درهم، فما القسط الشهري الدقيق الذي سيقترحه بنكي لقرض قدره 700000 درهم على عشرين سنة؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "individual_commercial_offer"
+    },
+    {
+      "id": "v2_n03_personal_mortgage_quote_fr_ar",
+      "group_id": "v2_n03_personal_mortgage_quote",
+      "split": "test",
+      "question": "Avec un salaire de 10 000 dirhams, quelle mensualité exacte ma banque me proposera-t-elle pour emprunter 700 000 dirhams sur vingt ans ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "individual_commercial_offer"
+    },
+    {
+      "id": "v2_n03_personal_mortgage_quote_ar_fr",
+      "group_id": "v2_n03_personal_mortgage_quote",
+      "split": "test",
+      "question": "إذا كان راتبي 10000 درهم، فما القسط الشهري الدقيق الذي سيقترحه بنكي لقرض قدره 700000 درهم على عشرين سنة؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "individual_commercial_offer"
+    },
+    {
+      "id": "v2_n04_vat_banking_fees_2026_fr_fr",
+      "group_id": "v2_n04_vat_banking_fees_2026",
+      "split": "test",
+      "question": "Quel taux de TVA s'applique aux commissions bancaires au Maroc en octobre 2026 ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "other_legal_corpus_and_current_fact"
+    },
+    {
+      "id": "v2_n04_vat_banking_fees_2026_ar_ar",
+      "group_id": "v2_n04_vat_banking_fees_2026",
+      "split": "test",
+      "question": "ما سعر الضريبة على القيمة المضافة المطبق على العمولات البنكية في المغرب في أكتوبر 2026؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "other_legal_corpus_and_current_fact"
+    },
+    {
+      "id": "v2_n04_vat_banking_fees_2026_fr_ar",
+      "group_id": "v2_n04_vat_banking_fees_2026",
+      "split": "test",
+      "question": "Quel taux de TVA s'applique aux commissions bancaires au Maroc en octobre 2026 ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "other_legal_corpus_and_current_fact"
+    },
+    {
+      "id": "v2_n04_vat_banking_fees_2026_ar_fr",
+      "group_id": "v2_n04_vat_banking_fees_2026",
+      "split": "test",
+      "question": "ما سعر الضريبة على القيمة المضافة المطبق على العمولات البنكية في المغرب في أكتوبر 2026؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "other_legal_corpus_and_current_fact"
+    },
+    {
+      "id": "v2_n05_bank_swift_directory_fr_fr",
+      "group_id": "v2_n05_bank_swift_directory",
+      "split": "test",
+      "question": "Quel code BIC ou SWIFT dois-je donner pour recevoir un virement international sur un compte chez Attijariwafa bank ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "commercial_directory_fact"
+    },
+    {
+      "id": "v2_n05_bank_swift_directory_ar_ar",
+      "group_id": "v2_n05_bank_swift_directory",
+      "split": "test",
+      "question": "ما رمز BIC أو SWIFT الذي يجب تقديمه لتلقي تحويل دولي في حساب لدى التجاري وفا بنك؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "commercial_directory_fact"
+    },
+    {
+      "id": "v2_n05_bank_swift_directory_fr_ar",
+      "group_id": "v2_n05_bank_swift_directory",
+      "split": "test",
+      "question": "Quel code BIC ou SWIFT dois-je donner pour recevoir un virement international sur un compte chez Attijariwafa bank ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "commercial_directory_fact"
+    },
+    {
+      "id": "v2_n05_bank_swift_directory_ar_fr",
+      "group_id": "v2_n05_bank_swift_directory",
+      "split": "test",
+      "question": "ما رمز BIC أو SWIFT الذي يجب تقديمه لتلقي تحويل دولي في حساب لدى التجاري وفا بنك؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "commercial_directory_fact"
+    },
+    {
+      "id": "v2_n06_mobile_access_recovery_fr_fr",
+      "group_id": "v2_n06_mobile_access_recovery",
+      "split": "test",
+      "question": "J'ai perdu mon téléphone : quelles étapes exactes dois-je suivre pour réinitialiser l'accès à l'application mobile de ma banque ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "bank_specific_operating_procedure"
+    },
+    {
+      "id": "v2_n06_mobile_access_recovery_ar_ar",
+      "group_id": "v2_n06_mobile_access_recovery",
+      "split": "test",
+      "question": "فقدت هاتفي، فما الخطوات الدقيقة التي يجب اتباعها لإعادة ضبط الدخول إلى تطبيق بنكي على الهاتف؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "bank_specific_operating_procedure"
+    },
+    {
+      "id": "v2_n06_mobile_access_recovery_fr_ar",
+      "group_id": "v2_n06_mobile_access_recovery",
+      "split": "test",
+      "question": "J'ai perdu mon téléphone : quelles étapes exactes dois-je suivre pour réinitialiser l'accès à l'application mobile de ma banque ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "bank_specific_operating_procedure"
+    },
+    {
+      "id": "v2_n06_mobile_access_recovery_ar_fr",
+      "group_id": "v2_n06_mobile_access_recovery",
+      "split": "test",
+      "question": "فقدت هاتفي، فما الخطوات الدقيقة التي يجب اتباعها لإعادة ضبط الدخول إلى تطبيق بنكي على الهاتف؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "bank_specific_operating_procedure"
+    },
+    {
+      "id": "v2_n07_deposit_guarantee_numeric_cap_fr_fr",
+      "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+      "split": "test",
+      "question": "Quel est le montant maximal exact, en dirhams par déposant, que le fonds de garantie peut indemniser ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_numeric_parameter"
+    },
+    {
+      "id": "v2_n07_deposit_guarantee_numeric_cap_ar_ar",
+      "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+      "split": "test",
+      "question": "ما المبلغ الأقصى الدقيق بالدرهم لكل مودع الذي يمكن لصندوق ضمان الودائع تعويضه؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_numeric_parameter"
+    },
+    {
+      "id": "v2_n07_deposit_guarantee_numeric_cap_fr_ar",
+      "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+      "split": "test",
+      "question": "Quel est le montant maximal exact, en dirhams par déposant, que le fonds de garantie peut indemniser ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_numeric_parameter"
+    },
+    {
+      "id": "v2_n07_deposit_guarantee_numeric_cap_ar_fr",
+      "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+      "split": "test",
+      "question": "ما المبلغ الأقصى الدقيق بالدرهم لكل مودع الذي يمكن لصندوق ضمان الودائع تعويضه؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_numeric_parameter"
+    },
+    {
+      "id": "v2_n08_open_banking_api_contract_fr_fr",
+      "group_id": "v2_n08_open_banking_api_contract",
+      "split": "test",
+      "question": "Quelles URL et quels paramètres une API marocaine d'open banking doit-elle exposer pour consulter le solde d'un compte ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "missing_technical_interface_contract"
+    },
+    {
+      "id": "v2_n08_open_banking_api_contract_ar_ar",
+      "group_id": "v2_n08_open_banking_api_contract",
+      "split": "test",
+      "question": "ما العناوين والمعلمات التي يجب أن توفرها واجهة برمجة التطبيقات المصرفية المفتوحة في المغرب للاطلاع على رصيد حساب؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "missing_technical_interface_contract"
+    },
+    {
+      "id": "v2_n08_open_banking_api_contract_fr_ar",
+      "group_id": "v2_n08_open_banking_api_contract",
+      "split": "test",
+      "question": "Quelles URL et quels paramètres une API marocaine d'open banking doit-elle exposer pour consulter le solde d'un compte ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "missing_technical_interface_contract"
+    },
+    {
+      "id": "v2_n08_open_banking_api_contract_ar_fr",
+      "group_id": "v2_n08_open_banking_api_contract",
+      "split": "test",
+      "question": "ما العناوين والمعلمات التي يجب أن توفرها واجهة برمجة التطبيقات المصرفية المفتوحة في المغرب للاطلاع على رصيد حساب؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "missing_technical_interface_contract"
+    }
+  ],
+  "construction_stage": "authored_and_annotated_before_first_challenge_run"
+}

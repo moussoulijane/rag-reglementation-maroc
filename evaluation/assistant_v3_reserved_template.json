@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "status": "pending_external_annotation",
+  "target_groups": 100,
+  "annotation_review": {
+    "kind": null,
+    "reviewer": "",
+    "competence": "",
+    "rankings_consulted": null,
+    "semantic_overlap_audited": null,
+    "independent_from_implementation": null
+  },
+  "cases": []
+}

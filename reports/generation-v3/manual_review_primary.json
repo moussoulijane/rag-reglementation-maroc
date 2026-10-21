@@ -1,0 +1,40 @@
+{
+  "created_at_utc": "2026-10-18T22:25:06.552552+00:00",
+  "reviewer": "implementation_agent_primary_internal",
+  "grid": {
+    "soutenu": "Every material part of the accepted claim is supported by the exact cited passage.",
+    "partiel": "The citation supports only part of the claim or omits a material condition.",
+    "incorrect": "The cited evidence contradicts or does not justify the claim; factual truth elsewhere is not sufficient."
+  },
+  "claims": [
+    {
+      "case_id": "targeted151-fr",
+      "claim_index": 1,
+      "verdict": "soutenu",
+      "reason": "Le passage justifie toutes les catégories et les deux éléments matériels de l’affirmation. La réponse n’ajoute aucune condition à cette preuve.",
+      "coverage_note": "La réponse traite les deux points précis demandés ; elle ne résume pas le reste de l’article.",
+      "source_id": "bam-10312-fr",
+      "article_id": "151",
+      "version_date": "2022-03-31",
+      "page_start": 67,
+      "page_end": 67,
+      "exact_original_citation": true,
+      "review_scope": "First internal documentary review by implementation agent, not independent legal annotation."
+    },
+    {
+      "case_id": "lookup151-ar",
+      "claim_index": 1,
+      "verdict": "soutenu",
+      "reason": "L’affirmation correspond au premier paragraphe cité, avec les mêmes catégories et obligations. Aucun élément matériel nouveau n’est introduit.",
+      "coverage_note": "La consultation produit un élément exact mais ne reproduit pas l’intégralité de l’article. Ce constat de couverture ne rend pas le claim partiellement soutenu.",
+      "source_id": "bam-10312-ar",
+      "article_id": "151",
+      "version_date": "2022-03-31",
+      "page_start": 67,
+      "page_end": 67,
+      "exact_original_citation": true,
+      "review_scope": "First internal documentary review by implementation agent, not independent legal annotation."
+    }
+  ],
+  "scope": "Per-claim documentary support only; no aggregate fidelity score, exhaustive-answer claim or independent legal adjudication."
+}

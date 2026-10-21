@@ -1,0 +1,55 @@
+{
+  "protocol_sha256": "e1a24a05380256fc380a789bf1ae8fb94592a4b5b302a876084d99cd152247d7",
+  "scope": "Isolate integration, prompt, schema and endpoint behaviour; not quality measurement. No banking corpus, challenge themes, threshold change, retries or best-output selection.",
+  "controls": [
+    {
+      "id": "original-schema-fr",
+      "schema_valid": true,
+      "expected_code_present": false,
+      "abstain": true,
+      "latency_ms": 542.2978999999941,
+      "error": null
+    },
+    {
+      "id": "original-schema-ar",
+      "schema_valid": true,
+      "expected_code_present": false,
+      "abstain": true,
+      "latency_ms": 461.5739000000758,
+      "error": null
+    },
+    {
+      "id": "fr-no-format",
+      "schema_valid": true,
+      "expected_code_present": false,
+      "abstain": true,
+      "latency_ms": 308.24889999996685,
+      "error": null
+    },
+    {
+      "id": "fr-generate-endpoint",
+      "schema_valid": true,
+      "expected_code_present": false,
+      "abstain": true,
+      "latency_ms": 322.40119999994477,
+      "error": null
+    },
+    {
+      "id": "fr-claims-first-schema",
+      "schema_valid": true,
+      "expected_code_present": true,
+      "abstain": false,
+      "latency_ms": 1917.504200000053,
+      "error": null
+    },
+    {
+      "id": "fr-minimal-answer-schema",
+      "schema_valid": true,
+      "expected_code_present": true,
+      "abstain": null,
+      "latency_ms": 1178.3748000000287,
+      "error": null
+    }
+  ],
+  "no_aggregate_quality_metric": true
+}

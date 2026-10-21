@@ -1,0 +1,22 @@
+{
+  "finding": "On this fixed invented fact, changing the order of the original schema to claims-before-abstain changed the output from a valid but incorrect abstention to a supported answer. The question, passage, instructions, model and decoding options were unchanged for this comparison.",
+  "limits": "The order of both properties and required was changed together. A single deterministic example does not establish general model quality or independently validated causality. The no-format control also abstained, so this is not evidence of an Ollama schema-parser defect alone.",
+  "endpoint_check": "Explicit /api/generate system+prompt also abstained; these controls do not support a chat-template-only explanation.",
+  "minimal_control": "The different non-abstention schema/instructions produced the expected invented fact, demonstrating that this model can read and repeat the fact. This control changes two factors and does not isolate the schema alone.",
+  "recommendation": "For a separately versioned generation fix, present claims before abstain in the transmitted JSON schema and test it under a new frozen banking protocol. Keep all failed V2 results unchanged; do not lower retrieval thresholds.",
+  "synthetic_citation_checks": [
+    {
+      "id": "fr-claims-first-schema",
+      "known_citation_id": true,
+      "quote_exact_source_substring": true,
+      "manual_fact_check": "Generated answer states the sole invented fact ORION-42, supported by the supplied synthetic passage. No banking or legal inference."
+    },
+    {
+      "id": "fr-minimal-answer-schema",
+      "known_citation_id": true,
+      "quote_exact_source_substring": true,
+      "manual_fact_check": "Generated answer states the sole invented fact ORION-42, supported by the supplied synthetic passage. No banking or legal inference."
+    }
+  ],
+  "v2_and_answering_unchanged": true
+}

@@ -1,0 +1,48 @@
+{
+  "scope": "Read-only diagnosis after the fixed batch; no rerun, variant or threshold adjustment.",
+  "protocol_sha256": "85dcab0a147f34a09db247deab1432553b2b099c77e70c4de0a28bbedbc85737",
+  "historical_files_unchanged": true,
+  "prior_timeout": "The 17 October server log records client disconnection before model loading completed, followed by cancellation. It does not establish an out-of-memory cause.",
+  "transport_v2": "Separate preload completed in 9236.318 ms. All five attempted generations returned HTTP/structured output; no timeout occurred. The sixth case was rejected before generation.",
+  "model_configuration": {
+    "system": "Standard Qwen helpful-assistant system message",
+    "extra_parameters_returned": null,
+    "architecture": "qwen2",
+    "template_sha256": "eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175"
+  },
+  "cases": [
+    {
+      "id": "generic-fr",
+      "diagnostic": "Article34 absent des cinq ancres ; abstention du modèle cohérente avec cette absence de preuve de l’autorité compétente.",
+      "accepted_claim_review": "not_applicable_no_accepted_claims"
+    },
+    {
+      "id": "generic-ar",
+      "diagnostic": "Article34 et son introduction présents après expansion finale ; le modèle s’abstient malgré cette preuve pertinente.",
+      "accepted_claim_review": "not_applicable_no_accepted_claims"
+    },
+    {
+      "id": "targeted151-fr",
+      "diagnostic": "Passage151 français intégral fourni ; abstention structurée malgré la présence des deux éléments demandés.",
+      "accepted_claim_review": "not_applicable_no_accepted_claims"
+    },
+    {
+      "id": "targeted151-ar",
+      "diagnostic": "Question rejetée avant Qwen par la politique lexicale inchangée ; aucune génération pour ce cas.",
+      "accepted_claim_review": "not_applicable_no_accepted_claims"
+    },
+    {
+      "id": "lookup151-fr",
+      "diagnostic": "Consultation directe151 avec passage français intégral ; le modèle renvoie une abstention.",
+      "accepted_claim_review": "not_applicable_no_accepted_claims"
+    },
+    {
+      "id": "lookup151-ar",
+      "diagnostic": "Consultation directe151 avec passage arabe intégral ; le modèle renvoie une abstention.",
+      "accepted_claim_review": "not_applicable_no_accepted_claims"
+    }
+  ],
+  "evidence_review": "Internal reading of complete article151 passages in French and Arabic confirmed that the requested material was present. This is not independent legal annotation.",
+  "configuration_hypotheses": "Prompt interpretation, system-message handling and structured-output behaviour remain hypotheses requiring a separately frozen synthetic development-control protocol. No cause is established by the current abstentions.",
+  "no_source_quotes_in_public_report": true
+}

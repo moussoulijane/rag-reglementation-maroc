@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "wheel_sha256": "966d3f2659dfe42b4f4b19ff521ba6761064523a8bc91b598268112adaa9aca9",
+  "asset_count": 19,
+  "assistant_sources_exact": true,
+  "reviewed_hashes_packaged": true,
+  "frozen_sources_verified": 16,
+  "no_obsolete_assets": true,
+  "installed_import_origin_verified": true,
+  "installed_console_executed": true,
+  "installed_ui_without_corpus": 200,
+  "capabilities_ready_without_corpus": false,
+  "all_served_assets_match": true,
+  "test_port": 8367,
+  "uses_existing_venv_dependencies": true,
+  "test_process_stopped": true
+}

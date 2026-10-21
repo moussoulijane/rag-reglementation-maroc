@@ -1,0 +1,411 @@
+{
+  "schema_version": 1,
+  "status": "development",
+  "author": "internal_development",
+  "independent_legal_annotation": false,
+  "cases": [
+    {
+      "id": "complaint-response",
+      "group_id": "complaint-response",
+      "questions": {
+        "fr": "Quel délai de réponse pour une réclamation ?",
+        "ar": "ما أجل الرد على الشكاية؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "complaint-response"
+      ]
+    },
+    {
+      "id": "complaint-admissibility",
+      "group_id": "complaint-admissibility",
+      "questions": {
+        "fr": "Quel délai pour la non-recevabilité d’une réclamation ?",
+        "ar": "ما أجل البت في عدم قبول الشكاية؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "complaint-admissibility"
+      ]
+    },
+    {
+      "id": "complaint-ack",
+      "group_id": "complaint-ack",
+      "questions": {
+        "fr": "Quand faut-il accuser réception d’une réclamation ?",
+        "ar": "كيف يتم تأكيد التوصل بالشكاية؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "complaint-ack"
+      ]
+    },
+    {
+      "id": "complaint-channel",
+      "group_id": "complaint-channel",
+      "questions": {
+        "fr": "Comment déposer une réclamation auprès de ma banque ?",
+        "ar": "كيف أودع شكاية لدى بنكي؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "complaint-channel"
+      ]
+    },
+    {
+      "id": "complaint-unit",
+      "group_id": "complaint-unit",
+      "questions": {
+        "fr": "Quelle entité centrale traite les réclamations ?",
+        "ar": "ما الوحدة المركزية المكلفة بالشكايات؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "complaint-unit"
+      ]
+    },
+    {
+      "id": "complaint-system",
+      "group_id": "complaint-system",
+      "questions": {
+        "fr": "Quel système d’information pour les réclamations ?",
+        "ar": "ما وظائف نظام المعلومات الخاص بالشكايات؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "complaint-system"
+      ]
+    },
+    {
+      "id": "complaint-audit",
+      "group_id": "complaint-audit",
+      "questions": {
+        "fr": "Quelle évaluation par le comité d’audit du dispositif de réclamations ?",
+        "ar": "ما تقييم لجنة التدقيق لآلية الشكايات؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "complaint-audit"
+      ]
+    },
+    {
+      "id": "complaint-reporting",
+      "group_id": "complaint-reporting",
+      "questions": {
+        "fr": "Quelle périodicité de reporting des réclamations ?",
+        "ar": "ما دورية تقارير الشكايات؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "complaint-reporting"
+      ]
+    },
+    {
+      "id": "complaint-training",
+      "group_id": "complaint-training",
+      "questions": {
+        "fr": "Quelle formation du personnel aux réclamations ?",
+        "ar": "ما التكوين المطلوب للعاملين في الشكايات؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "complaint-training"
+      ]
+    },
+    {
+      "id": "complaint-control",
+      "group_id": "complaint-control",
+      "questions": {
+        "fr": "Quels contrôles du dispositif de réclamations ?",
+        "ar": "ما المراقبة المطلوبة لآلية الشكايات؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "complaint-control"
+      ]
+    },
+    {
+      "id": "complaint-clients",
+      "group_id": "complaint-clients",
+      "questions": {
+        "fr": "Quelle fréquence de réunion de l’unité relation Clients pour les réclamations ?",
+        "ar": "ما وتيرة اجتماع وحدة العلاقة مع الزبناء بخصوص الشكايات؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "complaint-client-unit"
+      ]
+    },
+    {
+      "id": "complaint-information",
+      "group_id": "complaint-information",
+      "questions": {
+        "fr": "Quelles informations fournir aux clients sur les réclamations ?",
+        "ar": "ما المعلومات الواجب إطلاع الزبناء عليها بخصوص الشكايات؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "complaint-information"
+      ]
+    },
+    {
+      "id": "mediation-admissibility",
+      "group_id": "mediation-admissibility",
+      "questions": {
+        "fr": "Quel délai de recevabilité d’une demande de médiation ?",
+        "ar": "ما أجل البت في قبول طلب الوساطة؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "mediation-admissibility"
+      ]
+    },
+    {
+      "id": "mediation-treatment",
+      "group_id": "mediation-treatment",
+      "questions": {
+        "fr": "Quel délai pour traiter une demande de médiation jugée recevable ?",
+        "ar": "ما أجل معالجة طلب وساطة مقبول؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "mediation-deadline"
+      ]
+    },
+    {
+      "id": "mediation-access",
+      "group_id": "mediation-access",
+      "questions": {
+        "fr": "Comment saisir la médiation après une réclamation infructueuse ?",
+        "ar": "كيف ألجأ إلى الوساطة بعد شكاية دون نتيجة؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "mediation-access"
+      ]
+    },
+    {
+      "id": "mediation-secrecy",
+      "group_id": "mediation-secrecy",
+      "questions": {
+        "fr": "Quelle confidentialité pour la médiation ?",
+        "ar": "ما متطلبات السرية في الوساطة؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "mediation-secrecy"
+      ]
+    },
+    {
+      "id": "mediation-outcome",
+      "group_id": "mediation-outcome",
+      "questions": {
+        "fr": "Quel accord termine une médiation et que constate son échec ?",
+        "ar": "ما اتفاق الصلح في الوساطة وما المحضر عند فشلها؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "mediation-outcome"
+      ]
+    },
+    {
+      "id": "complaint-definition",
+      "group_id": "complaint-definition",
+      "questions": {
+        "fr": "Quelle définition d’une réclamation bancaire ?",
+        "ar": "ما تعريف الشكاية البنكية؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "complaint-definition"
+      ]
+    },
+    {
+      "id": "mediation-definition",
+      "group_id": "mediation-definition",
+      "questions": {
+        "fr": "Quelle définition de la médiation bancaire ?",
+        "ar": "ما تعريف الوساطة البنكية؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "mediation-purpose"
+      ]
+    },
+    {
+      "id": "complaint-duty",
+      "group_id": "complaint-duty",
+      "questions": {
+        "fr": "Quelle obligation légale sur le dispositif interne de réclamations ?",
+        "ar": "ما الالتزام القانوني بآلية الشكايات؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "law-complaint-duty"
+      ]
+    },
+    {
+      "id": "mediation-duty",
+      "group_id": "mediation-duty",
+      "questions": {
+        "fr": "Quelle obligation d’adhésion à la médiation ?",
+        "ar": "هل الانخراط في الوساطة البنكية ملزم؟"
+      },
+      "expected_status": "complete",
+      "expected_facts": [
+        "law-mediation-duty"
+      ]
+    },
+    {
+      "id": "partial-damages",
+      "group_id": "partial-damages",
+      "questions": {
+        "fr": "Quel délai de réponse à une réclamation et quel montant d’indemnisation ?",
+        "ar": "ما أجل الرد على الشكاية وما مبلغ التعويض؟"
+      },
+      "expected_status": "partial",
+      "expected_facts": [
+        "complaint-response"
+      ]
+    },
+    {
+      "id": "partial-format",
+      "group_id": "partial-format",
+      "questions": {
+        "fr": "Quelle périodicité de reporting des réclamations et quel format JSON ?",
+        "ar": "ما دورية تقارير الشكايات وما صيغة JSON؟"
+      },
+      "expected_status": "partial",
+      "expected_facts": [
+        "complaint-reporting"
+      ]
+    },
+    {
+      "id": "partial-mandate",
+      "group_id": "partial-mandate",
+      "questions": {
+        "fr": "Combien de mois dure le mandat du médiateur ?",
+        "ar": "كم عدد أشهر مدة انتداب الوسيط؟"
+      },
+      "expected_status": "partial",
+      "expected_facts": [
+        "mediation-mandate"
+      ]
+    },
+    {
+      "id": "partial-calendar",
+      "group_id": "partial-calendar",
+      "questions": {
+        "fr": "Quel délai de réponse de réclamation en jours calendaires ?",
+        "ar": "ما أجل الرد على الشكاية بالحساب التقويمي؟"
+      },
+      "expected_status": "partial",
+      "expected_facts": [
+        "complaint-response"
+      ]
+    },
+    {
+      "id": "absent-penalty",
+      "group_id": "absent-penalty",
+      "questions": {
+        "fr": "Quelle sanction pour une réclamation mal traitée ?",
+        "ar": "ما عقوبة سوء معالجة الشكاية؟"
+      },
+      "expected_status": "absent",
+      "expected_facts": []
+    },
+    {
+      "id": "absent-cost",
+      "group_id": "absent-cost",
+      "questions": {
+        "fr": "Quel tarif de la médiation bancaire ?",
+        "ar": "ما رسوم الوساطة البنكية؟"
+      },
+      "expected_status": "absent",
+      "expected_facts": []
+    },
+    {
+      "id": "absent-api",
+      "group_id": "absent-api",
+      "questions": {
+        "fr": "Quel format API pour les réclamations ?",
+        "ar": "ما صيغة API الخاصة بالشكايات؟"
+      },
+      "expected_status": "absent",
+      "expected_facts": []
+    },
+    {
+      "id": "temporal-current",
+      "group_id": "temporal-current",
+      "questions": {
+        "fr": "Quel délai de réclamation est actuellement applicable ?",
+        "ar": "ما أجل الشكاية الساري حالياً؟"
+      },
+      "expected_status": "temporal",
+      "expected_facts": []
+    },
+    {
+      "id": "temporal-explicit",
+      "group_id": "temporal-explicit",
+      "questions": {
+        "fr": "Quel délai de réponse pour une réclamation ?",
+        "ar": "ما أجل الرد على الشكاية؟"
+      },
+      "expected_status": "temporal",
+      "expected_facts": [],
+      "as_of": "2026-10-21"
+    },
+    {
+      "id": "ambiguous-stage",
+      "group_id": "ambiguous-stage",
+      "questions": {
+        "fr": "Quel délai pour une réclamation ?",
+        "ar": "ما أجل الشكاية؟"
+      },
+      "expected_status": "ambiguous",
+      "expected_facts": []
+    },
+    {
+      "id": "ambiguous-request",
+      "group_id": "ambiguous-request",
+      "questions": {
+        "fr": "Réclamation bancaire",
+        "ar": "شكاية بنكية"
+      },
+      "expected_status": "ambiguous",
+      "expected_facts": []
+    },
+    {
+      "id": "restricted-arabic",
+      "group_id": "restricted-arabic",
+      "questions": {
+        "fr": "Quel délai de réponse à une réclamation ?",
+        "ar": "ما أجل الرد على الشكاية؟"
+      },
+      "expected_status": "absent",
+      "expected_facts": [],
+      "source_language": "ar"
+    },
+    {
+      "id": "unsupported-entity",
+      "group_id": "unsupported-entity",
+      "questions": {
+        "fr": "Quel délai de réponse à une réclamation ?",
+        "ar": "ما أجل الرد على الشكاية؟"
+      },
+      "expected_status": "absent",
+      "expected_facts": [],
+      "institution_type": "payment_institution"
+    },
+    {
+      "id": "lookup-law",
+      "group_id": "lookup-law",
+      "questions": {
+        "fr": "article 157",
+        "ar": "المادة 157"
+      },
+      "expected_status": "complete",
+      "expected_facts": []
+    }
+  ]
+}

@@ -1,0 +1,651 @@
+{
+  "schema_version": 1,
+  "started_utc": "2026-10-17T02:56:53.131447+00:00",
+  "url": "http://127.0.0.1:9200",
+  "kind": "integration-contract-smoke-not-a-relevance-benchmark",
+  "python": "3.11.9",
+  "opensearch_py": "3.2.0",
+  "corpus_text_in_report": false,
+  "service_lifecycle": "externally managed; this script never deletes or stops services",
+  "checks": {
+    "synthetic_bm25": {
+      "index": "p2-smoke-synthetic-bm25-6d1577fca9200e1a",
+      "fingerprint": "6d1577fca9200e1a627539272f1d2d7a24a2a1d04ecbb6b994d0a7dfe85f5c4d",
+      "index_preexisted": false,
+      "articles": 8,
+      "chunks": 8,
+      "index_seconds": 0.337,
+      "checks": [
+        {
+          "case": "french",
+          "mode": "bm25",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 3,
+          "article_ids": [
+            "synthetic-smoke-fr:article-2",
+            "synthetic-smoke-fr:article-1",
+            "synthetic-smoke-fr:article-151"
+          ],
+          "elapsed_ms": 77.443
+        },
+        {
+          "case": "arabic",
+          "mode": "bm25",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 1,
+          "article_ids": [
+            "synthetic-smoke-ar:article-155"
+          ],
+          "elapsed_ms": 26.436
+        },
+        {
+          "case": "multi_fr",
+          "mode": "bm25",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "synthetic-smoke-fr:article-151",
+            "synthetic-smoke-fr:article-155"
+          ],
+          "elapsed_ms": 44.64
+        },
+        {
+          "case": "multi_ar",
+          "mode": "bm25",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "synthetic-smoke-ar:article-151",
+            "synthetic-smoke-ar:article-155"
+          ],
+          "elapsed_ms": 16.624
+        },
+        {
+          "case": "single_fr",
+          "mode": "bm25",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 1,
+          "article_ids": [
+            "synthetic-smoke-fr:article-1"
+          ],
+          "elapsed_ms": 27.101
+        }
+      ],
+      "mismatch_guard": "passed",
+      "status": "passed",
+      "total_seconds": 0.541
+    },
+    "synthetic_neural": {
+      "index": "p2-smoke-synthetic-neural-89c06c65865f4c58",
+      "fingerprint": "89c06c65865f4c58d44c6dca382eccde006435d4bde04423519346fc318753d3",
+      "index_preexisted": false,
+      "articles": 8,
+      "chunks": 8,
+      "index_seconds": 0.775,
+      "checks": [
+        {
+          "case": "french",
+          "mode": "bm25",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 3,
+          "article_ids": [
+            "synthetic-smoke-fr:article-2",
+            "synthetic-smoke-fr:article-1",
+            "synthetic-smoke-fr:article-151"
+          ],
+          "elapsed_ms": 37.541
+        },
+        {
+          "case": "arabic",
+          "mode": "bm25",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 1,
+          "article_ids": [
+            "synthetic-smoke-ar:article-155"
+          ],
+          "elapsed_ms": 22.127
+        },
+        {
+          "case": "multi_fr",
+          "mode": "bm25",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "synthetic-smoke-fr:article-151",
+            "synthetic-smoke-fr:article-155"
+          ],
+          "elapsed_ms": 21.411
+        },
+        {
+          "case": "multi_ar",
+          "mode": "bm25",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "synthetic-smoke-ar:article-151",
+            "synthetic-smoke-ar:article-155"
+          ],
+          "elapsed_ms": 18.788
+        },
+        {
+          "case": "single_fr",
+          "mode": "bm25",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 1,
+          "article_ids": [
+            "synthetic-smoke-fr:article-1"
+          ],
+          "elapsed_ms": 20.803
+        },
+        {
+          "case": "french",
+          "mode": "semantic",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 4,
+          "article_ids": [
+            "synthetic-smoke-fr:article-1",
+            "synthetic-smoke-fr:article-2",
+            "synthetic-smoke-fr:article-151",
+            "synthetic-smoke-fr:article-155"
+          ],
+          "elapsed_ms": 139.023
+        },
+        {
+          "case": "arabic",
+          "mode": "semantic",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 4,
+          "article_ids": [
+            "synthetic-smoke-ar:article-1",
+            "synthetic-smoke-ar:article-151",
+            "synthetic-smoke-ar:article-2",
+            "synthetic-smoke-ar:article-155"
+          ],
+          "elapsed_ms": 40.536
+        },
+        {
+          "case": "cross_fr_ar",
+          "mode": "semantic",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 4,
+          "article_ids": [
+            "synthetic-smoke-ar:article-1",
+            "synthetic-smoke-ar:article-2",
+            "synthetic-smoke-ar:article-151",
+            "synthetic-smoke-ar:article-155"
+          ],
+          "elapsed_ms": 48.96
+        },
+        {
+          "case": "cross_ar_fr",
+          "mode": "semantic",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 4,
+          "article_ids": [
+            "synthetic-smoke-fr:article-1",
+            "synthetic-smoke-fr:article-2",
+            "synthetic-smoke-fr:article-151",
+            "synthetic-smoke-fr:article-155"
+          ],
+          "elapsed_ms": 39.828
+        },
+        {
+          "case": "multi_fr",
+          "mode": "semantic",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "synthetic-smoke-fr:article-155",
+            "synthetic-smoke-fr:article-151"
+          ],
+          "elapsed_ms": 33.472
+        },
+        {
+          "case": "multi_ar",
+          "mode": "semantic",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "synthetic-smoke-ar:article-151",
+            "synthetic-smoke-ar:article-155"
+          ],
+          "elapsed_ms": 34.527
+        },
+        {
+          "case": "single_fr",
+          "mode": "semantic",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 1,
+          "article_ids": [
+            "synthetic-smoke-fr:article-1"
+          ],
+          "elapsed_ms": 33.209
+        },
+        {
+          "case": "french",
+          "mode": "hybrid",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 4,
+          "article_ids": [
+            "synthetic-smoke-fr:article-1",
+            "synthetic-smoke-fr:article-2",
+            "synthetic-smoke-fr:article-151",
+            "synthetic-smoke-fr:article-155"
+          ],
+          "elapsed_ms": 48.751
+        },
+        {
+          "case": "arabic",
+          "mode": "hybrid",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 4,
+          "article_ids": [
+            "synthetic-smoke-ar:article-155",
+            "synthetic-smoke-ar:article-1",
+            "synthetic-smoke-ar:article-151",
+            "synthetic-smoke-ar:article-2"
+          ],
+          "elapsed_ms": 42.014
+        },
+        {
+          "case": "cross_fr_ar",
+          "mode": "hybrid",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 4,
+          "article_ids": [
+            "synthetic-smoke-ar:article-1",
+            "synthetic-smoke-ar:article-2",
+            "synthetic-smoke-ar:article-151",
+            "synthetic-smoke-ar:article-155"
+          ],
+          "elapsed_ms": 41.025
+        },
+        {
+          "case": "cross_ar_fr",
+          "mode": "hybrid",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 4,
+          "article_ids": [
+            "synthetic-smoke-fr:article-1",
+            "synthetic-smoke-fr:article-2",
+            "synthetic-smoke-fr:article-151",
+            "synthetic-smoke-fr:article-155"
+          ],
+          "elapsed_ms": 43.868
+        },
+        {
+          "case": "multi_fr",
+          "mode": "hybrid",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "synthetic-smoke-fr:article-151",
+            "synthetic-smoke-fr:article-155"
+          ],
+          "elapsed_ms": 44.262
+        },
+        {
+          "case": "multi_ar",
+          "mode": "hybrid",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "synthetic-smoke-ar:article-151",
+            "synthetic-smoke-ar:article-155"
+          ],
+          "elapsed_ms": 44.681
+        },
+        {
+          "case": "single_fr",
+          "mode": "hybrid",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 1,
+          "article_ids": [
+            "synthetic-smoke-fr:article-1"
+          ],
+          "elapsed_ms": 39.159
+        }
+      ],
+      "mismatch_guard": "passed",
+      "status": "passed",
+      "total_seconds": 1.581
+    },
+    "real_corpus": {
+      "index": "p2-smoke-real-corpus-3ad324085cde17d9",
+      "fingerprint": "3ad324085cde17d93683fb0b41cc7e2bed5cea94ed7e7f5c98476933c6687fed",
+      "index_preexisted": false,
+      "articles": 394,
+      "chunks": 728,
+      "index_seconds": 69.05,
+      "checks": [
+        {
+          "case": "french",
+          "mode": "bm25",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 5,
+          "article_ids": [
+            "bam-10312-fr:article-34",
+            "bam-10312-fr:article-39",
+            "bam-10312-fr:article-58",
+            "bam-10312-fr:article-170",
+            "bam-10312-fr:article-13"
+          ],
+          "elapsed_ms": 51.347
+        },
+        {
+          "case": "arabic",
+          "mode": "bm25",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 5,
+          "article_ids": [
+            "bam-10312-ar:article-129",
+            "bam-10312-ar:article-46",
+            "bam-10312-ar:article-115",
+            "bam-10312-ar:article-20",
+            "bam-10312-ar:article-51"
+          ],
+          "elapsed_ms": 38.954
+        },
+        {
+          "case": "multi_fr",
+          "mode": "bm25",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "bam-10312-fr:article-151",
+            "bam-10312-fr:article-155"
+          ],
+          "elapsed_ms": 13.986
+        },
+        {
+          "case": "multi_ar",
+          "mode": "bm25",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "bam-10312-ar:article-151",
+            "bam-10312-ar:article-155"
+          ],
+          "elapsed_ms": 15.364
+        },
+        {
+          "case": "single_fr",
+          "mode": "bm25",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 1,
+          "article_ids": [
+            "bam-10312-fr:article-1"
+          ],
+          "elapsed_ms": 14.777
+        },
+        {
+          "case": "french",
+          "mode": "semantic",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 5,
+          "article_ids": [
+            "bam-10312-fr:article-26",
+            "bam-10312-fr:article-58",
+            "bam-10312-fr:article-76",
+            "bam-10312-fr:article-79",
+            "bam-10312-fr:article-70"
+          ],
+          "elapsed_ms": 86.902
+        },
+        {
+          "case": "arabic",
+          "mode": "semantic",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 5,
+          "article_ids": [
+            "bam-10312-ar:article-46",
+            "bam-10312-ar:article-21",
+            "bam-10312-ar:article-34",
+            "bam-10312-ar:article-52",
+            "bam-10312-ar:article-7"
+          ],
+          "elapsed_ms": 56.331
+        },
+        {
+          "case": "cross_fr_ar",
+          "mode": "semantic",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 5,
+          "article_ids": [
+            "bam-10312-ar:article-70",
+            "bam-10312-ar:article-57",
+            "bam-10312-ar:article-60",
+            "bam-10312-ar:article-59",
+            "bam-10312-ar:article-144"
+          ],
+          "elapsed_ms": 60.688
+        },
+        {
+          "case": "cross_ar_fr",
+          "mode": "semantic",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 5,
+          "article_ids": [
+            "bam-10312-fr:article-32",
+            "bam-10312-fr:article-195",
+            "bam-10312-fr:article-7",
+            "bam-10312-fr:article-163",
+            "bam-10312-fr:article-79"
+          ],
+          "elapsed_ms": 48.338
+        },
+        {
+          "case": "multi_fr",
+          "mode": "semantic",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "bam-10312-fr:article-151",
+            "bam-10312-fr:article-155"
+          ],
+          "elapsed_ms": 26.514
+        },
+        {
+          "case": "multi_ar",
+          "mode": "semantic",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "bam-10312-ar:article-151",
+            "bam-10312-ar:article-155"
+          ],
+          "elapsed_ms": 27.06
+        },
+        {
+          "case": "single_fr",
+          "mode": "semantic",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 1,
+          "article_ids": [
+            "bam-10312-fr:article-1"
+          ],
+          "elapsed_ms": 24.939
+        },
+        {
+          "case": "french",
+          "mode": "hybrid",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 5,
+          "article_ids": [
+            "bam-10312-fr:article-70",
+            "bam-10312-fr:article-34",
+            "bam-10312-fr:article-18",
+            "bam-10312-fr:article-79",
+            "bam-10312-fr:article-26"
+          ],
+          "elapsed_ms": 77.905
+        },
+        {
+          "case": "arabic",
+          "mode": "hybrid",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 5,
+          "article_ids": [
+            "bam-10312-ar:article-46",
+            "bam-10312-ar:article-20",
+            "bam-10312-ar:article-42",
+            "bam-10312-ar:article-26",
+            "bam-10312-ar:article-70"
+          ],
+          "elapsed_ms": 76.241
+        },
+        {
+          "case": "cross_fr_ar",
+          "mode": "hybrid",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 5,
+          "article_ids": [
+            "bam-10312-ar:article-70",
+            "bam-10312-ar:article-57",
+            "bam-10312-ar:article-60",
+            "bam-10312-ar:article-59",
+            "bam-10312-ar:article-144"
+          ],
+          "elapsed_ms": 57.839
+        },
+        {
+          "case": "cross_ar_fr",
+          "mode": "hybrid",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 5,
+          "article_ids": [
+            "bam-10312-fr:article-32",
+            "bam-10312-fr:article-195",
+            "bam-10312-fr:article-7",
+            "bam-10312-fr:article-163",
+            "bam-10312-fr:article-79"
+          ],
+          "elapsed_ms": 56.133
+        },
+        {
+          "case": "multi_fr",
+          "mode": "hybrid",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "bam-10312-fr:article-151",
+            "bam-10312-fr:article-155"
+          ],
+          "elapsed_ms": 34.687
+        },
+        {
+          "case": "multi_ar",
+          "mode": "hybrid",
+          "source_language": "ar",
+          "status": "passed",
+          "result_count": 2,
+          "article_ids": [
+            "bam-10312-ar:article-151",
+            "bam-10312-ar:article-155"
+          ],
+          "elapsed_ms": 37.14
+        },
+        {
+          "case": "single_fr",
+          "mode": "hybrid",
+          "source_language": "fr",
+          "status": "passed",
+          "result_count": 1,
+          "article_ids": [
+            "bam-10312-fr:article-1"
+          ],
+          "elapsed_ms": 31.758
+        }
+      ],
+      "mismatch_guard": "passed",
+      "status": "passed",
+      "total_seconds": 69.911
+    }
+  },
+  "cluster_version": "3.9.0",
+  "cluster_health": "green",
+  "encoder": {
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "repository": "Qdrant/paraphrase-multilingual-MiniLM-L12-v2-onnx-Q",
+    "revision": "faf4aa4225822f3bc6376869cb1164e8e3feedd0",
+    "dimension": 384,
+    "token_limit": 128,
+    "default_chunk_tokens": 110,
+    "license": "Apache-2.0",
+    "fastembed_version": "0.9.0",
+    "files_sha256": {
+      "config.json": "c8ec081fdad2df991bf5abbf18418fec7a5cdaa421f60ffb060a30040b8c376f",
+      "model_optimized.onnx": "634d0f66c29dc934c8fa72b8a4fe91dd4d420a22f1d82a241058d4316e659a99",
+      "special_tokens_map.json": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835",
+      "tokenizer.json": "fa685fc160bbdbab64058d4fc91b60e62d207e8dc60b9af5c002c5ab946ded00",
+      "tokenizer_config.json": "0666eebf692422757e1dddf3c9fb1ded73ba3dc726c5828671fc89e45bf3609f"
+    },
+    "preprocessing": "nfkc-no-tatweel-bidi-v1"
+  },
+  "source_versions": [
+    "2022-03-31"
+  ],
+  "source_sha256": [
+    "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a",
+    "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+  ],
+  "status": "passed",
+  "finished_utc": "2026-10-17T02:58:11.345296+00:00",
+  "resume_command": "docker compose --profile search up -d opensearch",
+  "rerun_command": "python scripts/smoke_opensearch.py --include-corpus",
+  "stop_command": "docker compose --profile search stop opensearch",
+  "execution_environment": {
+    "docker_server_version": "29.8.0",
+    "image": "opensearchproject/opensearch:3.9.0",
+    "image_digest": "sha256:adfa61f85025d06b4aeb562e7e74fde7e31c437039c93c3862c17e9acebd6c7c",
+    "image_uncompressed_size_bytes": 2882429130,
+    "image_pull_duration_seconds": null,
+    "image_pull_note": "Missing image was downloaded for this run; pull duration was not instrumented.",
+    "last_observed_memory_mib": 948.2,
+    "container_memory_limit_mib": 1024,
+    "service_stopped_after_test": true,
+    "service_stopped_observed_utc": "2026-10-17T03:01:55.245049+00:00",
+    "indexes_and_volume_preserved": true
+  }
+}

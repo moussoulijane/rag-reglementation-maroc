@@ -1,0 +1,33 @@
+{
+  "recorded_at_utc": "2026-10-18T22:29:09.672654+00:00",
+  "software": {
+    "python": "3.11.9",
+    "model_tests_enabled": true,
+    "pytest_passed": 147,
+    "pytest_skipped": 0,
+    "pytest_warnings": 1,
+    "pytest_duration_seconds": 14.25
+  },
+  "checks": {
+    "frozen_resources_unchanged": true,
+    "frozen_source_files_unchanged": true,
+    "calibrated_policy_unchanged": true,
+    "new_reports_use_same_frozen_index_and_policy": true,
+    "historical_generation_files_unchanged": true,
+    "only_preexisting_python_changes": [
+      "src/rag_reglementation_maroc/answering.py",
+      "src/rag_reglementation_maroc/cli.py"
+    ],
+    "ruff_check": true,
+    "ruff_format_check": true,
+    "ruff_files": 39,
+    "pip_check": true,
+    "git_byte_preservation_paths": 24,
+    "git_autocrlf_values_tested": [
+      "true",
+      "false"
+    ]
+  },
+  "manifest_sha256": "b9f2d0f740f4f22c4fc51b604d7d474e8fcdbf0c1123c8a27405a893fdda32cb",
+  "note": "New manifest module added separately. Model tests include real local encoder inference. No new Docker/OpenSearch execution claimed."
+}

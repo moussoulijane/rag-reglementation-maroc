@@ -1,0 +1,43 @@
+services:
+  api:
+    build:
+      context: .
+      args:
+        INSTALL_EXTRAS: ${RAG_INSTALL_EXTRAS:-opensearch}
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      RAG_DATA_DIR: /app/data
+      RAG_ENCODER: ${RAG_ENCODER:-none}
+      RAG_PREPROCESSING: ${RAG_PREPROCESSING:-normalized}
+      RAG_BACKEND: ${RAG_BACKEND:-local}
+      RAG_GENERATOR: ${RAG_GENERATOR:-extractive}
+      OPENSEARCH_URL: http://opensearch:9200
+      RAG_OLLAMA_URL: ${RAG_OLLAMA_URL:-http://host.docker.internal:11434}
+      RAG_OLLAMA_MODEL: ${RAG_OLLAMA_MODEL:-qwen2.5:7b}
+    volumes:
+      - ./data:/app/data
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: "no"
+  opensearch:
+    image: opensearchproject/opensearch:3.9.0
+    profiles: [search]
+    environment:
+      discovery.type: single-node
+      DISABLE_SECURITY_PLUGIN: "true"
+      DISABLE_INSTALL_DEMO_CONFIG: "true"
+      OPENSEARCH_JAVA_OPTS: -Xms512m -Xmx512m
+    ports:
+      - "127.0.0.1:9200:9200"
+    volumes:
+      - opensearch-data:/usr/share/opensearch/data
+    mem_limit: 1g
+    healthcheck:
+      test: [CMD-SHELL, "curl -fsS 'http://localhost:9200/_cluster/health?wait_for_status=yellow&timeout=5s' >/dev/null"]
+      interval: 15s
+      timeout: 8s
+      retries: 10
+    restart: "no"
+volumes:
+  opensearch-data:

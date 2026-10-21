@@ -1,0 +1,9 @@
+{
+  "created_at_utc": "2026-10-18T22:33:08.207663+00:00",
+  "passed": true,
+  "wheel_sha256": "f7facfa1be329b07017971cd0fd9da2a535da5299ee48378197bd5d8269d99bf",
+  "wheel_import": true,
+  "frozen_source_files_matched": 16,
+  "project_assets_resolved_from_cwd": true,
+  "installation": "--no-deps target installation; existing environment dependencies"
+}

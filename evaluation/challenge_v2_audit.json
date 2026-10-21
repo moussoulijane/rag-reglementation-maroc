@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "status": "internal_audit_passed",
+  "questions_file": "evaluation/challenge_v2.json",
+  "questions_sha256": "727e29c69c48b581edb490ccec5ab735c3919ff69bf8fb52e1629ebd2862c802",
+  "reviewer": "internal_agent_annotation_review",
+  "checked_at_utc": "2026-10-18T22:21:46Z",
+  "no_rankings_consulted": true,
+  "semantic_topic_overlap_reviewed": true,
+  "declarations": {
+    "scope": "The no-rankings declaration concerns the new challenge. Historical project results were already known to the team.",
+    "new_challenge_retrieval_or_generation_executed_by_reviewer": false,
+    "new_challenge_rankings_consulted": false,
+    "thresholds_or_model_changed_during_annotation_audit": false,
+    "corpus_or_source_text_changed_during_annotation_audit": false,
+    "external_legal_expert_adjudication": false
+  },
+  "checks": {
+    "case_schema": "passed",
+    "entire_challenge_test_only": true,
+    "n_cases": 80,
+    "n_topic_groups": 20,
+    "n_positive_groups": 12,
+    "n_negative_groups": 8,
+    "n_cases_per_language_direction": {
+      "fr->fr": 20,
+      "ar->ar": 20,
+      "fr->ar": 20,
+      "ar->fr": 20
+    },
+    "exactly_four_directions_per_group": true,
+    "same_question_per_query_language_within_group": true,
+    "answerability_and_expected_ids_consistent_within_group": true,
+    "ids_groups_and_normalized_questions_disjoint_from_entire_v1": true,
+    "semantic_targets_reviewed_against_v1_development_and_test": true,
+    "all_positive_article_ids_supported_in_both_languages": true,
+    "all_expected_articles_exist_in_requested_language_and_edition": true,
+    "source_reference_metadata_matches_local_articles": true,
+    "n_source_references_checked": 30,
+    "local_pdf_bytes_match_recorded_sha256": true,
+    "negative_scope_and_nearby_provisions_reviewed": true,
+    "final_file_checked_after_pre_freeze_corrections": true
+  },
+  "source_pdf_sha256": {
+    "bam-10312-fr": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a",
+    "bam-10312-ar": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+  },
+  "corpus_edition": "2022-03-31",
+  "annotation_notes": [
+    "Reviewed the French and Arabic local article texts directly, without calling a retriever, generator, benchmark runner or ranking report.",
+    "Positive groups are supported by articles 17, 35, 36, 46, 50, 73, 78, 97, 99, 152, 174 and 180 respectively. Each article suffices for its scoped question; a numeric minimum capital or audit balance-sheet threshold is deliberately not requested.",
+    "Before freezing, the French scope of the financial-statements and statutory-auditors questions was aligned with Arabic 'credit institutions'. The Arabic recovery-plan question was clarified. The final question file was rechecked after these changes.",
+    "Articles 77 and 79 delegate operational detail and do not state the cyber-notification hourly deadline or a complete electronic recovery-plan template. Article 86 supplies some generic remediation-plan content, but not the requested complete file format and fields. Article 160 concerns cheque-payment incidents, not cyber incidents.",
+    "Article 138 delegates the numerical deposit-compensation cap to Bank Al-Maghrib without giving the amount requested. The challenge distinguishes this unsupported number from the answerable delegation itself.",
+    "The other negatives require a personal commercial offer, current tax rules, a named-bank directory fact, bank-specific access recovery or an API specification absent from this dated law corpus.",
+    "Semantic novelty was assessed at the level of the requested rule or fact. Payment-account liquidation differs from payment-service definitions; legal forms and paid capital differ from credit categories and licensing authority; dormant funds differ from account opening; AML vigilance differs from complaint handling."
+  ],
+  "limits": [
+    "This is an internal AI-agent annotation review, not independent legal-expert adjudication or a claim about current Moroccan law.",
+    "The corpus is the same dated banking law. Broad banking concepts and negative families remain shared with v1; the challenge is not a new-domain or externally representative validation.",
+    "The authors and reviewer knew historical project findings. Questions were authored from source articles. This limits independence even though no new-challenge retrieval rankings were consulted before this audit.",
+    "Negative means that the precise requested fact is unsupported by this corpus, not that no relevant rule, procedure or answer exists elsewhere. Literal corpus scans support review but cannot formally prove semantic absence.",
+    "The four language directions translate the same 20 themes and are correlated; 80 cases are not 80 independent topics.",
+    "Source support was checked against the local extracted article texts and metadata, with both local PDF hashes verified. The review does not certify every extraction character against rendered PDF pages.",
+    "This audit checks question annotations and source sufficiency. It does not evaluate generated answer faithfulness, legal-advice suitability, retrieval performance or production reliability.",
+    "The local audit and its timestamp are not external preregistration or tamper-proof proof of absence of prior access."
+  ]
+}

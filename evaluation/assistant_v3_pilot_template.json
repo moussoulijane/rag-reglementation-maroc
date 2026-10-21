@@ -1,0 +1,14 @@
+{
+  "status": "not_started",
+  "protocol": "Counterbalanced manual PDF vs Daftar on distinct matched tasks",
+  "participants": [],
+  "sessions": [],
+  "metrics": [
+    "verified_completion_time",
+    "correct_evidence",
+    "critical_errors",
+    "corrections",
+    "understanding_document_dates"
+  ],
+  "results": null
+}

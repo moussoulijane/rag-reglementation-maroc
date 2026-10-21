@@ -1,0 +1,751 @@
+{
+  "benchmark_version": "bam-10312-pilot-v1",
+  "corpus_edition": "2022-03-31",
+  "annotation_note": "Original paraphrases checked against the scoped law; no independent legal expert adjudication. Negative means unsupported by this corpus, not legally nonexistent.",
+  "cases": [
+    {
+      "id": "credit_activities-fr-fr",
+      "group_id": "credit_activities",
+      "split": "dev",
+      "question": "Quelles opérations une entreprise doit-elle exercer habituellement pour être considérée comme un établissement de crédit ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "1"
+      ]
+    },
+    {
+      "id": "credit_activities-ar-ar",
+      "group_id": "credit_activities",
+      "split": "dev",
+      "question": "ما العمليات التي تمارسها مؤسسة بصفة اعتيادية حتى تعتبر مؤسسة ائتمان؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "1"
+      ]
+    },
+    {
+      "id": "credit_activities-fr-ar",
+      "group_id": "credit_activities",
+      "split": "dev",
+      "question": "Quelles opérations une entreprise doit-elle exercer habituellement pour être considérée comme un établissement de crédit ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "1"
+      ]
+    },
+    {
+      "id": "credit_activities-ar-fr",
+      "group_id": "credit_activities",
+      "split": "dev",
+      "question": "ما العمليات التي تمارسها مؤسسة بصفة اعتيادية حتى تعتبر مؤسسة ائتمان؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "1"
+      ]
+    },
+    {
+      "id": "credit_categories-fr-fr",
+      "group_id": "credit_categories",
+      "split": "dev",
+      "question": "Quelles sont les deux familles d'établissements de crédit prévues par la loi ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "10"
+      ]
+    },
+    {
+      "id": "credit_categories-ar-ar",
+      "group_id": "credit_categories",
+      "split": "dev",
+      "question": "ما الصنفان اللذان تتكون منهما مؤسسات الائتمان حسب القانون؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "10"
+      ]
+    },
+    {
+      "id": "credit_categories-fr-ar",
+      "group_id": "credit_categories",
+      "split": "dev",
+      "question": "Quelles sont les deux familles d'établissements de crédit prévues par la loi ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "10"
+      ]
+    },
+    {
+      "id": "credit_categories-ar-fr",
+      "group_id": "credit_categories",
+      "split": "dev",
+      "question": "ما الصنفان اللذان تتكون منهما مؤسسات الائتمان حسب القانون؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "10"
+      ]
+    },
+    {
+      "id": "payment_services-fr-fr",
+      "group_id": "payment_services",
+      "split": "dev",
+      "question": "Un transfert de fonds et un paiement par chèque relèvent-ils tous deux des services de paiement au sens de cette loi ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "16"
+      ]
+    },
+    {
+      "id": "payment_services-ar-ar",
+      "group_id": "payment_services",
+      "split": "dev",
+      "question": "هل يعتبر تحويل الأموال والأداء بواسطة شيك كلاهما من خدمات الأداء في مفهوم هذا القانون؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "16"
+      ]
+    },
+    {
+      "id": "payment_services-fr-ar",
+      "group_id": "payment_services",
+      "split": "dev",
+      "question": "Un transfert de fonds et un paiement par chèque relèvent-ils tous deux des services de paiement au sens de cette loi ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "16"
+      ]
+    },
+    {
+      "id": "payment_services-ar-fr",
+      "group_id": "payment_services",
+      "split": "dev",
+      "question": "هل يعتبر تحويل الأموال والأداء بواسطة شيك كلاهما من خدمات الأداء في مفهوم هذا القانون؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "16"
+      ]
+    },
+    {
+      "id": "licensing-fr-fr",
+      "group_id": "licensing",
+      "split": "dev",
+      "question": "Quelle autorité accorde l'autorisation nécessaire avant qu'une nouvelle banque commence son activité au Maroc ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "34"
+      ]
+    },
+    {
+      "id": "licensing-ar-ar",
+      "group_id": "licensing",
+      "split": "dev",
+      "question": "من يمنح الاعتماد اللازم لبنك جديد قبل أن يبدأ نشاطه في المغرب؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "34"
+      ]
+    },
+    {
+      "id": "licensing-fr-ar",
+      "group_id": "licensing",
+      "split": "dev",
+      "question": "Quelle autorité accorde l'autorisation nécessaire avant qu'une nouvelle banque commence son activité au Maroc ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "34"
+      ]
+    },
+    {
+      "id": "licensing-ar-fr",
+      "group_id": "licensing",
+      "split": "dev",
+      "question": "من يمنح الاعتماد اللازم لبنك جديد قبل أن يبدأ نشاطه في المغرب؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "34"
+      ]
+    },
+    {
+      "id": "participative_interest-fr-fr",
+      "group_id": "participative_interest",
+      "split": "dev",
+      "question": "Une banque participative est-elle autorisée à percevoir ou à verser des intérêts pour ses opérations ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "54"
+      ]
+    },
+    {
+      "id": "participative_interest-ar-ar",
+      "group_id": "participative_interest",
+      "split": "dev",
+      "question": "هل يسمح للبنك التشاركي بتلقي فوائد أو دفعها في عملياته؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "54"
+      ]
+    },
+    {
+      "id": "participative_interest-fr-ar",
+      "group_id": "participative_interest",
+      "split": "dev",
+      "question": "Une banque participative est-elle autorisée à percevoir ou à verser des intérêts pour ses opérations ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "54"
+      ]
+    },
+    {
+      "id": "participative_interest-ar-fr",
+      "group_id": "participative_interest",
+      "split": "dev",
+      "question": "هل يسمح للبنك التشاركي بتلقي فوائد أو دفعها في عملياته؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "54"
+      ]
+    },
+    {
+      "id": "mourabaha-fr-fr",
+      "group_id": "mourabaha",
+      "split": "test",
+      "question": "Comment le prix de vente d'un bien est-il construit dans un financement par Mourabaha ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "58"
+      ]
+    },
+    {
+      "id": "mourabaha-ar-ar",
+      "group_id": "mourabaha",
+      "split": "test",
+      "question": "كيف يتم تحديد ثمن بيع مال في تمويل عن طريق المرابحة؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "58"
+      ]
+    },
+    {
+      "id": "mourabaha-fr-ar",
+      "group_id": "mourabaha",
+      "split": "test",
+      "question": "Comment le prix de vente d'un bien est-il construit dans un financement par Mourabaha ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "58"
+      ]
+    },
+    {
+      "id": "mourabaha-ar-fr",
+      "group_id": "mourabaha",
+      "split": "test",
+      "question": "كيف يتم تحديد ثمن بيع مال في تمويل عن طريق المرابحة؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "58"
+      ]
+    },
+    {
+      "id": "account_refusal-fr-fr",
+      "group_id": "account_refusal",
+      "split": "test",
+      "question": "Je n'ai aucun compte à vue et plusieurs banques refusent de m'en ouvrir un. Quel recours la loi prévoit-elle et sous quelles conditions ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "150"
+      ]
+    },
+    {
+      "id": "account_refusal-ar-ar",
+      "group_id": "account_refusal",
+      "split": "test",
+      "question": "لا أتوفر على حساب تحت الطلب وقد رفضت عدة بنوك فتحه لي. ما الإجراء الذي يتيحه القانون وما شروطه؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "150"
+      ]
+    },
+    {
+      "id": "account_refusal-fr-ar",
+      "group_id": "account_refusal",
+      "split": "test",
+      "question": "Je n'ai aucun compte à vue et plusieurs banques refusent de m'en ouvrir un. Quel recours la loi prévoit-elle et sous quelles conditions ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "150"
+      ]
+    },
+    {
+      "id": "account_refusal-ar-fr",
+      "group_id": "account_refusal",
+      "split": "test",
+      "question": "لا أتوفر على حساب تحت الطلب وقد رفضت عدة بنوك فتحه لي. ما الإجراء الذي يتيحه القانون وما شروطه؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "150"
+      ]
+    },
+    {
+      "id": "account_agreement-fr-fr",
+      "group_id": "account_agreement",
+      "split": "test",
+      "question": "Lorsqu'un client ouvre un compte bancaire, faut-il un accord écrit et doit-il en recevoir un exemplaire ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "151"
+      ]
+    },
+    {
+      "id": "account_agreement-ar-ar",
+      "group_id": "account_agreement",
+      "split": "test",
+      "question": "عند فتح حساب بنكي، هل يجب إبرام اتفاق مكتوب وتسليم نسخة منه إلى الزبون؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "151"
+      ]
+    },
+    {
+      "id": "account_agreement-fr-ar",
+      "group_id": "account_agreement",
+      "split": "test",
+      "question": "Lorsqu'un client ouvre un compte bancaire, faut-il un accord écrit et doit-il en recevoir un exemplaire ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "151"
+      ]
+    },
+    {
+      "id": "account_agreement-ar-fr",
+      "group_id": "account_agreement",
+      "split": "test",
+      "question": "عند فتح حساب بنكي، هل يجب إبرام اتفاق مكتوب وتسليم نسخة منه إلى الزبون؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "151"
+      ]
+    },
+    {
+      "id": "branch_closure-fr-fr",
+      "group_id": "branch_closure",
+      "split": "test",
+      "question": "Combien de temps avant la fermeture d'une agence ses clients doivent-ils être avertis, et peuvent-ils déplacer leurs fonds sans frais ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "155"
+      ]
+    },
+    {
+      "id": "branch_closure-ar-ar",
+      "group_id": "branch_closure",
+      "split": "test",
+      "question": "قبل إغلاق وكالة بنكية، ما مهلة إخبار الزبناء وهل يمكنهم تحويل أموالهم دون مصاريف؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "155"
+      ]
+    },
+    {
+      "id": "branch_closure-fr-ar",
+      "group_id": "branch_closure",
+      "split": "test",
+      "question": "Combien de temps avant la fermeture d'une agence ses clients doivent-ils être avertis, et peuvent-ils déplacer leurs fonds sans frais ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "155"
+      ]
+    },
+    {
+      "id": "branch_closure-ar-fr",
+      "group_id": "branch_closure",
+      "split": "test",
+      "question": "قبل إغلاق وكالة بنكية، ما مهلة إخبار الزبناء وهل يمكنهم تحويل أموالهم دون مصاريف؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "155"
+      ]
+    },
+    {
+      "id": "complaints_system-fr-fr",
+      "group_id": "complaints_system",
+      "split": "test",
+      "question": "Que doit mettre en place une banque pour traiter les réclamations de ses clients ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "157"
+      ]
+    },
+    {
+      "id": "complaints_system-ar-ar",
+      "group_id": "complaints_system",
+      "split": "test",
+      "question": "ما الآلية التي يتعين على البنك وضعها لمعالجة شكايات زبنائه؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "157"
+      ]
+    },
+    {
+      "id": "complaints_system-fr-ar",
+      "group_id": "complaints_system",
+      "split": "test",
+      "question": "Que doit mettre en place une banque pour traiter les réclamations de ses clients ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "157"
+      ]
+    },
+    {
+      "id": "complaints_system-ar-fr",
+      "group_id": "complaints_system",
+      "split": "test",
+      "question": "ما الآلية التي يتعين على البنك وضعها لمعالجة شكايات زبنائه؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "157"
+      ]
+    },
+    {
+      "id": "weather-fr-fr",
+      "group_id": "weather",
+      "split": "dev",
+      "question": "Quel temps fera-t-il demain à Rabat ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "unrelated"
+    },
+    {
+      "id": "weather-ar-ar",
+      "group_id": "weather",
+      "split": "dev",
+      "question": "كيف سيكون الطقس غدا في الرباط؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "unrelated"
+    },
+    {
+      "id": "weather-fr-ar",
+      "group_id": "weather",
+      "split": "dev",
+      "question": "Quel temps fera-t-il demain à Rabat ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "unrelated"
+    },
+    {
+      "id": "weather-ar-fr",
+      "group_id": "weather",
+      "split": "dev",
+      "question": "كيف سيكون الطقس غدا في الرباط؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "unrelated"
+    },
+    {
+      "id": "commercial_fees-fr-fr",
+      "group_id": "commercial_fees",
+      "split": "dev",
+      "question": "Combien coûte aujourd'hui la carte premium de ma banque ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "bank_specific"
+    },
+    {
+      "id": "commercial_fees-ar-ar",
+      "group_id": "commercial_fees",
+      "split": "dev",
+      "question": "كم تبلغ اليوم رسوم البطاقة الممتازة في بنكي؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "bank_specific"
+    },
+    {
+      "id": "commercial_fees-fr-ar",
+      "group_id": "commercial_fees",
+      "split": "dev",
+      "question": "Combien coûte aujourd'hui la carte premium de ma banque ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "bank_specific"
+    },
+    {
+      "id": "commercial_fees-ar-fr",
+      "group_id": "commercial_fees",
+      "split": "dev",
+      "question": "كم تبلغ اليوم رسوم البطاقة الممتازة في بنكي؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "bank_specific"
+    },
+    {
+      "id": "current_policy_rate-fr-fr",
+      "group_id": "current_policy_rate",
+      "split": "dev",
+      "question": "Quel est le taux directeur de Bank Al-Maghrib en vigueur aujourd'hui ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "temporal"
+    },
+    {
+      "id": "current_policy_rate-ar-ar",
+      "group_id": "current_policy_rate",
+      "split": "dev",
+      "question": "ما هو سعر الفائدة الرئيسي لبنك المغرب الجاري به العمل اليوم؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "temporal"
+    },
+    {
+      "id": "current_policy_rate-fr-ar",
+      "group_id": "current_policy_rate",
+      "split": "dev",
+      "question": "Quel est le taux directeur de Bank Al-Maghrib en vigueur aujourd'hui ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "temporal"
+    },
+    {
+      "id": "current_policy_rate-ar-fr",
+      "group_id": "current_policy_rate",
+      "split": "dev",
+      "question": "ما هو سعر الفائدة الرئيسي لبنك المغرب الجاري به العمل اليوم؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "temporal"
+    },
+    {
+      "id": "complaint_deadline-fr-fr",
+      "group_id": "complaint_deadline",
+      "split": "test",
+      "question": "La banque doit-elle répondre à ma réclamation sous quarante jours ouvrés, et dans quel texte ce délai figure-t-il ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_circular"
+    },
+    {
+      "id": "complaint_deadline-ar-ar",
+      "group_id": "complaint_deadline",
+      "split": "test",
+      "question": "هل يجب على البنك الرد على شكايتي خلال أربعين يوم عمل، وفي أي نص ورد هذا الأجل؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_circular"
+    },
+    {
+      "id": "complaint_deadline-fr-ar",
+      "group_id": "complaint_deadline",
+      "split": "test",
+      "question": "La banque doit-elle répondre à ma réclamation sous quarante jours ouvrés, et dans quel texte ce délai figure-t-il ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_circular"
+    },
+    {
+      "id": "complaint_deadline-ar-fr",
+      "group_id": "complaint_deadline",
+      "split": "test",
+      "question": "هل يجب على البنك الرد على شكايتي خلال أربعين يوم عمل، وفي أي نص ورد هذا الأجل؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_circular"
+    },
+    {
+      "id": "current_cet1-fr-fr",
+      "group_id": "current_cet1",
+      "split": "test",
+      "question": "Quel est le minimum réglementaire du ratio CET1 applicable aux banques marocaines en octobre 2026 ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_circular_temporal"
+    },
+    {
+      "id": "current_cet1-ar-ar",
+      "group_id": "current_cet1",
+      "split": "test",
+      "question": "ما الحد الأدنى التنظيمي لنسبة رأس المال الأساسي من الفئة الأولى المطبق على البنوك المغربية في أكتوبر 2026؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_circular_temporal"
+    },
+    {
+      "id": "current_cet1-fr-ar",
+      "group_id": "current_cet1",
+      "split": "test",
+      "question": "Quel est le minimum réglementaire du ratio CET1 applicable aux banques marocaines en octobre 2026 ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_circular_temporal"
+    },
+    {
+      "id": "current_cet1-ar-fr",
+      "group_id": "current_cet1",
+      "split": "test",
+      "question": "ما الحد الأدنى التنظيمي لنسبة رأس المال الأساسي من الفئة الأولى المطبق على البنوك المغربية في أكتوبر 2026؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "related_missing_circular_temporal"
+    },
+    {
+      "id": "exchange_prediction-fr-fr",
+      "group_id": "exchange_prediction",
+      "split": "test",
+      "question": "Quel sera le cours EUR/MAD demain ?",
+      "query_language": "fr",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "prediction"
+    },
+    {
+      "id": "exchange_prediction-ar-ar",
+      "group_id": "exchange_prediction",
+      "split": "test",
+      "question": "كم سيكون سعر صرف اليورو مقابل الدرهم غدا؟",
+      "query_language": "ar",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "prediction"
+    },
+    {
+      "id": "exchange_prediction-fr-ar",
+      "group_id": "exchange_prediction",
+      "split": "test",
+      "question": "Quel sera le cours EUR/MAD demain ?",
+      "query_language": "fr",
+      "source_language": "ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "prediction"
+    },
+    {
+      "id": "exchange_prediction-ar-fr",
+      "group_id": "exchange_prediction",
+      "split": "test",
+      "question": "كم سيكون سعر صرف اليورو مقابل الدرهم غدا؟",
+      "query_language": "ar",
+      "source_language": "fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "negative_type": "prediction"
+    }
+  ]
+}

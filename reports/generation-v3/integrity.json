@@ -1,0 +1,15 @@
+{
+  "historical_and_frozen_artifacts_unchanged": {
+    "reports/ollama_smoke.json": true,
+    "reports/ollama_smoke_v1.json": true,
+    "outputs/ollama_smoke_raw.json": true,
+    "outputs/ollama_smoke_raw_v1.json": true,
+    "reports/generation-v2/protocol.json": true,
+    "reports/generation-v2/results.json": true,
+    "outputs/generation-v2/raw.json": true,
+    "reports/generation-development-controls/protocol.json": true,
+    "reports/generation-development-controls/results.json": true,
+    "outputs/generation-development-controls/raw.json": true,
+    "src/rag_reglementation_maroc/answering.py": true
+  }
+}

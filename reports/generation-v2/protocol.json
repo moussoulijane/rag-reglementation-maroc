@@ -1,0 +1,117 @@
+{
+  "protocol_id": "generation-v2-2026-10-18",
+  "fixed_at_utc": "2026-10-18T22:14:20.712710+00:00",
+  "scope": "Six fixed heterogeneous local integration probes; no aggregate faithfulness claim or independent legal annotation.",
+  "model": {
+    "name": "qwen2.5:7b",
+    "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "quantization": "Q4_K_M",
+    "download_required": false
+  },
+  "ollama_version": "0.40.5",
+  "conditions": {
+    "backend": "local",
+    "encoder": "multilingual",
+    "preprocessing": "normalized",
+    "policy_path": "evaluation/abstention_policy.json",
+    "policy_sha256": "0b421c5c21a5a8a4be533af59a6fbd7ea13ed71e57e0f102c917fc84677ffa7b",
+    "top_k": 5,
+    "evidence_expansion": "five anchors; introductions0/1 of top3; neighbours; max12",
+    "generation_options": {
+      "temperature": 0,
+      "seed": 7,
+      "num_ctx": 4096,
+      "num_predict": 900
+    },
+    "inference_timeout_seconds": 180,
+    "preload_timeout_seconds": 360,
+    "keep_alive": "15m",
+    "preload_endpoint": "/api/generate",
+    "parallel_requests": 1,
+    "docker_concurrent": false,
+    "case_retries": 0,
+    "source_text_in_public_report": false
+  },
+  "initial_resources": {
+    "system_memory_mb": 24283.9,
+    "free_memory_mb": 8518.1,
+    "cpu": "Intel Core i5-12450HX,8cores12threads",
+    "gpu": "NVIDIA RTX4060 Laptop,8GiB per Ollama",
+    "ollama_available_vram_gib": 6.9,
+    "loaded_models": [],
+    "docker_or_vmmem_processes_observed": false
+  },
+  "prior_timeout_diagnosis": {
+    "log_timestamp": "2026-10-17T02:51:52Z",
+    "observation": "Client connection closed before llama-server finished loading; load aborted with context canceled. This establishes cold-load cancellation, not an out-of-memory cause.",
+    "official_preload_reference": "https://docs.ollama.com/faq#how-can-i-preload-a-model-into-ollama-to-get-faster-response-times"
+  },
+  "historical_sha256": {
+    "reports/ollama_smoke.json": "573d358f2da04c8fe6a3d4330113fe0e50e46c5eade10741534d47624b93087b",
+    "reports/ollama_smoke_v1.json": "6c0c947fe258ac6a2d845c6b349980e00311b0f4ffc88c44dfc2a8a856808631",
+    "outputs/ollama_smoke_raw.json": "2bde66513a008ca118dbde2e1ef13d31c04c0a0a8c11278b4e7470e6e427a910",
+    "outputs/ollama_smoke_raw_v1.json": "def9eea69a497f9895cf10d7b2db79a89a61eea89172e6ae390e2f7f1f762cfb"
+  },
+  "cases": [
+    {
+      "id": "generic-fr",
+      "case_type": "generic_previous_exact",
+      "language": "fr",
+      "mode": "hybrid",
+      "question": "Qui accorde l'agrément avant de commencer une activité bancaire ?",
+      "expected_article_ids": [
+        "34"
+      ]
+    },
+    {
+      "id": "generic-ar",
+      "case_type": "generic_previous_exact",
+      "language": "ar",
+      "mode": "hybrid",
+      "question": "من يمنح الاعتماد قبل مزاولة النشاط البنكي؟",
+      "expected_article_ids": [
+        "34"
+      ]
+    },
+    {
+      "id": "targeted151-fr",
+      "case_type": "targeted_previous_exact",
+      "language": "fr",
+      "mode": "bm25",
+      "question": "Dans l'édition du 31 mars 2022, que prévoit l'article 151 sur la convention écrite à l'ouverture d'un compte et la copie remise au client ?",
+      "expected_article_ids": [
+        "151"
+      ]
+    },
+    {
+      "id": "targeted151-ar",
+      "case_type": "targeted_previous_exact",
+      "language": "ar",
+      "mode": "bm25",
+      "question": "في نسخة 31 مارس 2022، ماذا تنص المادة 151 بخصوص الاتفاقية المكتوبة عند فتح الحساب وتسليم نسخة للعميل؟",
+      "expected_article_ids": [
+        "151"
+      ]
+    },
+    {
+      "id": "lookup151-fr",
+      "case_type": "direct_article_lookup_control",
+      "language": "fr",
+      "mode": "bm25",
+      "question": "article 151",
+      "expected_article_ids": [
+        "151"
+      ]
+    },
+    {
+      "id": "lookup151-ar",
+      "case_type": "direct_article_lookup_control",
+      "language": "ar",
+      "mode": "bm25",
+      "question": "المادة 151",
+      "expected_article_ids": [
+        "151"
+      ]
+    }
+  ]
+}

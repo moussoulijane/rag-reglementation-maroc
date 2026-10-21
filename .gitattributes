@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.png binary
+*.pdf binary
+*.npz binary
+
+# Frozen evaluation records use byte hashes: preserve their captured line endings.
+src/rag_reglementation_maroc/*.py -text
+evaluation/*.json -text
+docs/CHALLENGE_V2.md -text
+reports/**/*.json -text

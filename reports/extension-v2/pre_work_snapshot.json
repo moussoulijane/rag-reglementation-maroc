@@ -1,0 +1,23 @@
+{
+  "recorded_at_utc": "2026-10-18T22:12:47.827413+00:00",
+  "purpose": "Pre-work baseline before the 18 October extension; not a holdout freeze or external preregistration.",
+  "files_sha256": {
+    "src/rag_reglementation_maroc/answering.py": "be6f6dac58786eeacc2eb1d1d88f448bcd108fbafb15e54f14c16158b893cce2",
+    "src/rag_reglementation_maroc/api.py": "cc8a7d3121405b58f7d8a4557941f17e52945cc3689adbd828ed9dcba575bd83",
+    "src/rag_reglementation_maroc/catalog.py": "921d83b1f06acdcfb90c123dc78fdd39c80e1dc923e3641a5d9a84ebfc0773ee",
+    "src/rag_reglementation_maroc/chunking.py": "ca50f239c1bfa8f9aad049e5b2c92c6caf0294f37a95f9a2edecca88d683e91f",
+    "src/rag_reglementation_maroc/cli.py": "a2815f143473ae78596ca675ef18eb8e506af83ca80ab1dc1094400f450dab0f",
+    "src/rag_reglementation_maroc/embeddings.py": "cc6bb817454e8aea03060ffa08209a7e9846b11a7a391ae007102610d2d1b856",
+    "src/rag_reglementation_maroc/evaluation.py": "07fd6c89f0a38a9a29eebb29dec69232aec2baf69e58d93aca1d81c276ed0be6",
+    "src/rag_reglementation_maroc/ingestion.py": "85283474cedb3592de4966e384ddade51af7d2e0e1dd294e000b91da7309cc7f",
+    "src/rag_reglementation_maroc/models.py": "9290dfd09678c55455e975442dadfc33ae1e2d059fd677ed6144e1ba8d14d745",
+    "src/rag_reglementation_maroc/opensearch_backend.py": "6637132540a5d3ed9716f04b734ae28f42915a93551e271c2d55479559e1bdd4",
+    "src/rag_reglementation_maroc/retrieval.py": "001cacea6f0d44ecc1d40b23984488eec100e68231080f10031aa63c23864341",
+    "src/rag_reglementation_maroc/runtime.py": "545aca8b6f39da0ad60459a4c1679985fb0232bea5a2dc9c18d54c24d079a7ef",
+    "src/rag_reglementation_maroc/text.py": "ec94ed27e8485266d1e46c942752b8000df6e535726fa49ab06ca76485fe159e",
+    "src/rag_reglementation_maroc/__init__.py": "5e8a236f36f0a152c71f0954239b59a717cd5e64818e61bb9e8978466b105935",
+    "src/rag_reglementation_maroc/__main__.py": "f69d8e3466f64233d846d21e88eea7f331f9dc43ec11f6d79f6453da1da17642",
+    "evaluation/questions.json": "36b22d4bea11c8a9c19abc387e9aa5f49d1f780ed4db9645e4e762d4724a7d83",
+    "evaluation/abstention_policy.json": "0b421c5c21a5a8a4be533af59a6fbd7ea13ed71e57e0f102c917fc84677ffa7b"
+  }
+}

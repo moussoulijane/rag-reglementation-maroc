@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "kind": "integration_smoke_not_quality_benchmark",
+  "base_url": "http://127.0.0.1:8000",
+  "engine_version": "assistant-0.3.0",
+  "corpus_label": "Loi 2022 · circulaires du recueil fin 2023",
+  "article_count": 418,
+  "probes": [
+    {
+      "id": "fr-note",
+      "expected": "complete",
+      "actual": "complete",
+      "citation_count": 1,
+      "latency_ms": 21.808
+    },
+    {
+      "id": "ar-note",
+      "expected": "complete",
+      "actual": "complete",
+      "citation_count": 1,
+      "latency_ms": 3.684
+    },
+    {
+      "id": "partial",
+      "expected": "partial",
+      "actual": "partial",
+      "citation_count": 1,
+      "latency_ms": 6.622
+    },
+    {
+      "id": "absent",
+      "expected": "absent",
+      "actual": "absent",
+      "citation_count": 0,
+      "latency_ms": 4.142
+    },
+    {
+      "id": "temporal",
+      "expected": "temporal",
+      "actual": "temporal",
+      "citation_count": 0,
+      "latency_ms": 3.531
+    },
+    {
+      "id": "ambiguous",
+      "expected": "ambiguous",
+      "actual": "ambiguous",
+      "citation_count": 0,
+      "latency_ms": 3.177
+    },
+    {
+      "id": "ar-filter",
+      "expected": "absent",
+      "actual": "absent",
+      "citation_count": 0,
+      "latency_ms": 3.927
+    },
+    {
+      "id": "unknown-institution",
+      "expected": "ambiguous",
+      "actual": "ambiguous",
+      "citation_count": 0,
+      "latency_ms": 2.942
+    },
+    {
+      "id": "lookup",
+      "expected": "complete",
+      "actual": "complete",
+      "citation_count": 1,
+      "latency_ms": 3.993
+    }
+  ],
+  "legacy_endpoint_preserved": true,
+  "independent_legal_review": false
+}

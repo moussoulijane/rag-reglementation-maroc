@@ -1,0 +1,931 @@
+{
+  "rows": [
+    {
+      "id": "credit_activities-fr-fr",
+      "question": "Quelles opérations une entreprise doit-elle exercer habituellement pour être considérée comme un établissement de crédit ?",
+      "negative_type": null,
+      "group_id": "credit_activities",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "1"
+      ],
+      "retrieved_article_ids": [
+        "161",
+        "163",
+        "11",
+        "155",
+        "61"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.83250003447756
+    },
+    {
+      "id": "credit_activities-ar-ar",
+      "question": "ما العمليات التي تمارسها مؤسسة بصفة اعتيادية حتى تعتبر مؤسسة ائتمان؟",
+      "negative_type": null,
+      "group_id": "credit_activities",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "1"
+      ],
+      "retrieved_article_ids": [
+        "161",
+        "180",
+        "18",
+        "26",
+        "178"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 15.030500013381243
+    },
+    {
+      "id": "credit_activities-fr-ar",
+      "question": "Quelles opérations une entreprise doit-elle exercer habituellement pour être considérée comme un établissement de crédit ?",
+      "negative_type": null,
+      "group_id": "credit_activities",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "1"
+      ],
+      "retrieved_article_ids": [
+        "51",
+        "161",
+        "11",
+        "9",
+        "88"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 14.550299965776503
+    },
+    {
+      "id": "credit_activities-ar-fr",
+      "question": "ما العمليات التي تمارسها مؤسسة بصفة اعتيادية حتى تعتبر مؤسسة ائتمان؟",
+      "negative_type": null,
+      "group_id": "credit_activities",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "1"
+      ],
+      "retrieved_article_ids": [
+        "161",
+        "163",
+        "26",
+        "180",
+        "7"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 13.159899972379208
+    },
+    {
+      "id": "credit_categories-fr-fr",
+      "question": "Quelles sont les deux familles d'établissements de crédit prévues par la loi ?",
+      "negative_type": null,
+      "group_id": "credit_categories",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "10"
+      ],
+      "retrieved_article_ids": [
+        "42",
+        "26",
+        "161",
+        "10",
+        "71"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.25,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.15979997627437
+    },
+    {
+      "id": "credit_categories-ar-ar",
+      "question": "ما الصنفان اللذان تتكون منهما مؤسسات الائتمان حسب القانون؟",
+      "negative_type": null,
+      "group_id": "credit_categories",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "10"
+      ],
+      "retrieved_article_ids": [
+        "8",
+        "43",
+        "163",
+        "156",
+        "73"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 19.35139996930957
+    },
+    {
+      "id": "credit_categories-fr-ar",
+      "question": "Quelles sont les deux familles d'établissements de crédit prévues par la loi ?",
+      "negative_type": null,
+      "group_id": "credit_categories",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "10"
+      ],
+      "retrieved_article_ids": [
+        "26",
+        "8",
+        "10",
+        "156",
+        "131"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.3333333333333333,
+      "predicted_answerable": true,
+      "search_latency_ms": 14.530700049363077
+    },
+    {
+      "id": "credit_categories-ar-fr",
+      "question": "ما الصنفان اللذان تتكون منهما مؤسسات الائتمان حسب القانون؟",
+      "negative_type": null,
+      "group_id": "credit_categories",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "10"
+      ],
+      "retrieved_article_ids": [
+        "20",
+        "26",
+        "11",
+        "7",
+        "195"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 14.554199995473027
+    },
+    {
+      "id": "payment_services-fr-fr",
+      "question": "Un transfert de fonds et un paiement par chèque relèvent-ils tous deux des services de paiement au sens de cette loi ?",
+      "negative_type": null,
+      "group_id": "payment_services",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "16"
+      ],
+      "retrieved_article_ids": [
+        "16",
+        "17",
+        "6",
+        "15",
+        "129"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 15.713600034359843
+    },
+    {
+      "id": "payment_services-ar-ar",
+      "question": "هل يعتبر تحويل الأموال والأداء بواسطة شيك كلاهما من خدمات الأداء في مفهوم هذا القانون؟",
+      "negative_type": null,
+      "group_id": "payment_services",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "16"
+      ],
+      "retrieved_article_ids": [
+        "16",
+        "17",
+        "1",
+        "2",
+        "15"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 16.57320000231266
+    },
+    {
+      "id": "payment_services-fr-ar",
+      "question": "Un transfert de fonds et un paiement par chèque relèvent-ils tous deux des services de paiement au sens de cette loi ?",
+      "negative_type": null,
+      "group_id": "payment_services",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "16"
+      ],
+      "retrieved_article_ids": [
+        "2",
+        "91",
+        "7",
+        "129",
+        "70"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 16.13150001503527
+    },
+    {
+      "id": "payment_services-ar-fr",
+      "question": "هل يعتبر تحويل الأموال والأداء بواسطة شيك كلاهما من خدمات الأداء في مفهوم هذا القانون؟",
+      "negative_type": null,
+      "group_id": "payment_services",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "16"
+      ],
+      "retrieved_article_ids": [
+        "16",
+        "136",
+        "160",
+        "166",
+        "15"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 15.157599991653115
+    },
+    {
+      "id": "licensing-fr-fr",
+      "question": "Quelle autorité accorde l'autorisation nécessaire avant qu'une nouvelle banque commence son activité au Maroc ?",
+      "negative_type": null,
+      "group_id": "licensing",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "34"
+      ],
+      "retrieved_article_ids": [
+        "39",
+        "72",
+        "34",
+        "41",
+        "36"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.3333333333333333,
+      "predicted_answerable": true,
+      "search_latency_ms": 14.314000029116869
+    },
+    {
+      "id": "licensing-ar-ar",
+      "question": "من يمنح الاعتماد اللازم لبنك جديد قبل أن يبدأ نشاطه في المغرب؟",
+      "negative_type": null,
+      "group_id": "licensing",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "34"
+      ],
+      "retrieved_article_ids": [
+        "34",
+        "152",
+        "21",
+        "144",
+        "45"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 12.829100014641881
+    },
+    {
+      "id": "licensing-fr-ar",
+      "question": "Quelle autorité accorde l'autorisation nécessaire avant qu'une nouvelle banque commence son activité au Maroc ?",
+      "negative_type": null,
+      "group_id": "licensing",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "34"
+      ],
+      "retrieved_article_ids": [
+        "147",
+        "73",
+        "45",
+        "116",
+        "135"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 14.405400026589632
+    },
+    {
+      "id": "licensing-ar-fr",
+      "question": "من يمنح الاعتماد اللازم لبنك جديد قبل أن يبدأ نشاطه في المغرب؟",
+      "negative_type": null,
+      "group_id": "licensing",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "34"
+      ],
+      "retrieved_article_ids": [
+        "36",
+        "39",
+        "40",
+        "48",
+        "26"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 13.122400036081672
+    },
+    {
+      "id": "participative_interest-fr-fr",
+      "question": "Une banque participative est-elle autorisée à percevoir ou à verser des intérêts pour ses opérations ?",
+      "negative_type": null,
+      "group_id": "participative_interest",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "54"
+      ],
+      "retrieved_article_ids": [
+        "58",
+        "59",
+        "67",
+        "7",
+        "61"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 15.032700030133128
+    },
+    {
+      "id": "participative_interest-ar-ar",
+      "question": "هل يسمح للبنك التشاركي بتلقي فوائد أو دفعها في عملياته؟",
+      "negative_type": null,
+      "group_id": "participative_interest",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "54"
+      ],
+      "retrieved_article_ids": [
+        "70",
+        "90",
+        "130",
+        "169",
+        "170"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 12.806200014892966
+    },
+    {
+      "id": "participative_interest-fr-ar",
+      "question": "Une banque participative est-elle autorisée à percevoir ou à verser des intérêts pour ses opérations ?",
+      "negative_type": null,
+      "group_id": "participative_interest",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "54"
+      ],
+      "retrieved_article_ids": [
+        "70",
+        "60",
+        "160",
+        "152",
+        "18"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 16.095300030428916
+    },
+    {
+      "id": "participative_interest-ar-fr",
+      "question": "هل يسمح للبنك التشاركي بتلقي فوائد أو دفعها في عملياته؟",
+      "negative_type": null,
+      "group_id": "participative_interest",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "54"
+      ],
+      "retrieved_article_ids": [
+        "56",
+        "58",
+        "55",
+        "166",
+        "67"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 13.380699965637177
+    },
+    {
+      "id": "weather-fr-fr",
+      "question": "Quel temps fera-t-il demain à Rabat ?",
+      "negative_type": "unrelated",
+      "group_id": "weather",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "49",
+        "123",
+        "174",
+        "95",
+        "56"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 11.030399997252971
+    },
+    {
+      "id": "weather-ar-ar",
+      "question": "كيف سيكون الطقس غدا في الرباط؟",
+      "negative_type": "unrelated",
+      "group_id": "weather",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "114",
+        "13",
+        "57",
+        "93",
+        "192"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 8.701300015673041
+    },
+    {
+      "id": "weather-fr-ar",
+      "question": "Quel temps fera-t-il demain à Rabat ?",
+      "negative_type": "unrelated",
+      "group_id": "weather",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "13",
+        "57",
+        "114",
+        "194",
+        "93"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 12.178000004496425
+    },
+    {
+      "id": "weather-ar-fr",
+      "question": "كيف سيكون الطقس غدا في الرباط؟",
+      "negative_type": "unrelated",
+      "group_id": "weather",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "52",
+        "123",
+        "34",
+        "49",
+        "26"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 9.88980004331097
+    },
+    {
+      "id": "commercial_fees-fr-fr",
+      "question": "Combien coûte aujourd'hui la carte premium de ma banque ?",
+      "negative_type": "bank_specific",
+      "group_id": "commercial_fees",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "16",
+        "58",
+        "17",
+        "170",
+        "6"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 12.038999993819743
+    },
+    {
+      "id": "commercial_fees-ar-ar",
+      "question": "كم تبلغ اليوم رسوم البطاقة الممتازة في بنكي؟",
+      "negative_type": "bank_specific",
+      "group_id": "commercial_fees",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "20",
+        "26",
+        "149",
+        "47",
+        "160"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 14.011199993547052
+    },
+    {
+      "id": "commercial_fees-fr-ar",
+      "question": "Combien coûte aujourd'hui la carte premium de ma banque ?",
+      "negative_type": "bank_specific",
+      "group_id": "commercial_fees",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "114",
+        "137",
+        "47",
+        "175",
+        "2"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 12.249999970663339
+    },
+    {
+      "id": "commercial_fees-ar-fr",
+      "question": "كم تبلغ اليوم رسوم البطاقة الممتازة في بنكي؟",
+      "negative_type": "bank_specific",
+      "group_id": "commercial_fees",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "58",
+        "16",
+        "6",
+        "10",
+        "191"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 14.208899985533208
+    },
+    {
+      "id": "current_policy_rate-fr-fr",
+      "question": "Quel est le taux directeur de Bank Al-Maghrib en vigueur aujourd'hui ?",
+      "negative_type": "temporal",
+      "group_id": "current_policy_rate",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "24",
+        "160",
+        "74",
+        "83",
+        "34"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 15.080599987413734
+    },
+    {
+      "id": "current_policy_rate-ar-ar",
+      "question": "ما هو سعر الفائدة الرئيسي لبنك المغرب الجاري به العمل اليوم؟",
+      "negative_type": "temporal",
+      "group_id": "current_policy_rate",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "21",
+        "45",
+        "112",
+        "29",
+        "25"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 11.178799963090569
+    },
+    {
+      "id": "current_policy_rate-fr-ar",
+      "question": "Quel est le taux directeur de Bank Al-Maghrib en vigueur aujourd'hui ?",
+      "negative_type": "temporal",
+      "group_id": "current_policy_rate",
+      "split": "dev",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "137",
+        "47",
+        "13",
+        "112",
+        "21"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 14.777300006244332
+    },
+    {
+      "id": "current_policy_rate-ar-fr",
+      "question": "ما هو سعر الفائدة الرئيسي لبنك المغرب الجاري به العمل اليوم؟",
+      "negative_type": "temporal",
+      "group_id": "current_policy_rate",
+      "split": "dev",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "36",
+        "26",
+        "72",
+        "48",
+        "40"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 16.209799970965832
+    }
+  ],
+  "aggregate": [
+    {
+      "direction": "fr->fr",
+      "n_cases": 8,
+      "n_topic_groups": 8,
+      "n_positive": 5,
+      "n_negative": 3,
+      "recall_at_5": 0.6,
+      "mrr_at_5": 0.31666666666666665,
+      "mean_search_latency_ms": 15.025325010356028,
+      "coverage": 0.625,
+      "positive_answer_rate": 1.0,
+      "negative_abstention_rate": 1.0,
+      "answerability_precision": 1.0,
+      "answerability_balanced_accuracy": 1.0
+    },
+    {
+      "direction": "ar->ar",
+      "n_cases": 8,
+      "n_topic_groups": 8,
+      "n_positive": 5,
+      "n_negative": 3,
+      "recall_at_5": 0.4,
+      "mrr_at_5": 0.4,
+      "mean_search_latency_ms": 13.810212498356123,
+      "coverage": 0.625,
+      "positive_answer_rate": 1.0,
+      "negative_abstention_rate": 1.0,
+      "answerability_precision": 1.0,
+      "answerability_balanced_accuracy": 1.0
+    },
+    {
+      "direction": "fr->ar",
+      "n_cases": 8,
+      "n_topic_groups": 8,
+      "n_positive": 5,
+      "n_negative": 3,
+      "recall_at_5": 0.2,
+      "mrr_at_5": 0.06666666666666667,
+      "mean_search_latency_ms": 14.364812508574687,
+      "coverage": 0.625,
+      "positive_answer_rate": 1.0,
+      "negative_abstention_rate": 1.0,
+      "answerability_precision": 1.0,
+      "answerability_balanced_accuracy": 1.0
+    },
+    {
+      "direction": "ar->fr",
+      "n_cases": 8,
+      "n_topic_groups": 8,
+      "n_positive": 5,
+      "n_negative": 3,
+      "recall_at_5": 0.2,
+      "mrr_at_5": 0.2,
+      "mean_search_latency_ms": 13.710412495129276,
+      "coverage": 0.625,
+      "positive_answer_rate": 1.0,
+      "negative_abstention_rate": 1.0,
+      "answerability_precision": 1.0,
+      "answerability_balanced_accuracy": 1.0
+    },
+    {
+      "direction": "overall",
+      "n_cases": 32,
+      "n_topic_groups": 8,
+      "n_positive": 20,
+      "n_negative": 12,
+      "recall_at_5": 0.35,
+      "mrr_at_5": 0.24583333333333332,
+      "mean_search_latency_ms": 14.227690628104028,
+      "coverage": 0.625,
+      "positive_answer_rate": 1.0,
+      "negative_abstention_rate": 1.0,
+      "answerability_precision": 1.0,
+      "answerability_balanced_accuracy": 1.0
+    },
+    {
+      "direction": "macro_direction",
+      "n_directions": 4,
+      "recall_at_5": 0.35,
+      "mrr_at_5": 0.24583333333333335,
+      "positive_answer_rate": 1.0,
+      "negative_abstention_rate": 1.0,
+      "answerability_balanced_accuracy": 1.0
+    }
+  ],
+  "metadata": {
+    "protocol_version": "bam-10312-pilot-v1",
+    "retriever": {
+      "backend": "local",
+      "article_count": 394,
+      "chunk_count": 969,
+      "chunker": "model-tokenizer-110-overlap-20",
+      "rrf_constant": 60,
+      "candidate_k": 50,
+      "encoder": {
+        "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "repository": "Qdrant/paraphrase-multilingual-MiniLM-L12-v2-onnx-Q",
+        "revision": "faf4aa4225822f3bc6376869cb1164e8e3feedd0",
+        "dimension": 384,
+        "token_limit": 128,
+        "default_chunk_tokens": 110,
+        "license": "Apache-2.0",
+        "fastembed_version": "0.9.0",
+        "files_sha256": {
+          "config.json": "c8ec081fdad2df991bf5abbf18418fec7a5cdaa421f60ffb060a30040b8c376f",
+          "model_optimized.onnx": "634d0f66c29dc934c8fa72b8a4fe91dd4d420a22f1d82a241058d4316e659a99",
+          "special_tokens_map.json": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835",
+          "tokenizer.json": "fa685fc160bbdbab64058d4fc91b60e62d207e8dc60b9af5c002c5ab946ded00",
+          "tokenizer_config.json": "0666eebf692422757e1dddf3c9fb1ded73ba3dc726c5828671fc89e45bf3609f"
+        }
+      },
+      "index_fingerprint": "8c52592ed43cd73dd268e8b0b0912491b74d632d77d2e18a5559096077c20fbf"
+    },
+    "sources": [
+      {
+        "source_id": "bam-10312-ar",
+        "language": "ar",
+        "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+        "version_date": "2022-03-31",
+        "pdf_sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+      },
+      {
+        "source_id": "bam-10312-fr",
+        "language": "fr",
+        "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+        "version_date": "2022-03-31",
+        "pdf_sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+      }
+    ],
+    "mode": "hybrid",
+    "top_k": 5,
+    "cases_sha256": "635e1d96076b829f0df89c17a81e844b22d4ee08b170b0c34f0af9feb104d37d",
+    "n_cases": 32,
+    "n_topic_groups": 8,
+    "splits": [
+      "dev"
+    ],
+    "abstention_evaluated": true,
+    "unit": "unique article within the requested source language",
+    "uncertainty": "descriptive; translations share a topic and are not independent",
+    "latency_scope": "search only; excludes model/index loading and answer generation",
+    "faithfulness_evaluated": false,
+    "policy": {
+      "lexical_threshold": 0.2,
+      "semantic_threshold": 0.65,
+      "hybrid_threshold": 0.6,
+      "version_date": "2022-03-31"
+    },
+    "policy_status": "development_calibrated"
+  }
+}

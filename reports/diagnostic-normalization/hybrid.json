@@ -1,0 +1,933 @@
+{
+  "rows": [
+    {
+      "id": "mourabaha-fr-fr",
+      "question": "Comment le prix de vente d'un bien est-il construit dans un financement par Mourabaha ?",
+      "negative_type": null,
+      "group_id": "mourabaha",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "58"
+      ],
+      "retrieved_article_ids": [
+        "58",
+        "4",
+        "120",
+        "3",
+        "59"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 25.666300000011688
+    },
+    {
+      "id": "mourabaha-ar-ar",
+      "question": "كيف يتم تحديد ثمن بيع مال في تمويل عن طريق المرابحة؟",
+      "negative_type": null,
+      "group_id": "mourabaha",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "58"
+      ],
+      "retrieved_article_ids": [
+        "4",
+        "58",
+        "120",
+        "152",
+        "5"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.5,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.807899999956135
+    },
+    {
+      "id": "mourabaha-fr-ar",
+      "question": "Comment le prix de vente d'un bien est-il construit dans un financement par Mourabaha ?",
+      "negative_type": null,
+      "group_id": "mourabaha",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "58"
+      ],
+      "retrieved_article_ids": [
+        "56",
+        "2",
+        "18",
+        "152",
+        "58"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.2,
+      "predicted_answerable": false,
+      "search_latency_ms": 23.788599999988946
+    },
+    {
+      "id": "mourabaha-ar-fr",
+      "question": "كيف يتم تحديد ثمن بيع مال في تمويل عن طريق المرابحة؟",
+      "negative_type": null,
+      "group_id": "mourabaha",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "58"
+      ],
+      "retrieved_article_ids": [
+        "2",
+        "129",
+        "17",
+        "4",
+        "56"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 17.738499999950363
+    },
+    {
+      "id": "account_refusal-fr-fr",
+      "question": "Je n'ai aucun compte à vue et plusieurs banques refusent de m'en ouvrir un. Quel recours la loi prévoit-elle et sous quelles conditions ?",
+      "negative_type": null,
+      "group_id": "account_refusal",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "150"
+      ],
+      "retrieved_article_ids": [
+        "150",
+        "12",
+        "151",
+        "67",
+        "61"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": false,
+      "search_latency_ms": 36.276599999837345
+    },
+    {
+      "id": "account_refusal-ar-ar",
+      "question": "لا أتوفر على حساب تحت الطلب وقد رفضت عدة بنوك فتحه لي. ما الإجراء الذي يتيحه القانون وما شروطه؟",
+      "negative_type": null,
+      "group_id": "account_refusal",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "150"
+      ],
+      "retrieved_article_ids": [
+        "150",
+        "151",
+        "175",
+        "187",
+        "12"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 30.4567999999108
+    },
+    {
+      "id": "account_refusal-fr-ar",
+      "question": "Je n'ai aucun compte à vue et plusieurs banques refusent de m'en ouvrir un. Quel recours la loi prévoit-elle et sous quelles conditions ?",
+      "negative_type": null,
+      "group_id": "account_refusal",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "150"
+      ],
+      "retrieved_article_ids": [
+        "150",
+        "137",
+        "144",
+        "13",
+        "168"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 30.565699999897333
+    },
+    {
+      "id": "account_refusal-ar-fr",
+      "question": "لا أتوفر على حساب تحت الطلب وقد رفضت عدة بنوك فتحه لي. ما الإجراء الذي يتيحه القانون وما شروطه؟",
+      "negative_type": null,
+      "group_id": "account_refusal",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "150"
+      ],
+      "retrieved_article_ids": [
+        "175",
+        "150",
+        "26",
+        "68",
+        "137"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.5,
+      "predicted_answerable": true,
+      "search_latency_ms": 34.95580000003429
+    },
+    {
+      "id": "account_agreement-fr-fr",
+      "question": "Lorsqu'un client ouvre un compte bancaire, faut-il un accord écrit et doit-il en recevoir un exemplaire ?",
+      "negative_type": null,
+      "group_id": "account_agreement",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "151"
+      ],
+      "retrieved_article_ids": [
+        "151",
+        "17",
+        "150",
+        "155",
+        "16"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 26.736099999880025
+    },
+    {
+      "id": "account_agreement-ar-ar",
+      "question": "عند فتح حساب بنكي، هل يجب إبرام اتفاق مكتوب وتسليم نسخة منه إلى الزبون؟",
+      "negative_type": null,
+      "group_id": "account_agreement",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "151"
+      ],
+      "retrieved_article_ids": [
+        "151",
+        "150",
+        "2",
+        "34",
+        "53"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 25.59449999989738
+    },
+    {
+      "id": "account_agreement-fr-ar",
+      "question": "Lorsqu'un client ouvre un compte bancaire, faut-il un accord écrit et doit-il en recevoir un exemplaire ?",
+      "negative_type": null,
+      "group_id": "account_agreement",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "151"
+      ],
+      "retrieved_article_ids": [
+        "151",
+        "150",
+        "65",
+        "58",
+        "5"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 25.94279999993887
+    },
+    {
+      "id": "account_agreement-ar-fr",
+      "question": "عند فتح حساب بنكي، هل يجب إبرام اتفاق مكتوب وتسليم نسخة منه إلى الزبون؟",
+      "negative_type": null,
+      "group_id": "account_agreement",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "151"
+      ],
+      "retrieved_article_ids": [
+        "151",
+        "155",
+        "17",
+        "150",
+        "16"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 23.830800000041563
+    },
+    {
+      "id": "branch_closure-fr-fr",
+      "question": "Combien de temps avant la fermeture d'une agence ses clients doivent-ils être avertis, et peuvent-ils déplacer leurs fonds sans frais ?",
+      "negative_type": null,
+      "group_id": "branch_closure",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "155"
+      ],
+      "retrieved_article_ids": [
+        "155",
+        "152",
+        "2",
+        "14",
+        "114"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 33.281400000078065
+    },
+    {
+      "id": "branch_closure-ar-ar",
+      "question": "قبل إغلاق وكالة بنكية، ما مهلة إخبار الزبناء وهل يمكنهم تحويل أموالهم دون مصاريف؟",
+      "negative_type": null,
+      "group_id": "branch_closure",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "155"
+      ],
+      "retrieved_article_ids": [
+        "155",
+        "126",
+        "152",
+        "178",
+        "2"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 26.041300000088086
+    },
+    {
+      "id": "branch_closure-fr-ar",
+      "question": "Combien de temps avant la fermeture d'une agence ses clients doivent-ils être avertis, et peuvent-ils déplacer leurs fonds sans frais ?",
+      "negative_type": null,
+      "group_id": "branch_closure",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "155"
+      ],
+      "retrieved_article_ids": [
+        "144",
+        "152",
+        "160",
+        "89",
+        "101"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 36.49120000000039
+    },
+    {
+      "id": "branch_closure-ar-fr",
+      "question": "قبل إغلاق وكالة بنكية، ما مهلة إخبار الزبناء وهل يمكنهم تحويل أموالهم دون مصاريف؟",
+      "negative_type": null,
+      "group_id": "branch_closure",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "155"
+      ],
+      "retrieved_article_ids": [
+        "137",
+        "152",
+        "17",
+        "155",
+        "175"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.25,
+      "predicted_answerable": true,
+      "search_latency_ms": 27.390299999979106
+    },
+    {
+      "id": "complaints_system-fr-fr",
+      "question": "Que doit mettre en place une banque pour traiter les réclamations de ses clients ?",
+      "negative_type": null,
+      "group_id": "complaints_system",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "157"
+      ],
+      "retrieved_article_ids": [
+        "157",
+        "64",
+        "58",
+        "158",
+        "155"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 16.124300000001313
+    },
+    {
+      "id": "complaints_system-ar-ar",
+      "question": "ما الآلية التي يتعين على البنك وضعها لمعالجة شكايات زبنائه؟",
+      "negative_type": null,
+      "group_id": "complaints_system",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "157"
+      ],
+      "retrieved_article_ids": [
+        "104",
+        "59",
+        "77",
+        "157",
+        "64"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.25,
+      "predicted_answerable": true,
+      "search_latency_ms": 23.533000000043103
+    },
+    {
+      "id": "complaints_system-fr-ar",
+      "question": "Que doit mettre en place une banque pour traiter les réclamations de ses clients ?",
+      "negative_type": null,
+      "group_id": "complaints_system",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "157"
+      ],
+      "retrieved_article_ids": [
+        "160",
+        "60",
+        "58",
+        "70",
+        "159"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.502899999930378
+    },
+    {
+      "id": "complaints_system-ar-fr",
+      "question": "ما الآلية التي يتعين على البنك وضعها لمعالجة شكايات زبنائه؟",
+      "negative_type": null,
+      "group_id": "complaints_system",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "157"
+      ],
+      "retrieved_article_ids": [
+        "157",
+        "158",
+        "64",
+        "58",
+        "26"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 22.912800000085554
+    },
+    {
+      "id": "complaint_deadline-fr-fr",
+      "question": "La banque doit-elle répondre à ma réclamation sous quarante jours ouvrés, et dans quel texte ce délai figure-t-il ?",
+      "negative_type": "related_missing_circular",
+      "group_id": "complaint_deadline",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "174",
+        "155",
+        "93",
+        "152",
+        "49"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 33.12519999985852
+    },
+    {
+      "id": "complaint_deadline-ar-ar",
+      "question": "هل يجب على البنك الرد على شكايتي خلال أربعين يوم عمل، وفي أي نص ورد هذا الأجل؟",
+      "negative_type": "related_missing_circular",
+      "group_id": "complaint_deadline",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "175",
+        "174",
+        "144",
+        "59",
+        "104"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 28.207500000007713
+    },
+    {
+      "id": "complaint_deadline-fr-ar",
+      "question": "La banque doit-elle répondre à ma réclamation sous quarante jours ouvrés, et dans quel texte ce délai figure-t-il ?",
+      "negative_type": "related_missing_circular",
+      "group_id": "complaint_deadline",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "174",
+        "52",
+        "144",
+        "89",
+        "175"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 37.551299999904586
+    },
+    {
+      "id": "complaint_deadline-ar-fr",
+      "question": "هل يجب على البنك الرد على شكايتي خلال أربعين يوم عمل، وفي أي نص ورد هذا الأجل؟",
+      "negative_type": "related_missing_circular",
+      "group_id": "complaint_deadline",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "155",
+        "52",
+        "146",
+        "37",
+        "26"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 27.93880000012905
+    },
+    {
+      "id": "current_cet1-fr-fr",
+      "question": "Quel est le minimum réglementaire du ratio CET1 applicable aux banques marocaines en octobre 2026 ?",
+      "negative_type": "related_missing_circular_temporal",
+      "group_id": "current_cet1",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "36",
+        "26",
+        "173",
+        "136",
+        "58"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 28.52020000000266
+    },
+    {
+      "id": "current_cet1-ar-ar",
+      "question": "ما الحد الأدنى التنظيمي لنسبة رأس المال الأساسي من الفئة الأولى المطبق على البنوك المغربية في أكتوبر 2026؟",
+      "negative_type": "related_missing_circular_temporal",
+      "group_id": "current_cet1",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "173",
+        "93",
+        "34",
+        "23",
+        "37"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 32.44599999993625
+    },
+    {
+      "id": "current_cet1-fr-ar",
+      "question": "Quel est le minimum réglementaire du ratio CET1 applicable aux banques marocaines en octobre 2026 ?",
+      "negative_type": "related_missing_circular_temporal",
+      "group_id": "current_cet1",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "34",
+        "174",
+        "175",
+        "45",
+        "97"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 27.642399999876943
+    },
+    {
+      "id": "current_cet1-ar-fr",
+      "question": "ما الحد الأدنى التنظيمي لنسبة رأس المال الأساسي من الفئة الأولى المطبق على البنوك المغربية في أكتوبر 2026؟",
+      "negative_type": "related_missing_circular_temporal",
+      "group_id": "current_cet1",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "36",
+        "26",
+        "23",
+        "39",
+        "21"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 27.995099999998274
+    },
+    {
+      "id": "exchange_prediction-fr-fr",
+      "question": "Quel sera le cours EUR/MAD demain ?",
+      "negative_type": "prediction",
+      "group_id": "exchange_prediction",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "174",
+        "150",
+        "34",
+        "122",
+        "93"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 13.93780000012157
+    },
+    {
+      "id": "exchange_prediction-ar-ar",
+      "question": "كم سيكون سعر صرف اليورو مقابل الدرهم غدا؟",
+      "negative_type": "prediction",
+      "group_id": "exchange_prediction",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "4",
+        "160",
+        "93",
+        "152",
+        "175"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 15.562499999987267
+    },
+    {
+      "id": "exchange_prediction-fr-ar",
+      "question": "Quel sera le cours EUR/MAD demain ?",
+      "negative_type": "prediction",
+      "group_id": "exchange_prediction",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "13",
+        "93",
+        "123",
+        "87",
+        "114"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 17.138400000021647
+    },
+    {
+      "id": "exchange_prediction-ar-fr",
+      "question": "كم سيكون سعر صرف اليورو مقابل الدرهم غدا؟",
+      "negative_type": "prediction",
+      "group_id": "exchange_prediction",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "6",
+        "58",
+        "188",
+        "16",
+        "176"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 14.845400000012887
+    }
+  ],
+  "aggregate": [
+    {
+      "direction": "fr->fr",
+      "n_cases": 8,
+      "n_topic_groups": 8,
+      "n_positive": 5,
+      "n_negative": 3,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 1.0,
+      "mean_search_latency_ms": 26.7084874999739,
+      "coverage": 0.625,
+      "positive_answer_rate": 0.8,
+      "negative_abstention_rate": 0.6666666666666666,
+      "answerability_precision": 0.8,
+      "answerability_balanced_accuracy": 0.7333333333333334
+    },
+    {
+      "direction": "ar->ar",
+      "n_cases": 8,
+      "n_topic_groups": 8,
+      "n_positive": 5,
+      "n_negative": 3,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.75,
+      "mean_search_latency_ms": 25.08118749997834,
+      "coverage": 0.625,
+      "positive_answer_rate": 1.0,
+      "negative_abstention_rate": 1.0,
+      "answerability_precision": 1.0,
+      "answerability_balanced_accuracy": 1.0
+    },
+    {
+      "direction": "fr->ar",
+      "n_cases": 8,
+      "n_topic_groups": 8,
+      "n_positive": 5,
+      "n_negative": 3,
+      "recall_at_5": 0.6,
+      "mrr_at_5": 0.44,
+      "mean_search_latency_ms": 27.202912499944887,
+      "coverage": 0.625,
+      "positive_answer_rate": 0.8,
+      "negative_abstention_rate": 0.6666666666666666,
+      "answerability_precision": 0.8,
+      "answerability_balanced_accuracy": 0.7333333333333334
+    },
+    {
+      "direction": "ar->fr",
+      "n_cases": 8,
+      "n_topic_groups": 8,
+      "n_positive": 5,
+      "n_negative": 3,
+      "recall_at_5": 0.8,
+      "mrr_at_5": 0.55,
+      "mean_search_latency_ms": 24.700937500028886,
+      "coverage": 0.625,
+      "positive_answer_rate": 1.0,
+      "negative_abstention_rate": 1.0,
+      "answerability_precision": 1.0,
+      "answerability_balanced_accuracy": 1.0
+    },
+    {
+      "direction": "overall",
+      "n_cases": 32,
+      "n_topic_groups": 8,
+      "n_positive": 20,
+      "n_negative": 12,
+      "recall_at_5": 0.85,
+      "mrr_at_5": 0.685,
+      "mean_search_latency_ms": 25.923381249981503,
+      "coverage": 0.625,
+      "positive_answer_rate": 0.9,
+      "negative_abstention_rate": 0.8333333333333334,
+      "answerability_precision": 0.9,
+      "answerability_balanced_accuracy": 0.8666666666666667
+    },
+    {
+      "direction": "macro_direction",
+      "n_directions": 4,
+      "recall_at_5": 0.85,
+      "mrr_at_5": 0.685,
+      "positive_answer_rate": 0.9,
+      "negative_abstention_rate": 0.8333333333333333,
+      "answerability_balanced_accuracy": 0.8666666666666667
+    }
+  ],
+  "metadata": {
+    "protocol_version": "bam-10312-pilot-v1",
+    "retriever": {
+      "backend": "local",
+      "article_count": 394,
+      "chunk_count": 728,
+      "chunker": "model-tokenizer-110-overlap-20",
+      "rrf_constant": 60,
+      "candidate_k": 50,
+      "encoder": {
+        "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "repository": "Qdrant/paraphrase-multilingual-MiniLM-L12-v2-onnx-Q",
+        "revision": "faf4aa4225822f3bc6376869cb1164e8e3feedd0",
+        "dimension": 384,
+        "token_limit": 128,
+        "default_chunk_tokens": 110,
+        "license": "Apache-2.0",
+        "fastembed_version": "0.9.0",
+        "files_sha256": {
+          "config.json": "c8ec081fdad2df991bf5abbf18418fec7a5cdaa421f60ffb060a30040b8c376f",
+          "model_optimized.onnx": "634d0f66c29dc934c8fa72b8a4fe91dd4d420a22f1d82a241058d4316e659a99",
+          "special_tokens_map.json": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835",
+          "tokenizer.json": "fa685fc160bbdbab64058d4fc91b60e62d207e8dc60b9af5c002c5ab946ded00",
+          "tokenizer_config.json": "0666eebf692422757e1dddf3c9fb1ded73ba3dc726c5828671fc89e45bf3609f"
+        },
+        "preprocessing": "nfkc-no-tatweel-bidi-v1"
+      },
+      "index_fingerprint": "254aa347f46b0376b8cd813c8700a08b7d0865e3158ad7c35259eb1241269e07"
+    },
+    "sources": [
+      {
+        "source_id": "bam-10312-ar",
+        "language": "ar",
+        "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+        "version_date": "2022-03-31",
+        "pdf_sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+      },
+      {
+        "source_id": "bam-10312-fr",
+        "language": "fr",
+        "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+        "version_date": "2022-03-31",
+        "pdf_sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+      }
+    ],
+    "mode": "hybrid",
+    "top_k": 5,
+    "cases_sha256": "6567af72e4473920ef547cbd84adb74f18b6aa6412cdc621665d2cf2deb34909",
+    "n_cases": 32,
+    "n_topic_groups": 8,
+    "splits": [
+      "test"
+    ],
+    "abstention_evaluated": true,
+    "unit": "unique article within the requested source language",
+    "uncertainty": "descriptive; translations share a topic and are not independent",
+    "latency_scope": "search only; excludes model/index loading and answer generation",
+    "faithfulness_evaluated": false,
+    "analysis_status": "exploratory_after_initial_test",
+    "policy": {
+      "lexical_threshold": 0.25,
+      "semantic_threshold": 0.65,
+      "hybrid_threshold": 0.6,
+      "version_date": "2022-03-31"
+    },
+    "policy_status": "development_calibrated"
+  }
+}

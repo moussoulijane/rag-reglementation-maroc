@@ -1,0 +1,132 @@
+{
+  "protocol_id": "generation-v3-development-2026-10-18",
+  "fixed_at_utc": "2026-10-18T22:22:56.938354+00:00",
+  "scope": "Same six previously seen development cases after a generation-schema order correction. Not held-out evaluation; no aggregate faithfulness claim. Prior V2 failures are unchanged.",
+  "model": {
+    "name": "qwen2.5:7b",
+    "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "quantization": "Q4_K_M",
+    "download_required": false
+  },
+  "ollama_version": "0.40.5",
+  "conditions": {
+    "backend": "local",
+    "encoder": "multilingual",
+    "preprocessing": "normalized",
+    "policy_path": "evaluation/abstention_policy.json",
+    "policy_sha256": "0b421c5c21a5a8a4be533af59a6fbd7ea13ed71e57e0f102c917fc84677ffa7b",
+    "top_k": 5,
+    "evidence_expansion": "five anchors; introductions0/1 of top3; neighbours; max12",
+    "generation_options": {
+      "temperature": 0,
+      "seed": 7,
+      "num_ctx": 4096,
+      "num_predict": 900
+    },
+    "inference_timeout_seconds": 180,
+    "preload_timeout_seconds": 360,
+    "keep_alive": "15m",
+    "preload_endpoint": "/api/generate",
+    "parallel_requests": 1,
+    "docker_concurrent": false,
+    "case_retries": 0,
+    "source_text_in_public_report": false
+  },
+  "initial_resources": {
+    "system_memory_mb": 24283.9,
+    "free_memory_mb": 8518.1,
+    "cpu": "Intel Core i5-12450HX,8cores12threads",
+    "gpu": "NVIDIA RTX4060 Laptop,8GiB per Ollama",
+    "ollama_available_vram_gib": 6.9,
+    "loaded_models": [],
+    "docker_or_vmmem_processes_observed": false
+  },
+  "prior_timeout_diagnosis": {
+    "log_timestamp": "2026-10-17T02:51:52Z",
+    "observation": "Client connection closed before llama-server finished loading; load aborted with context canceled. This establishes cold-load cancellation, not an out-of-memory cause.",
+    "official_preload_reference": "https://docs.ollama.com/faq#how-can-i-preload-a-model-into-ollama-to-get-faster-response-times"
+  },
+  "historical_sha256": {
+    "reports/ollama_smoke.json": "573d358f2da04c8fe6a3d4330113fe0e50e46c5eade10741534d47624b93087b",
+    "reports/ollama_smoke_v1.json": "6c0c947fe258ac6a2d845c6b349980e00311b0f4ffc88c44dfc2a8a856808631",
+    "outputs/ollama_smoke_raw.json": "2bde66513a008ca118dbde2e1ef13d31c04c0a0a8c11278b4e7470e6e427a910",
+    "outputs/ollama_smoke_raw_v1.json": "def9eea69a497f9895cf10d7b2db79a89a61eea89172e6ae390e2f7f1f762cfb",
+    "reports/generation-v2/protocol.json": "85dcab0a147f34a09db247deab1432553b2b099c77e70c4de0a28bbedbc85737",
+    "reports/generation-v2/results.json": "e3a3eca8bf4698e7798d7c9be2aa77f22c62c66531954ed4d2b4bbd009ab74c6",
+    "outputs/generation-v2/raw.json": "bafc8413421f84edced08e47ad6188c390fa7c8346a6326599574aca07bf570c",
+    "reports/generation-development-controls/protocol.json": "e1a24a05380256fc380a789bf1ae8fb94592a4b5b302a876084d99cd152247d7",
+    "reports/generation-development-controls/results.json": "045aac60c0e88a521dc4d1ee994746082158b5303f82b6e2d9e329b11b0c5a36",
+    "outputs/generation-development-controls/raw.json": "c2715749e04e5f32160d676c24c50a1ddafd4f094dd675eb8c4e2ba7b7a3d081",
+    "src/rag_reglementation_maroc/answering.py": "96bc08c7c07a756f3738633e49788075363d42c8c555d51bfffe5abec05d0f2d"
+  },
+  "cases": [
+    {
+      "id": "generic-fr",
+      "case_type": "generic_previous_exact",
+      "language": "fr",
+      "mode": "hybrid",
+      "question": "Qui accorde l'agrément avant de commencer une activité bancaire ?",
+      "expected_article_ids": [
+        "34"
+      ]
+    },
+    {
+      "id": "generic-ar",
+      "case_type": "generic_previous_exact",
+      "language": "ar",
+      "mode": "hybrid",
+      "question": "من يمنح الاعتماد قبل مزاولة النشاط البنكي؟",
+      "expected_article_ids": [
+        "34"
+      ]
+    },
+    {
+      "id": "targeted151-fr",
+      "case_type": "targeted_previous_exact",
+      "language": "fr",
+      "mode": "bm25",
+      "question": "Dans l'édition du 31 mars 2022, que prévoit l'article 151 sur la convention écrite à l'ouverture d'un compte et la copie remise au client ?",
+      "expected_article_ids": [
+        "151"
+      ]
+    },
+    {
+      "id": "targeted151-ar",
+      "case_type": "targeted_previous_exact",
+      "language": "ar",
+      "mode": "bm25",
+      "question": "في نسخة 31 مارس 2022، ماذا تنص المادة 151 بخصوص الاتفاقية المكتوبة عند فتح الحساب وتسليم نسخة للعميل؟",
+      "expected_article_ids": [
+        "151"
+      ]
+    },
+    {
+      "id": "lookup151-fr",
+      "case_type": "direct_article_lookup_control",
+      "language": "fr",
+      "mode": "bm25",
+      "question": "article 151",
+      "expected_article_ids": [
+        "151"
+      ]
+    },
+    {
+      "id": "lookup151-ar",
+      "case_type": "direct_article_lookup_control",
+      "language": "ar",
+      "mode": "bm25",
+      "question": "المادة 151",
+      "expected_article_ids": [
+        "151"
+      ]
+    }
+  ],
+  "change_from_v2": "Only schema properties/required order: claims before abstain. JSON key set, validator, prompt, model, options, retrieval, encoder, chunks, gates and thresholds unchanged.",
+  "selection_basis": "Correction selected using a separately frozen synthetic development-control contrast, not banking outcomes from this V3 batch.",
+  "review_grid": {
+    "soutenu": "Every material part of the accepted claim is supported by the exact cited passage.",
+    "partiel": "The citation supports only part of the claim or omits a material condition.",
+    "incorrect": "The cited evidence contradicts or does not justify the claim; factual truth elsewhere is not sufficient."
+  },
+  "review_scope": "Internal documentary review, not independent legal annotation. Public per-claim verdict and original paraphrased reason, no corpus quotes; claim/quote/raw review only in ignored outputs."
+}

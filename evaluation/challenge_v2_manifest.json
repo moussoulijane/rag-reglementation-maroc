@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "evaluation_id": "bam-10312-new-topics-v2",
+  "analysis_status": "prospective_internal_challenge",
+  "frozen_at_utc": "2026-10-18T22:24:23.022437+00:00",
+  "resources": {
+    "questions": {
+      "path": "evaluation/challenge_v2.json",
+      "sha256": "727e29c69c48b581edb490ccec5ab735c3919ff69bf8fb52e1629ebd2862c802"
+    },
+    "calibration_questions": {
+      "path": "evaluation/questions.json",
+      "sha256": "36b22d4bea11c8a9c19abc387e9aa5f49d1f780ed4db9645e4e762d4724a7d83"
+    },
+    "policy": {
+      "path": "evaluation/abstention_policy.json",
+      "sha256": "0b421c5c21a5a8a4be533af59a6fbd7ea13ed71e57e0f102c917fc84677ffa7b"
+    },
+    "annotation_audit": {
+      "path": "evaluation/challenge_v2_audit.json",
+      "sha256": "57b863f1408ed26dae657739f6b54d5330d84b8de03f4f45ab858728ddaa412f"
+    },
+    "evaluation_protocol": {
+      "path": "docs/CHALLENGE_V2.md",
+      "sha256": "21f66b8bb55b71852466060bbe54125d3b9b84e2a43161dfbd1eb245f10fbd37"
+    }
+  },
+  "source_files_sha256": {
+    "src/rag_reglementation_maroc/__init__.py": "5e8a236f36f0a152c71f0954239b59a717cd5e64818e61bb9e8978466b105935",
+    "src/rag_reglementation_maroc/__main__.py": "f69d8e3466f64233d846d21e88eea7f331f9dc43ec11f6d79f6453da1da17642",
+    "src/rag_reglementation_maroc/answering.py": "96bc08c7c07a756f3738633e49788075363d42c8c555d51bfffe5abec05d0f2d",
+    "src/rag_reglementation_maroc/api.py": "cc8a7d3121405b58f7d8a4557941f17e52945cc3689adbd828ed9dcba575bd83",
+    "src/rag_reglementation_maroc/catalog.py": "921d83b1f06acdcfb90c123dc78fdd39c80e1dc923e3641a5d9a84ebfc0773ee",
+    "src/rag_reglementation_maroc/chunking.py": "ca50f239c1bfa8f9aad049e5b2c92c6caf0294f37a95f9a2edecca88d683e91f",
+    "src/rag_reglementation_maroc/cli.py": "9bfc04ade2c9da91611f179617600b1b101af3a7562b250d4c80d0d2061af0dc",
+    "src/rag_reglementation_maroc/embeddings.py": "cc6bb817454e8aea03060ffa08209a7e9846b11a7a391ae007102610d2d1b856",
+    "src/rag_reglementation_maroc/evaluation.py": "07fd6c89f0a38a9a29eebb29dec69232aec2baf69e58d93aca1d81c276ed0be6",
+    "src/rag_reglementation_maroc/evaluation_manifest.py": "c134504e1dbd3d0f8c5b614395a69734deceeed70cc205676ce16496138d2de9",
+    "src/rag_reglementation_maroc/ingestion.py": "85283474cedb3592de4966e384ddade51af7d2e0e1dd294e000b91da7309cc7f",
+    "src/rag_reglementation_maroc/models.py": "9290dfd09678c55455e975442dadfc33ae1e2d059fd677ed6144e1ba8d14d745",
+    "src/rag_reglementation_maroc/opensearch_backend.py": "6637132540a5d3ed9716f04b734ae28f42915a93551e271c2d55479559e1bdd4",
+    "src/rag_reglementation_maroc/retrieval.py": "001cacea6f0d44ecc1d40b23984488eec100e68231080f10031aa63c23864341",
+    "src/rag_reglementation_maroc/runtime.py": "545aca8b6f39da0ad60459a4c1679985fb0232bea5a2dc9c18d54c24d079a7ef",
+    "src/rag_reglementation_maroc/text.py": "ec94ed27e8485266d1e46c942752b8000df6e535726fa49ab06ca76485fe159e"
+  },
+  "cases_sha256": "ae92d94c0316bf3b68320b34e6e5a514c2cc4b4a6817334713e5d5031a9929cb",
+  "calibration_benchmark_sha256": "0e7af0c426a6838683c6d86c2d766f22e7aaf84ab532c2bee4db391a52218a9b",
+  "retriever_signature": "6b9c0aaa8c300d7d8984fa7073a14c54a20ff560704c318760f6d86abe3b00e2",
+  "modes": [
+    "bm25",
+    "hybrid",
+    "semantic"
+  ],
+  "top_k": 5,
+  "groups": [
+    "v2_n01_cyber_incident_deadline",
+    "v2_n02_recovery_plan_template",
+    "v2_n03_personal_mortgage_quote",
+    "v2_n04_vat_banking_fees_2026",
+    "v2_n05_bank_swift_directory",
+    "v2_n06_mobile_access_recovery",
+    "v2_n07_deposit_guarantee_numeric_cap",
+    "v2_n08_open_banking_api_contract",
+    "v2_p01_payment_funds_liquidation",
+    "v2_p02_legal_forms",
+    "v2_p03_paid_capital",
+    "v2_p04_mandatory_identity_mentions",
+    "v2_p05_competition_review",
+    "v2_p06_financial_statements_calendar",
+    "v2_p07_board_committees",
+    "v2_p08_aml_internal_vigilance",
+    "v2_p09_statutory_auditors",
+    "v2_p10_dormant_accounts",
+    "v2_p11_monetary_sanction_notice",
+    "v2_p12_rating_agency_confidentiality"
+  ],
+  "n_cases": 80,
+  "policy_transfer": "Original development thresholds reused without recalibration.",
+  "annotation_review": "Internal review without retrieval rankings; no external legal adjudication.",
+  "limits": "Local prospective record, not external preregistration or tamper-proof attestation. Mechanical disjointness cannot prove semantic novelty or annotation correctness. Translated directions are correlated. No generated faithfulness evaluation."
+}

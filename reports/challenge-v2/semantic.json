@@ -1,0 +1,2107 @@
+{
+  "rows": [
+    {
+      "id": "v2_p01_payment_funds_liquidation_fr_fr",
+      "question": "Si un établissement de paiement est liquidé, à qui doivent revenir les fonds des comptes de ses clients et ses propres créanciers peuvent-ils les saisir ?",
+      "negative_type": null,
+      "group_id": "v2_p01_payment_funds_liquidation",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "17"
+      ],
+      "retrieved_article_ids": [
+        "17",
+        "2",
+        "129",
+        "166",
+        "137"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.860399999994115
+    },
+    {
+      "id": "v2_p01_payment_funds_liquidation_ar_ar",
+      "question": "إذا خضعت مؤسسة أداء للتصفية، لمن ترصد أموال حسابات زبنائها وهل يستطيع دائنو المؤسسة حجزها؟",
+      "negative_type": null,
+      "group_id": "v2_p01_payment_funds_liquidation",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "17"
+      ],
+      "retrieved_article_ids": [
+        "17",
+        "2",
+        "117",
+        "166",
+        "152"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 17.400699999939206
+    },
+    {
+      "id": "v2_p01_payment_funds_liquidation_fr_ar",
+      "question": "Si un établissement de paiement est liquidé, à qui doivent revenir les fonds des comptes de ses clients et ses propres créanciers peuvent-ils les saisir ?",
+      "negative_type": null,
+      "group_id": "v2_p01_payment_funds_liquidation",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "17"
+      ],
+      "retrieved_article_ids": [
+        "2",
+        "67",
+        "129",
+        "131",
+        "166"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 19.065399999931287
+    },
+    {
+      "id": "v2_p01_payment_funds_liquidation_ar_fr",
+      "question": "إذا خضعت مؤسسة أداء للتصفية، لمن ترصد أموال حسابات زبنائها وهل يستطيع دائنو المؤسسة حجزها؟",
+      "negative_type": null,
+      "group_id": "v2_p01_payment_funds_liquidation",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "17"
+      ],
+      "retrieved_article_ids": [
+        "139",
+        "137",
+        "152",
+        "155",
+        "136"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 28.31730000002608
+    },
+    {
+      "id": "v2_p02_legal_forms_fr_fr",
+      "question": "En dehors d'un statut légal particulier, quelles formes juridiques peut prendre un établissement de crédit ayant son siège au Maroc, et les mêmes choix valent-ils pour un établissement de paiement ?",
+      "negative_type": null,
+      "group_id": "v2_p02_legal_forms",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "35"
+      ],
+      "retrieved_article_ids": [
+        "35",
+        "48",
+        "72",
+        "36",
+        "26"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 33.846999999923355
+    },
+    {
+      "id": "v2_p02_legal_forms_ar_ar",
+      "question": "عند غياب نظام قانوني خاص، ما الأشكال القانونية المتاحة لمؤسسة ائتمان مقرها بالمغرب، وهل هي نفسها المتاحة لمؤسسة أداء؟",
+      "negative_type": null,
+      "group_id": "v2_p02_legal_forms",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "35"
+      ],
+      "retrieved_article_ids": [
+        "39",
+        "41",
+        "34",
+        "40",
+        "35"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.2,
+      "predicted_answerable": true,
+      "search_latency_ms": 19.388499999990927
+    },
+    {
+      "id": "v2_p02_legal_forms_fr_ar",
+      "question": "En dehors d'un statut légal particulier, quelles formes juridiques peut prendre un établissement de crédit ayant son siège au Maroc, et les mêmes choix valent-ils pour un établissement de paiement ?",
+      "negative_type": null,
+      "group_id": "v2_p02_legal_forms",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "35"
+      ],
+      "retrieved_article_ids": [
+        "39",
+        "41",
+        "40",
+        "34",
+        "26"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 21.95640000002186
+    },
+    {
+      "id": "v2_p02_legal_forms_ar_fr",
+      "question": "عند غياب نظام قانوني خاص، ما الأشكال القانونية المتاحة لمؤسسة ائتمان مقرها بالمغرب، وهل هي نفسها المتاحة لمؤسسة أداء؟",
+      "negative_type": null,
+      "group_id": "v2_p02_legal_forms",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "35"
+      ],
+      "retrieved_article_ids": [
+        "35",
+        "26",
+        "39",
+        "72",
+        "46"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 17.254200000024866
+    },
+    {
+      "id": "v2_p03_paid_capital_fr_fr",
+      "question": "Une institution de crédit dont le siège est au Maroc peut-elle justifier son capital par de simples promesses d'apport, ou les sommes doivent-elles déjà être versées ?",
+      "negative_type": null,
+      "group_id": "v2_p03_paid_capital",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "36"
+      ],
+      "retrieved_article_ids": [
+        "36",
+        "39",
+        "40",
+        "35",
+        "26"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 20.04039999997076
+    },
+    {
+      "id": "v2_p03_paid_capital_ar_ar",
+      "question": "هل يمكن لمؤسسة ائتمان مقرها بالمغرب إثبات رأس مالها بمجرد وعود بالمساهمة، أم يجب أن تكون المبالغ قد دفعت فعلا؟",
+      "negative_type": null,
+      "group_id": "v2_p03_paid_capital",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "36"
+      ],
+      "retrieved_article_ids": [
+        "40",
+        "137",
+        "9",
+        "36",
+        "39"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.25,
+      "predicted_answerable": true,
+      "search_latency_ms": 19.649100000037834
+    },
+    {
+      "id": "v2_p03_paid_capital_fr_ar",
+      "question": "Une institution de crédit dont le siège est au Maroc peut-elle justifier son capital par de simples promesses d'apport, ou les sommes doivent-elles déjà être versées ?",
+      "negative_type": null,
+      "group_id": "v2_p03_paid_capital",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "36"
+      ],
+      "retrieved_article_ids": [
+        "40",
+        "39",
+        "45",
+        "36",
+        "137"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.25,
+      "predicted_answerable": true,
+      "search_latency_ms": 23.79370000005565
+    },
+    {
+      "id": "v2_p03_paid_capital_ar_fr",
+      "question": "هل يمكن لمؤسسة ائتمان مقرها بالمغرب إثبات رأس مالها بمجرد وعود بالمساهمة، أم يجب أن تكون المبالغ قد دفعت فعلا؟",
+      "negative_type": null,
+      "group_id": "v2_p03_paid_capital",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "36"
+      ],
+      "retrieved_article_ids": [
+        "36",
+        "39",
+        "40",
+        "17",
+        "137"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 24.310099999979684
+    },
+    {
+      "id": "v2_p04_mandatory_identity_mentions_fr_fr",
+      "question": "Dans les documents et publications d'une banque, un nom commercial suffit-il ou faut-il aussi des mentions d'identité et d'autorisation ? Lesquelles ?",
+      "negative_type": null,
+      "group_id": "v2_p04_mandatory_identity_mentions",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "46"
+      ],
+      "retrieved_article_ids": [
+        "61",
+        "151",
+        "34",
+        "195",
+        "152"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": false,
+      "search_latency_ms": 29.278599999997823
+    },
+    {
+      "id": "v2_p04_mandatory_identity_mentions_ar_ar",
+      "question": "هل يكفي الاسم التجاري في وثائق البنك ومنشوراته، أم يجب ذكر بيانات تعريفية ومعلومات عن الترخيص أيضا؟ وما هذه البيانات؟",
+      "negative_type": null,
+      "group_id": "v2_p04_mandatory_identity_mentions",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "46"
+      ],
+      "retrieved_article_ids": [
+        "46",
+        "160",
+        "57",
+        "37",
+        "114"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": false,
+      "search_latency_ms": 20.285399999920628
+    },
+    {
+      "id": "v2_p04_mandatory_identity_mentions_fr_ar",
+      "question": "Dans les documents et publications d'une banque, un nom commercial suffit-il ou faut-il aussi des mentions d'identité et d'autorisation ? Lesquelles ?",
+      "negative_type": null,
+      "group_id": "v2_p04_mandatory_identity_mentions",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "46"
+      ],
+      "retrieved_article_ids": [
+        "46",
+        "160",
+        "57",
+        "60",
+        "180"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": false,
+      "search_latency_ms": 23.049399999990783
+    },
+    {
+      "id": "v2_p04_mandatory_identity_mentions_ar_fr",
+      "question": "هل يكفي الاسم التجاري في وثائق البنك ومنشوراته، أم يجب ذكر بيانات تعريفية ومعلومات عن الترخيص أيضا؟ وما هذه البيانات؟",
+      "negative_type": null,
+      "group_id": "v2_p04_mandatory_identity_mentions",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "46"
+      ],
+      "retrieved_article_ids": [
+        "46",
+        "152",
+        "18",
+        "180",
+        "26"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.251099999929465
+    },
+    {
+      "id": "v2_p05_competition_review_fr_fr",
+      "question": "Si une fusion bancaire paraît contraire aux règles de concurrence, quelle consultation Bank Al-Maghrib doit-elle demander et quel est le délai maximal de réponse ?",
+      "negative_type": null,
+      "group_id": "v2_p05_competition_review",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "50"
+      ],
+      "retrieved_article_ids": [
+        "50",
+        "49",
+        "112",
+        "34",
+        "158"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.498700000009194
+    },
+    {
+      "id": "v2_p05_competition_review_ar_ar",
+      "question": "إذا بدا اندماج بنكي مخالفا لقواعد المنافسة، فما الرأي الذي يجب أن يطلبه بنك المغرب وما الأجل الأقصى لإرساله؟",
+      "negative_type": null,
+      "group_id": "v2_p05_competition_review",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "50"
+      ],
+      "retrieved_article_ids": [
+        "50",
+        "49",
+        "45",
+        "92",
+        "40"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.009799999958886
+    },
+    {
+      "id": "v2_p05_competition_review_fr_ar",
+      "question": "Si une fusion bancaire paraît contraire aux règles de concurrence, quelle consultation Bank Al-Maghrib doit-elle demander et quel est le délai maximal de réponse ?",
+      "negative_type": null,
+      "group_id": "v2_p05_competition_review",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "50"
+      ],
+      "retrieved_article_ids": [
+        "50",
+        "70",
+        "58",
+        "49",
+        "160"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.74279999992723
+    },
+    {
+      "id": "v2_p05_competition_review_ar_fr",
+      "question": "إذا بدا اندماج بنكي مخالفا لقواعد المنافسة، فما الرأي الذي يجب أن يطلبه بنك المغرب وما الأجل الأقصى لإرساله؟",
+      "negative_type": null,
+      "group_id": "v2_p05_competition_review",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "50"
+      ],
+      "retrieved_article_ids": [
+        "39",
+        "112",
+        "45",
+        "49",
+        "50"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.2,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.071200000008503
+    },
+    {
+      "id": "v2_p06_financial_statements_calendar_fr_fr",
+      "question": "Un établissement de crédit prépare-t-il ses états de synthèse seulement en fin d'année, ou aussi en cours d'exercice, et sur quelles bases doivent-ils être établis ?",
+      "negative_type": null,
+      "group_id": "v2_p06_financial_statements_calendar",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "73"
+      ],
+      "retrieved_article_ids": [
+        "73",
+        "152",
+        "155",
+        "26",
+        "79"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 21.465100000000348
+    },
+    {
+      "id": "v2_p06_financial_statements_calendar_ar_ar",
+      "question": "هل تعد مؤسسة ائتمان قوائمها التركيبية عند نهاية السنة فقط أم خلال السنة أيضا، وعلى أي أسس يجب إعدادها؟",
+      "negative_type": null,
+      "group_id": "v2_p06_financial_statements_calendar",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "73"
+      ],
+      "retrieved_article_ids": [
+        "73",
+        "144",
+        "42",
+        "152",
+        "114"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 17.132299999957468
+    },
+    {
+      "id": "v2_p06_financial_statements_calendar_fr_ar",
+      "question": "Un établissement de crédit prépare-t-il ses états de synthèse seulement en fin d'année, ou aussi en cours d'exercice, et sur quelles bases doivent-ils être établis ?",
+      "negative_type": null,
+      "group_id": "v2_p06_financial_statements_calendar",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "73"
+      ],
+      "retrieved_article_ids": [
+        "73",
+        "144",
+        "76",
+        "86",
+        "26"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 21.509400000013557
+    },
+    {
+      "id": "v2_p06_financial_statements_calendar_ar_fr",
+      "question": "هل تعد مؤسسة ائتمان قوائمها التركيبية عند نهاية السنة فقط أم خلال السنة أيضا، وعلى أي أسس يجب إعدادها؟",
+      "negative_type": null,
+      "group_id": "v2_p06_financial_statements_calendar",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "73"
+      ],
+      "retrieved_article_ids": [
+        "73",
+        "155",
+        "152",
+        "160",
+        "71"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 16.61429999990105
+    },
+    {
+      "id": "v2_p07_board_committees_fr_fr",
+      "question": "Quels comités une banque doit-elle créer pour surveiller son contrôle interne et ses risques, et de quels organes doivent venir leurs membres ?",
+      "negative_type": null,
+      "group_id": "v2_p07_board_committees",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "78"
+      ],
+      "retrieved_article_ids": [
+        "78",
+        "64",
+        "25",
+        "77",
+        "108"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 16.884300000015173
+    },
+    {
+      "id": "v2_p07_board_committees_ar_ar",
+      "question": "ما اللجان التي يجب أن يحدثها البنك لمتابعة المراقبة الداخلية والمخاطر، ومن أي أجهزة يجب أن ينبثق أعضاؤها؟",
+      "negative_type": null,
+      "group_id": "v2_p07_board_committees",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "78"
+      ],
+      "retrieved_article_ids": [
+        "77",
+        "64",
+        "78",
+        "80",
+        "108"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.3333333333333333,
+      "predicted_answerable": true,
+      "search_latency_ms": 16.12240000008569
+    },
+    {
+      "id": "v2_p07_board_committees_fr_ar",
+      "question": "Quels comités une banque doit-elle créer pour surveiller son contrôle interne et ses risques, et de quels organes doivent venir leurs membres ?",
+      "negative_type": null,
+      "group_id": "v2_p07_board_committees",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "78"
+      ],
+      "retrieved_article_ids": [
+        "77",
+        "78",
+        "64",
+        "112",
+        "21"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.5,
+      "predicted_answerable": true,
+      "search_latency_ms": 16.2827000000334
+    },
+    {
+      "id": "v2_p07_board_committees_ar_fr",
+      "question": "ما اللجان التي يجب أن يحدثها البنك لمتابعة المراقبة الداخلية والمخاطر، ومن أي أجهزة يجب أن ينبثق أعضاؤها؟",
+      "negative_type": null,
+      "group_id": "v2_p07_board_committees",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "78"
+      ],
+      "retrieved_article_ids": [
+        "78",
+        "77",
+        "64",
+        "108",
+        "25"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 16.16809999995894
+    },
+    {
+      "id": "v2_p08_aml_internal_vigilance_fr_fr",
+      "question": "Quelle organisation interne la loi impose-t-elle aux organismes contrôlés par Bank Al-Maghrib pour prévenir le blanchiment et le financement du terrorisme ?",
+      "negative_type": null,
+      "group_id": "v2_p08_aml_internal_vigilance",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "97"
+      ],
+      "retrieved_article_ids": [
+        "97",
+        "96",
+        "61",
+        "91",
+        "160"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.672199999969052
+    },
+    {
+      "id": "v2_p08_aml_internal_vigilance_ar_ar",
+      "question": "ما النظام الداخلي الذي يفرضه القانون على الهيئات الخاضعة لمراقبة بنك المغرب لمكافحة غسل الأموال وتمويل الإرهاب؟",
+      "negative_type": null,
+      "group_id": "v2_p08_aml_internal_vigilance",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "97"
+      ],
+      "retrieved_article_ids": [
+        "97",
+        "96",
+        "106",
+        "80",
+        "195"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 15.83770000002005
+    },
+    {
+      "id": "v2_p08_aml_internal_vigilance_fr_ar",
+      "question": "Quelle organisation interne la loi impose-t-elle aux organismes contrôlés par Bank Al-Maghrib pour prévenir le blanchiment et le financement du terrorisme ?",
+      "negative_type": null,
+      "group_id": "v2_p08_aml_internal_vigilance",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "97"
+      ],
+      "retrieved_article_ids": [
+        "97",
+        "180",
+        "96",
+        "106",
+        "21"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": false,
+      "search_latency_ms": 20.100100000036036
+    },
+    {
+      "id": "v2_p08_aml_internal_vigilance_ar_fr",
+      "question": "ما النظام الداخلي الذي يفرضه القانون على الهيئات الخاضعة لمراقبة بنك المغرب لمكافحة غسل الأموال وتمويل الإرهاب؟",
+      "negative_type": null,
+      "group_id": "v2_p08_aml_internal_vigilance",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "97"
+      ],
+      "retrieved_article_ids": [
+        "112",
+        "97",
+        "39",
+        "35",
+        "23"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.5,
+      "predicted_answerable": true,
+      "search_latency_ms": 15.233899999998357
+    },
+    {
+      "id": "v2_p09_statutory_auditors_fr_fr",
+      "question": "Un seul commissaire aux comptes suffit-il pour tous les établissements de crédit ? Quel est le principe, quelle exception existe et qui approuve la désignation ?",
+      "negative_type": null,
+      "group_id": "v2_p09_statutory_auditors",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "99"
+      ],
+      "retrieved_article_ids": [
+        "99",
+        "102",
+        "161",
+        "114",
+        "71"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.761400000016693
+    },
+    {
+      "id": "v2_p09_statutory_auditors_ar_ar",
+      "question": "هل يكفي مراقب واحد للحسابات في جميع مؤسسات الائتمان؟ ما القاعدة والاستثناء ومن يوافق على التعيين؟",
+      "negative_type": null,
+      "group_id": "v2_p09_statutory_auditors",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "99"
+      ],
+      "retrieved_article_ids": [
+        "99",
+        "18",
+        "26",
+        "42",
+        "86"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 15.507399999933114
+    },
+    {
+      "id": "v2_p09_statutory_auditors_fr_ar",
+      "question": "Un seul commissaire aux comptes suffit-il pour tous les établissements de crédit ? Quel est le principe, quelle exception existe et qui approuve la désignation ?",
+      "negative_type": null,
+      "group_id": "v2_p09_statutory_auditors",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "99"
+      ],
+      "retrieved_article_ids": [
+        "18",
+        "99",
+        "76",
+        "42",
+        "51"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.5,
+      "predicted_answerable": true,
+      "search_latency_ms": 19.202500000005784
+    },
+    {
+      "id": "v2_p09_statutory_auditors_ar_fr",
+      "question": "هل يكفي مراقب واحد للحسابات في جميع مؤسسات الائتمان؟ ما القاعدة والاستثناء ومن يوافق على التعيين؟",
+      "negative_type": null,
+      "group_id": "v2_p09_statutory_auditors",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "99"
+      ],
+      "retrieved_article_ids": [
+        "161",
+        "92",
+        "155",
+        "99",
+        "71"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.25,
+      "predicted_answerable": true,
+      "search_latency_ms": 16.779899999960435
+    },
+    {
+      "id": "v2_p10_dormant_accounts_fr_fr",
+      "question": "Après combien d'années sans opération ni réclamation un compte est-il clôturé, où vont ses fonds et combien de temps y restent-ils avant de revenir au Trésor ?",
+      "negative_type": null,
+      "group_id": "v2_p10_dormant_accounts",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "152"
+      ],
+      "retrieved_article_ids": [
+        "152",
+        "160",
+        "144",
+        "155",
+        "2"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 22.447000000056505
+    },
+    {
+      "id": "v2_p10_dormant_accounts_ar_ar",
+      "question": "بعد كم سنة دون عملية أو مطالبة يقفل الحساب، وإلى أين تودع أمواله وكم تبقى هناك قبل أن تؤول إلى الخزينة؟",
+      "negative_type": null,
+      "group_id": "v2_p10_dormant_accounts",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "152"
+      ],
+      "retrieved_article_ids": [
+        "152",
+        "144",
+        "160",
+        "2",
+        "52"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.396100000018123
+    },
+    {
+      "id": "v2_p10_dormant_accounts_fr_ar",
+      "question": "Après combien d'années sans opération ni réclamation un compte est-il clôturé, où vont ses fonds et combien de temps y restent-ils avant de revenir au Trésor ?",
+      "negative_type": null,
+      "group_id": "v2_p10_dormant_accounts",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "152"
+      ],
+      "retrieved_article_ids": [
+        "152",
+        "160",
+        "144",
+        "52",
+        "101"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 21.204799999964052
+    },
+    {
+      "id": "v2_p10_dormant_accounts_ar_fr",
+      "question": "بعد كم سنة دون عملية أو مطالبة يقفل الحساب، وإلى أين تودع أمواله وكم تبقى هناك قبل أن تؤول إلى الخزينة؟",
+      "negative_type": null,
+      "group_id": "v2_p10_dormant_accounts",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "152"
+      ],
+      "retrieved_article_ids": [
+        "152",
+        "17",
+        "160",
+        "144",
+        "137"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 17.4370000000863
+    },
+    {
+      "id": "v2_p11_monetary_sanction_notice_fr_fr",
+      "question": "Une notification de sanction pécuniaire peut-elle prévoir un délai de deux jours seulement, et quel événement fait démarrer le minimum prévu par la loi ?",
+      "negative_type": null,
+      "group_id": "v2_p11_monetary_sanction_notice",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "174"
+      ],
+      "retrieved_article_ids": [
+        "106",
+        "174",
+        "185",
+        "71",
+        "160"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.5,
+      "predicted_answerable": false,
+      "search_latency_ms": 18.135099999994964
+    },
+    {
+      "id": "v2_p11_monetary_sanction_notice_ar_ar",
+      "question": "هل يمكن أن يتضمن تبليغ عقوبة مالية أجلا من يومين فقط، ومن أي تاريخ يبدأ احتساب الحد الأدنى الذي يفرضه القانون؟",
+      "negative_type": null,
+      "group_id": "v2_p11_monetary_sanction_notice",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "174"
+      ],
+      "retrieved_article_ids": [
+        "185",
+        "183",
+        "174",
+        "189",
+        "160"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.3333333333333333,
+      "predicted_answerable": true,
+      "search_latency_ms": 17.836500000043998
+    },
+    {
+      "id": "v2_p11_monetary_sanction_notice_fr_ar",
+      "question": "Une notification de sanction pécuniaire peut-elle prévoir un délai de deux jours seulement, et quel événement fait démarrer le minimum prévu par la loi ?",
+      "negative_type": null,
+      "group_id": "v2_p11_monetary_sanction_notice",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "174"
+      ],
+      "retrieved_article_ids": [
+        "185",
+        "160",
+        "174",
+        "183",
+        "101"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 0.3333333333333333,
+      "predicted_answerable": false,
+      "search_latency_ms": 17.9416000000856
+    },
+    {
+      "id": "v2_p11_monetary_sanction_notice_ar_fr",
+      "question": "هل يمكن أن يتضمن تبليغ عقوبة مالية أجلا من يومين فقط، ومن أي تاريخ يبدأ احتساب الحد الأدنى الذي يفرضه القانون؟",
+      "negative_type": null,
+      "group_id": "v2_p11_monetary_sanction_notice",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "174"
+      ],
+      "retrieved_article_ids": [
+        "71",
+        "183",
+        "185",
+        "106",
+        "160"
+      ],
+      "recall_at_k": 0.0,
+      "reciprocal_rank_at_k": 0.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 17.090699999926073
+    },
+    {
+      "id": "v2_p12_rating_agency_confidentiality_fr_fr",
+      "question": "Une banque peut-elle transmettre des informations couvertes par le secret professionnel à une agence pour sa notation, et cette agence doit-elle ensuite les garder confidentielles ?",
+      "negative_type": null,
+      "group_id": "v2_p12_rating_agency_confidentiality",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "180"
+      ],
+      "retrieved_article_ids": [
+        "180",
+        "107",
+        "157",
+        "104",
+        "156"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 20.2827000000525
+    },
+    {
+      "id": "v2_p12_rating_agency_confidentiality_ar_ar",
+      "question": "هل يجوز للبنك تقديم معلومات مشمولة بالسر المهني إلى وكالة لتنقيطه، وهل تظل الوكالة ملزمة بالحفاظ على سريتها؟",
+      "negative_type": null,
+      "group_id": "v2_p12_rating_agency_confidentiality",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "180"
+      ],
+      "retrieved_article_ids": [
+        "180",
+        "107",
+        "155",
+        "160",
+        "92"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 17.06699999999728
+    },
+    {
+      "id": "v2_p12_rating_agency_confidentiality_fr_ar",
+      "question": "Une banque peut-elle transmettre des informations couvertes par le secret professionnel à une agence pour sa notation, et cette agence doit-elle ensuite les garder confidentielles ?",
+      "negative_type": null,
+      "group_id": "v2_p12_rating_agency_confidentiality",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": true,
+      "expected_article_ids": [
+        "180"
+      ],
+      "retrieved_article_ids": [
+        "180",
+        "155",
+        "107",
+        "160",
+        "104"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 19.343400000025213
+    },
+    {
+      "id": "v2_p12_rating_agency_confidentiality_ar_fr",
+      "question": "هل يجوز للبنك تقديم معلومات مشمولة بالسر المهني إلى وكالة لتنقيطه، وهل تظل الوكالة ملزمة بالحفاظ على سريتها؟",
+      "negative_type": null,
+      "group_id": "v2_p12_rating_agency_confidentiality",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": true,
+      "expected_article_ids": [
+        "180"
+      ],
+      "retrieved_article_ids": [
+        "180",
+        "107",
+        "61",
+        "104",
+        "99"
+      ],
+      "recall_at_k": 1.0,
+      "reciprocal_rank_at_k": 1.0,
+      "predicted_answerable": true,
+      "search_latency_ms": 17.630700000040633
+    },
+    {
+      "id": "v2_n01_cyber_incident_deadline_fr_fr",
+      "question": "Après une fuite de données provoquée par une cyberattaque, en combien d'heures une banque doit-elle avertir Bank Al-Maghrib ?",
+      "negative_type": "related_missing_operational_rule",
+      "group_id": "v2_n01_cyber_incident_deadline",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "174",
+        "160",
+        "34",
+        "159",
+        "49"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.40340000001106
+    },
+    {
+      "id": "v2_n01_cyber_incident_deadline_ar_ar",
+      "question": "بعد تسرب بيانات بسبب هجوم إلكتروني، خلال كم ساعة يجب على البنك إشعار بنك المغرب؟",
+      "negative_type": "related_missing_operational_rule",
+      "group_id": "v2_n01_cyber_incident_deadline",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "174",
+        "34",
+        "49",
+        "175",
+        "144"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 14.608899999984715
+    },
+    {
+      "id": "v2_n01_cyber_incident_deadline_fr_ar",
+      "question": "Après une fuite de données provoquée par une cyberattaque, en combien d'heures une banque doit-elle avertir Bank Al-Maghrib ?",
+      "negative_type": "related_missing_operational_rule",
+      "group_id": "v2_n01_cyber_incident_deadline",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "178",
+        "174",
+        "144",
+        "155",
+        "89"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 24.031399999898895
+    },
+    {
+      "id": "v2_n01_cyber_incident_deadline_ar_fr",
+      "question": "بعد تسرب بيانات بسبب هجوم إلكتروني، خلال كم ساعة يجب على البنك إشعار بنك المغرب؟",
+      "negative_type": "related_missing_operational_rule",
+      "group_id": "v2_n01_cyber_incident_deadline",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "112",
+        "174",
+        "160",
+        "45",
+        "155"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 15.818999999964944
+    },
+    {
+      "id": "v2_n02_recovery_plan_template_fr_fr",
+      "question": "Quel modèle de fichier et quelle liste complète de champs une banque doit-elle utiliser pour transmettre son plan de redressement de crise interne à Bank Al-Maghrib ?",
+      "negative_type": "related_missing_template",
+      "group_id": "v2_n02_recovery_plan_template",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "79",
+        "74",
+        "37",
+        "86",
+        "97"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 21.167200000036246
+    },
+    {
+      "id": "v2_n02_recovery_plan_template_ar_ar",
+      "question": "ما نموذج الملف والقائمة الكاملة للخانات التي يجب أن يستعملها البنك لإرسال خطة لمعالجة أزمة داخلية إلى بنك المغرب؟",
+      "negative_type": "related_missing_template",
+      "group_id": "v2_n02_recovery_plan_template",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "82",
+        "47",
+        "79",
+        "37",
+        "65"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 19.173599999930957
+    },
+    {
+      "id": "v2_n02_recovery_plan_template_fr_ar",
+      "question": "Quel modèle de fichier et quelle liste complète de champs une banque doit-elle utiliser pour transmettre son plan de redressement de crise interne à Bank Al-Maghrib ?",
+      "negative_type": "related_missing_template",
+      "group_id": "v2_n02_recovery_plan_template",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "82",
+        "79",
+        "26",
+        "47",
+        "158"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 29.536099999972976
+    },
+    {
+      "id": "v2_n02_recovery_plan_template_ar_fr",
+      "question": "ما نموذج الملف والقائمة الكاملة للخانات التي يجب أن يستعملها البنك لإرسال خطة لمعالجة أزمة داخلية إلى بنك المغرب؟",
+      "negative_type": "related_missing_template",
+      "group_id": "v2_n02_recovery_plan_template",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "26",
+        "39",
+        "56",
+        "36",
+        "37"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 36.01190000006227
+    },
+    {
+      "id": "v2_n03_personal_mortgage_quote_fr_fr",
+      "question": "Avec un salaire de 10 000 dirhams, quelle mensualité exacte ma banque me proposera-t-elle pour emprunter 700 000 dirhams sur vingt ans ?",
+      "negative_type": "individual_commercial_offer",
+      "group_id": "v2_n03_personal_mortgage_quote",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "37",
+        "152",
+        "12",
+        "18",
+        "56"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 39.192499999899155
+    },
+    {
+      "id": "v2_n03_personal_mortgage_quote_ar_ar",
+      "question": "إذا كان راتبي 10000 درهم، فما القسط الشهري الدقيق الذي سيقترحه بنكي لقرض قدره 700000 درهم على عشرين سنة؟",
+      "negative_type": "individual_commercial_offer",
+      "group_id": "v2_n03_personal_mortgage_quote",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "183",
+        "146",
+        "190",
+        "189",
+        "152"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 20.194900000092275
+    },
+    {
+      "id": "v2_n03_personal_mortgage_quote_fr_ar",
+      "question": "Avec un salaire de 10 000 dirhams, quelle mensualité exacte ma banque me proposera-t-elle pour emprunter 700 000 dirhams sur vingt ans ?",
+      "negative_type": "individual_commercial_offer",
+      "group_id": "v2_n03_personal_mortgage_quote",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "12",
+        "175",
+        "152",
+        "160",
+        "176"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 21.680399999922884
+    },
+    {
+      "id": "v2_n03_personal_mortgage_quote_ar_fr",
+      "question": "إذا كان راتبي 10000 درهم، فما القسط الشهري الدقيق الذي سيقترحه بنكي لقرض قدره 700000 درهم على عشرين سنة؟",
+      "negative_type": "individual_commercial_offer",
+      "group_id": "v2_n03_personal_mortgage_quote",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "183",
+        "190",
+        "189",
+        "52",
+        "152"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 20.526399999994283
+    },
+    {
+      "id": "v2_n04_vat_banking_fees_2026_fr_fr",
+      "question": "Quel taux de TVA s'applique aux commissions bancaires au Maroc en octobre 2026 ?",
+      "negative_type": "other_legal_corpus_and_current_fact",
+      "group_id": "v2_n04_vat_banking_fees_2026",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "26",
+        "36",
+        "39",
+        "40",
+        "72"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 13.595900000041183
+    },
+    {
+      "id": "v2_n04_vat_banking_fees_2026_ar_ar",
+      "question": "ما سعر الضريبة على القيمة المضافة المطبق على العمولات البنكية في المغرب في أكتوبر 2026؟",
+      "negative_type": "other_legal_corpus_and_current_fact",
+      "group_id": "v2_n04_vat_banking_fees_2026",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "176",
+        "175",
+        "174",
+        "34",
+        "138"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 16.486200000031204
+    },
+    {
+      "id": "v2_n04_vat_banking_fees_2026_fr_ar",
+      "question": "Quel taux de TVA s'applique aux commissions bancaires au Maroc en octobre 2026 ?",
+      "negative_type": "other_legal_corpus_and_current_fact",
+      "group_id": "v2_n04_vat_banking_fees_2026",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "175",
+        "174",
+        "176",
+        "34",
+        "146"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 12.275799999997616
+    },
+    {
+      "id": "v2_n04_vat_banking_fees_2026_ar_fr",
+      "question": "ما سعر الضريبة على القيمة المضافة المطبق على العمولات البنكية في المغرب في أكتوبر 2026؟",
+      "negative_type": "other_legal_corpus_and_current_fact",
+      "group_id": "v2_n04_vat_banking_fees_2026",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "36",
+        "26",
+        "39",
+        "40",
+        "23"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 13.827600000013263
+    },
+    {
+      "id": "v2_n05_bank_swift_directory_fr_fr",
+      "question": "Quel code BIC ou SWIFT dois-je donner pour recevoir un virement international sur un compte chez Attijariwafa bank ?",
+      "negative_type": "commercial_directory_fact",
+      "group_id": "v2_n05_bank_swift_directory",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "16",
+        "151",
+        "45",
+        "70",
+        "112"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 16.944099999932405
+    },
+    {
+      "id": "v2_n05_bank_swift_directory_ar_ar",
+      "question": "ما رمز BIC أو SWIFT الذي يجب تقديمه لتلقي تحويل دولي في حساب لدى التجاري وفا بنك؟",
+      "negative_type": "commercial_directory_fact",
+      "group_id": "v2_n05_bank_swift_directory",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "70",
+        "160",
+        "151",
+        "19",
+        "135"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 14.80140000001029
+    },
+    {
+      "id": "v2_n05_bank_swift_directory_fr_ar",
+      "question": "Quel code BIC ou SWIFT dois-je donner pour recevoir un virement international sur un compte chez Attijariwafa bank ?",
+      "negative_type": "commercial_directory_fact",
+      "group_id": "v2_n05_bank_swift_directory",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "150",
+        "175",
+        "151",
+        "144",
+        "160"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 16.56819999993786
+    },
+    {
+      "id": "v2_n05_bank_swift_directory_ar_fr",
+      "question": "ما رمز BIC أو SWIFT الذي يجب تقديمه لتلقي تحويل دولي في حساب لدى التجاري وفا بنك؟",
+      "negative_type": "commercial_directory_fact",
+      "group_id": "v2_n05_bank_swift_directory",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "151",
+        "37",
+        "70",
+        "157",
+        "17"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 17.820099999994454
+    },
+    {
+      "id": "v2_n06_mobile_access_recovery_fr_fr",
+      "question": "J'ai perdu mon téléphone : quelles étapes exactes dois-je suivre pour réinitialiser l'accès à l'application mobile de ma banque ?",
+      "negative_type": "bank_specific_operating_procedure",
+      "group_id": "v2_n06_mobile_access_recovery",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "160",
+        "150",
+        "18",
+        "137",
+        "37"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 22.542899999962174
+    },
+    {
+      "id": "v2_n06_mobile_access_recovery_ar_ar",
+      "question": "فقدت هاتفي، فما الخطوات الدقيقة التي يجب اتباعها لإعادة ضبط الدخول إلى تطبيق بنكي على الهاتف؟",
+      "negative_type": "bank_specific_operating_procedure",
+      "group_id": "v2_n06_mobile_access_recovery",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "160",
+        "4",
+        "52",
+        "155",
+        "132"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 26.7261999999846
+    },
+    {
+      "id": "v2_n06_mobile_access_recovery_fr_ar",
+      "question": "J'ai perdu mon téléphone : quelles étapes exactes dois-je suivre pour réinitialiser l'accès à l'application mobile de ma banque ?",
+      "negative_type": "bank_specific_operating_procedure",
+      "group_id": "v2_n06_mobile_access_recovery",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "150",
+        "4",
+        "132",
+        "160",
+        "144"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 33.232800000064344
+    },
+    {
+      "id": "v2_n06_mobile_access_recovery_ar_fr",
+      "question": "فقدت هاتفي، فما الخطوات الدقيقة التي يجب اتباعها لإعادة ضبط الدخول إلى تطبيق بنكي على الهاتف؟",
+      "negative_type": "bank_specific_operating_procedure",
+      "group_id": "v2_n06_mobile_access_recovery",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "160",
+        "82",
+        "159",
+        "52",
+        "86"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": false,
+      "search_latency_ms": 17.08859999996548
+    },
+    {
+      "id": "v2_n07_deposit_guarantee_numeric_cap_fr_fr",
+      "question": "Quel est le montant maximal exact, en dirhams par déposant, que le fonds de garantie peut indemniser ?",
+      "negative_type": "related_missing_numeric_parameter",
+      "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "129",
+        "2",
+        "166",
+        "68",
+        "131"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 18.495199999961187
+    },
+    {
+      "id": "v2_n07_deposit_guarantee_numeric_cap_ar_ar",
+      "question": "ما المبلغ الأقصى الدقيق بالدرهم لكل مودع الذي يمكن لصندوق ضمان الودائع تعويضه؟",
+      "negative_type": "related_missing_numeric_parameter",
+      "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "138",
+        "129",
+        "2",
+        "152",
+        "131"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 15.172000000006847
+    },
+    {
+      "id": "v2_n07_deposit_guarantee_numeric_cap_fr_ar",
+      "question": "Quel est le montant maximal exact, en dirhams par déposant, que le fonds de garantie peut indemniser ?",
+      "negative_type": "related_missing_numeric_parameter",
+      "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "152",
+        "2",
+        "128",
+        "129",
+        "68"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 21.89459999999599
+    },
+    {
+      "id": "v2_n07_deposit_guarantee_numeric_cap_ar_fr",
+      "question": "ما المبلغ الأقصى الدقيق بالدرهم لكل مودع الذي يمكن لصندوق ضمان الودائع تعويضه؟",
+      "negative_type": "related_missing_numeric_parameter",
+      "group_id": "v2_n07_deposit_guarantee_numeric_cap",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "129",
+        "2",
+        "58",
+        "131",
+        "138"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 17.90649999998095
+    },
+    {
+      "id": "v2_n08_open_banking_api_contract_fr_fr",
+      "question": "Quelles URL et quels paramètres une API marocaine d'open banking doit-elle exposer pour consulter le solde d'un compte ?",
+      "negative_type": "missing_technical_interface_contract",
+      "group_id": "v2_n08_open_banking_api_contract",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "fr",
+      "direction": "fr->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "41",
+        "26",
+        "36",
+        "48",
+        "39"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 21.553700000026765
+    },
+    {
+      "id": "v2_n08_open_banking_api_contract_ar_ar",
+      "question": "ما العناوين والمعلمات التي يجب أن توفرها واجهة برمجة التطبيقات المصرفية المفتوحة في المغرب للاطلاع على رصيد حساب؟",
+      "negative_type": "missing_technical_interface_contract",
+      "group_id": "v2_n08_open_banking_api_contract",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "ar",
+      "direction": "ar->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "48",
+        "41",
+        "82",
+        "171",
+        "34"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 22.560199999929864
+    },
+    {
+      "id": "v2_n08_open_banking_api_contract_fr_ar",
+      "question": "Quelles URL et quels paramètres une API marocaine d'open banking doit-elle exposer pour consulter le solde d'un compte ?",
+      "negative_type": "missing_technical_interface_contract",
+      "group_id": "v2_n08_open_banking_api_contract",
+      "split": "test",
+      "query_language": "fr",
+      "source_language": "ar",
+      "direction": "fr->ar",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "151",
+        "82",
+        "171",
+        "34",
+        "107"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 19.71179999998185
+    },
+    {
+      "id": "v2_n08_open_banking_api_contract_ar_fr",
+      "question": "ما العناوين والمعلمات التي يجب أن توفرها واجهة برمجة التطبيقات المصرفية المفتوحة في المغرب للاطلاع على رصيد حساب؟",
+      "negative_type": "missing_technical_interface_contract",
+      "group_id": "v2_n08_open_banking_api_contract",
+      "split": "test",
+      "query_language": "ar",
+      "source_language": "fr",
+      "direction": "ar->fr",
+      "answerable": false,
+      "expected_article_ids": [],
+      "retrieved_article_ids": [
+        "41",
+        "48",
+        "26",
+        "81",
+        "72"
+      ],
+      "recall_at_k": null,
+      "reciprocal_rank_at_k": null,
+      "predicted_answerable": true,
+      "search_latency_ms": 23.814799999968272
+    }
+  ],
+  "aggregate": [
+    {
+      "direction": "fr->fr",
+      "n_cases": 20,
+      "n_topic_groups": 20,
+      "n_positive": 12,
+      "n_negative": 8,
+      "recall_at_5": 0.9166666666666666,
+      "mrr_at_5": 0.875,
+      "mean_search_latency_ms": 21.453389999993533,
+      "coverage": 0.7,
+      "positive_answer_rate": 0.8333333333333334,
+      "negative_abstention_rate": 0.5,
+      "answerability_precision": 0.7142857142857143,
+      "answerability_balanced_accuracy": 0.6666666666666667
+    },
+    {
+      "direction": "ar->ar",
+      "n_cases": 20,
+      "n_topic_groups": 20,
+      "n_positive": 12,
+      "n_negative": 8,
+      "recall_at_5": 1.0,
+      "mrr_at_5": 0.7597222222222222,
+      "mean_search_latency_ms": 18.117814999993698,
+      "coverage": 0.75,
+      "positive_answer_rate": 0.9166666666666666,
+      "negative_abstention_rate": 0.5,
+      "answerability_precision": 0.7333333333333333,
+      "answerability_balanced_accuracy": 0.7083333333333333
+    },
+    {
+      "direction": "fr->ar",
+      "n_cases": 20,
+      "n_topic_groups": 20,
+      "n_positive": 12,
+      "n_negative": 8,
+      "recall_at_5": 0.8333333333333334,
+      "mrr_at_5": 0.6319444444444444,
+      "mean_search_latency_ms": 21.056164999993143,
+      "coverage": 0.55,
+      "positive_answer_rate": 0.75,
+      "negative_abstention_rate": 0.75,
+      "answerability_precision": 0.8181818181818182,
+      "answerability_balanced_accuracy": 0.75
+    },
+    {
+      "direction": "ar->fr",
+      "n_cases": 20,
+      "n_topic_groups": 20,
+      "n_positive": 12,
+      "n_negative": 8,
+      "recall_at_5": 0.8333333333333334,
+      "mrr_at_5": 0.6625,
+      "mean_search_latency_ms": 19.298669999989215,
+      "coverage": 0.7,
+      "positive_answer_rate": 1.0,
+      "negative_abstention_rate": 0.75,
+      "answerability_precision": 0.8571428571428571,
+      "answerability_balanced_accuracy": 0.875
+    },
+    {
+      "direction": "overall",
+      "n_cases": 80,
+      "n_topic_groups": 20,
+      "n_positive": 48,
+      "n_negative": 32,
+      "recall_at_5": 0.8958333333333334,
+      "mrr_at_5": 0.7322916666666667,
+      "mean_search_latency_ms": 19.981509999992397,
+      "coverage": 0.675,
+      "positive_answer_rate": 0.875,
+      "negative_abstention_rate": 0.625,
+      "answerability_precision": 0.7777777777777778,
+      "answerability_balanced_accuracy": 0.75
+    },
+    {
+      "direction": "macro_direction",
+      "n_directions": 4,
+      "recall_at_5": 0.8958333333333334,
+      "mrr_at_5": 0.7322916666666667,
+      "positive_answer_rate": 0.875,
+      "negative_abstention_rate": 0.625,
+      "answerability_balanced_accuracy": 0.75
+    }
+  ],
+  "metadata": {
+    "protocol_version": "bam-10312-new-topics-v2",
+    "retriever": {
+      "backend": "local",
+      "article_count": 394,
+      "chunk_count": 728,
+      "chunker": "model-tokenizer-110-overlap-20",
+      "rrf_constant": 60,
+      "candidate_k": 50,
+      "encoder": {
+        "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "repository": "Qdrant/paraphrase-multilingual-MiniLM-L12-v2-onnx-Q",
+        "revision": "faf4aa4225822f3bc6376869cb1164e8e3feedd0",
+        "dimension": 384,
+        "token_limit": 128,
+        "default_chunk_tokens": 110,
+        "license": "Apache-2.0",
+        "fastembed_version": "0.9.0",
+        "files_sha256": {
+          "config.json": "c8ec081fdad2df991bf5abbf18418fec7a5cdaa421f60ffb060a30040b8c376f",
+          "model_optimized.onnx": "634d0f66c29dc934c8fa72b8a4fe91dd4d420a22f1d82a241058d4316e659a99",
+          "special_tokens_map.json": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835",
+          "tokenizer.json": "fa685fc160bbdbab64058d4fc91b60e62d207e8dc60b9af5c002c5ab946ded00",
+          "tokenizer_config.json": "0666eebf692422757e1dddf3c9fb1ded73ba3dc726c5828671fc89e45bf3609f"
+        },
+        "preprocessing": "nfkc-no-tatweel-bidi-v1"
+      },
+      "index_fingerprint": "254aa347f46b0376b8cd813c8700a08b7d0865e3158ad7c35259eb1241269e07"
+    },
+    "sources": [
+      {
+        "source_id": "bam-10312-ar",
+        "language": "ar",
+        "source_url": "https://www.bkam.ma/ar/content/download/757666/8545665/loi%20bancaire%20ar%2022%20V2%20web.pdf",
+        "version_date": "2022-03-31",
+        "pdf_sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790"
+      },
+      {
+        "source_id": "bam-10312-fr",
+        "language": "fr",
+        "source_url": "https://www.bkam.ma/fr/content/download/757666/8545663/loi%20bancaire%20fr.pdf",
+        "version_date": "2022-03-31",
+        "pdf_sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a"
+      }
+    ],
+    "mode": "semantic",
+    "top_k": 5,
+    "cases_sha256": "ae92d94c0316bf3b68320b34e6e5a514c2cc4b4a6817334713e5d5031a9929cb",
+    "n_cases": 80,
+    "n_topic_groups": 20,
+    "splits": [
+      "test"
+    ],
+    "abstention_evaluated": true,
+    "unit": "unique article within the requested source language",
+    "uncertainty": "descriptive; translations share a topic and are not independent",
+    "latency_scope": "search only; excludes model/index loading and answer generation",
+    "faithfulness_evaluated": false,
+    "analysis_status": "prospective_internal_challenge",
+    "policy": {
+      "lexical_threshold": 0.25,
+      "semantic_threshold": 0.65,
+      "hybrid_threshold": 0.6,
+      "version_date": "2022-03-31"
+    },
+    "evaluation_transfer": {
+      "analysis_status": "prospective_internal_challenge",
+      "evaluation_id": "bam-10312-new-topics-v2",
+      "manifest_sha256": "b9f2d0f740f4f22c4fc51b604d7d474e8fcdbf0c1123c8a27405a893fdda32cb",
+      "frozen_at_utc": "2026-10-18T22:24:23.022437+00:00",
+      "challenge_file_sha256": "727e29c69c48b581edb490ccec5ab735c3919ff69bf8fb52e1629ebd2862c802",
+      "calibration_benchmark_sha256": "0e7af0c426a6838683c6d86c2d766f22e7aaf84ab532c2bee4db391a52218a9b",
+      "policy_file_sha256": "0b421c5c21a5a8a4be533af59a6fbd7ea13ed71e57e0f102c917fc84677ffa7b",
+      "annotation_audit_sha256": "57b863f1408ed26dae657739f6b54d5330d84b8de03f4f45ab858728ddaa412f",
+      "evaluation_protocol_sha256": "21f66b8bb55b71852466060bbe54125d3b9b84e2a43161dfbd1eb245f10fbd37",
+      "policy_transfer": "Original development thresholds reused without recalibration.",
+      "annotation_review": "Internal review without retrieval rankings; no external legal adjudication.",
+      "limits": "Local prospective record, not external preregistration or tamper-proof attestation. Mechanical disjointness cannot prove semantic novelty or annotation correctness. Translated directions are correlated. No generated faithfulness evaluation."
+    },
+    "policy_status": "development_calibrated_on_original_benchmark"
+  }
+}

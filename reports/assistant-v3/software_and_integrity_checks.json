@@ -1,0 +1,13 @@
+{
+  "frozen_python_sources": 16,
+  "frozen_resources": 5,
+  "all_frozen_bytes_match": true,
+  "private_paths_not_visible_to_git": true,
+  "python_tests_passed": 188,
+  "ruff_check": "passed",
+  "ruff_format_check": "passed",
+  "frontend_typecheck_build": "passed",
+  "note_export_unit_test": "passed",
+  "engine_scope": "complaints_and_mediation",
+  "independent_legal_review": false
+}

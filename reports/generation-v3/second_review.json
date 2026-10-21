@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "review_id": "generation-v3-second-internal-review",
+  "reviewer": "internal_agent_second_documentary_review",
+  "reviewed_at_utc": "2026-10-18T22:27:25Z",
+  "scope": "Second internal AI-agent review of the same six previously seen development cases after the schema-order correction. Not held-out evaluation or independent legal-expert adjudication.",
+  "protocol_file": "reports/generation-v3/protocol.json",
+  "protocol_sha256": "02caa72633670a9ea9f3d80921deab5b87beea044253a33ef80eea19876beb5f",
+  "raw_file": "outputs/generation-v3/raw.json",
+  "raw_sha256": "d285eff3a8b49de3ec72d0881777d1cb5e136bdd2c36e09c6ecb2ba85487a086",
+  "first_review_verdicts_consulted": false,
+  "model_calls_by_reviewer": 0,
+  "corpus_edition": "2022-03-31",
+  "source_text_redistributed": false,
+  "claim_text_redistributed": false,
+  "no_aggregate_performance_rate": true,
+  "verdict_definitions": {
+    "soutenu": "Every material assertion in an accepted claim is supported by the exact cited passage and consistent with its original dated article.",
+    "partiel": "Only part of an accepted claim is supported, or a material qualification is lost.",
+    "non_soutenu": "The cited evidence does not establish the accepted claim, even if the claim could be true elsewhere.",
+    "contradictoire": "The accepted claim conflicts with its cited passage or original article.",
+    "omission": "An answerable point is not supplied. This is an answer-coverage verdict, distinct from whether an accepted claim is faithful."
+  },
+  "review_method": [
+    "Read the pre-call V3 protocol, raw service results and model outputs, filtering the first review's manual_review fields out of the public results.",
+    "Compared each accepted claim with its generated citation, the restored original citation, the saved context offsets, and the complete local article in its source language.",
+    "Read French and Arabic articles 34 and 151 directly to assess support and omissions; no model judge or model call was used.",
+    "Kept claim support separate from overall answer coverage, gating failures and missing retrieval context."
+  ],
+  "counts": {
+    "development_cases": 6,
+    "accepted_cases": 2,
+    "accepted_claims": 2,
+    "accepted_claim_verdicts": {
+      "soutenu": 2,
+      "partiel": 0,
+      "non_soutenu": 0,
+      "contradictoire": 0
+    },
+    "abstained_cases_without_accepted_claim": 4,
+    "accepted_cases_with_incomplete_article_lookup": 1
+  },
+  "accepted_claim_reviews": [
+    {
+      "case_id": "targeted151-fr",
+      "claim_index": 1,
+      "citation_id": "bam-10312-fr:article-151:chunk-0",
+      "article_id": "151",
+      "language": "fr",
+      "source_pdf_sha256": "663038cf056a377d9f7ab1d31ad1136077440c8bcada92ee9c116ef41791a56a",
+      "verdict": "soutenu",
+      "original_quote_in_original_article": true,
+      "saved_context_offsets_match_original_article": true,
+      "claim_normalized_text_matches_cited_evidence": true,
+      "reason": "Le périmètre des comptes, la formalisation entre les parties et la remise au client sont tous établis par le passage cité. Aucun élément matériel supplémentaire n'est ajouté.",
+      "requested_points_covered": true
+    },
+    {
+      "case_id": "lookup151-ar",
+      "claim_index": 1,
+      "citation_id": "bam-10312-ar:article-151:chunk-0",
+      "article_id": "151",
+      "language": "ar",
+      "source_pdf_sha256": "ac1453c87ee9ecd17a29c0e47320686d75ecd4d5b4d34099b903ccddcc2cd790",
+      "verdict": "soutenu",
+      "original_quote_in_original_article": true,
+      "saved_context_offsets_match_original_article": true,
+      "claim_normalized_text_matches_cited_evidence": true,
+      "reason": "Le propos correspond au premier alinéa arabe et conserve ses obligations. Le retour à la typographie originale ne modifie pas le sens.",
+      "requested_points_covered": "First paragraph only; the full-article lookup remains incomplete."
+    }
+  ],
+  "case_coverage_reviews": [
+    {
+      "case_id": "generic-fr",
+      "service_status": "abstained",
+      "accepted_claims": 0,
+      "coverage_verdict": "omission",
+      "failure_stage": "annotated_authority_article_missing_from_context",
+      "reason": "La question est répondable dans le corpus, mais le contexte transmis ne contient pas l'article 34 attendu. Le refus ne produit aucune assertion non soutenue."
+    },
+    {
+      "case_id": "generic-ar",
+      "service_status": "abstained",
+      "accepted_claims": 0,
+      "coverage_verdict": "omission",
+      "failure_stage": "generation_abstention_despite_relevant_context",
+      "reason": "L'introduction de l'article 34, qui donne l'autorité et la consultation préalable, figure dans le contexte enregistré. Aucune réponse n'est restituée. Les diagnostics indiquent 2161 tokens d'entrée pour une fenêtre de 4096 ; ils n'établissent pas à eux seuls une cause du refus."
+    },
+    {
+      "case_id": "targeted151-fr",
+      "service_status": "evidence_found",
+      "accepted_claims": 1,
+      "coverage_verdict": "soutenu",
+      "failure_stage": null,
+      "reason": "Les deux points précisément demandés sont couverts. Le second alinéa de l'article n'était pas nécessaire pour cette question ciblée."
+    },
+    {
+      "case_id": "targeted151-ar",
+      "service_status": "abstained",
+      "accepted_claims": 0,
+      "coverage_verdict": "omission",
+      "failure_stage": "abstention_gate_before_generation",
+      "reason": "Le texte pertinent est retrouvé, mais le filtre lexical bloque la réponse avant un appel au modèle. Il s'agit d'un refus au niveau du service, pas d'une affirmation générée incorrecte."
+    },
+    {
+      "case_id": "lookup151-fr",
+      "service_status": "abstained",
+      "accepted_claims": 0,
+      "coverage_verdict": "omission",
+      "failure_stage": "generation_abstention_despite_relevant_context",
+      "reason": "L'article 151 complet est présent dans le contexte enregistré, mais le modèle refuse la consultation directe. Aucun claim n'est accepté."
+    },
+    {
+      "case_id": "lookup151-ar",
+      "service_status": "evidence_found",
+      "accepted_claims": 1,
+      "coverage_verdict": "omission",
+      "failure_stage": "partial_article_lookup",
+      "reason": "Le premier alinéa est fidèlement restitué. Pour une consultation du contenu complet de l'article, le second alinéa relatif au cadrage réglementaire du contrat type reste omis. Cette lacune ne rend pas faux le claim effectivement accepté."
+    }
+  ],
+  "limits": [
+    "Both accepted claims essentially reproduce supplied evidence. This does not demonstrate multi-article synthesis or legal reasoning.",
+    "The cases reuse two article topics and translated/control formulations. They are selected development diagnostics, not six independent unseen tasks.",
+    "This second review is performed inside the same AI-agent team, not by an external lawyer or an independent human annotator.",
+    "Exact citation matching is a mechanical property; the support verdicts additionally rely on direct reading of the dated source. Neither establishes current-law correctness.",
+    "Counts are descriptive. No overall faithfulness, legal-accuracy or production-readiness rate is inferred from two accepted claims.",
+    "V3 does not erase prior failures. The four abstentions and the incomplete article lookup remain material coverage limitations.",
+    "No future challenge rankings were accessed for this review."
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "scope": "Six fixed heterogeneous local integration probes; no aggregate faithfulness claim or independent legal annotation.",
+  "protocol_sha256": "85dcab0a147f34a09db247deab1432553b2b099c77e70c4de0a28bbedbc85737",
+  "created_at_utc": "2026-10-18T22:16:27.714373+00:00",
+  "preload": {
+    "status": "loaded",
+    "wall_ms": 9236.317799999995,
+    "excluded_from_case_latencies": true
+  },
+  "model": {
+    "name": "qwen2.5:7b",
+    "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "quantization": "Q4_K_M",
+    "download_required": false
+  },
+  "policy_status": "development_calibrated",
+  "cases": [
+    {
+      "id": "generic-fr",
+      "case_type": "generic_previous_exact",
+      "language": "fr",
+      "mode": "hybrid",
+      "question": "Qui accorde l'agrément avant de commencer une activité bancaire ?",
+      "expected_article_ids": [
+        "34"
+      ],
+      "retrieved_article_ids": [
+        "152",
+        "195",
+        "158",
+        "155",
+        "61"
+      ],
+      "context_article_ids": [
+        "152",
+        "155",
+        "158",
+        "195",
+        "61"
+      ],
+      "status": "abstained",
+      "reason": "model_found_no_supported_answer",
+      "citation_article_ids": [],
+      "citation_count": 0,
+      "exact_original_citations": null,
+      "latency_ms": 1591.986,
+      "provider_error": null,
+      "manual_review": "no_accepted_claim"
+    },
+    {
+      "id": "generic-ar",
+      "case_type": "generic_previous_exact",
+      "language": "ar",
+      "mode": "hybrid",
+      "question": "من يمنح الاعتماد قبل مزاولة النشاط البنكي؟",
+      "expected_article_ids": [
+        "34"
+      ],
+      "retrieved_article_ids": [
+        "34",
+        "152",
+        "12",
+        "144",
+        "99"
+      ],
+      "context_article_ids": [
+        "12",
+        "144",
+        "152",
+        "34",
+        "99"
+      ],
+      "status": "abstained",
+      "reason": "model_found_no_supported_answer",
+      "citation_article_ids": [],
+      "citation_count": 0,
+      "exact_original_citations": null,
+      "latency_ms": 1448.591,
+      "provider_error": null,
+      "manual_review": "no_accepted_claim"
+    },
+    {
+      "id": "targeted151-fr",
+      "case_type": "targeted_previous_exact",
+      "language": "fr",
+      "mode": "bm25",
+      "question": "Dans l'édition du 31 mars 2022, que prévoit l'article 151 sur la convention écrite à l'ouverture d'un compte et la copie remise au client ?",
+      "expected_article_ids": [
+        "151"
+      ],
+      "retrieved_article_ids": [
+        "151"
+      ],
+      "context_article_ids": [
+        "151"
+      ],
+      "status": "abstained",
+      "reason": "model_found_no_supported_answer",
+      "citation_article_ids": [],
+      "citation_count": 0,
+      "exact_original_citations": null,
+      "latency_ms": 797.985,
+      "provider_error": null,
+      "manual_review": "no_accepted_claim"
+    },
+    {
+      "id": "targeted151-ar",
+      "case_type": "targeted_previous_exact",
+      "language": "ar",
+      "mode": "bm25",
+      "question": "في نسخة 31 مارس 2022، ماذا تنص المادة 151 بخصوص الاتفاقية المكتوبة عند فتح الحساب وتسليم نسخة للعميل؟",
+      "expected_article_ids": [
+        "151"
+      ],
+      "retrieved_article_ids": [
+        "151"
+      ],
+      "context_article_ids": [
+        "151"
+      ],
+      "status": "abstained",
+      "reason": "insufficient_lexical_support",
+      "citation_article_ids": [],
+      "citation_count": 0,
+      "exact_original_citations": null,
+      "latency_ms": 2.691,
+      "provider_error": null,
+      "manual_review": "no_accepted_claim"
+    },
+    {
+      "id": "lookup151-fr",
+      "case_type": "direct_article_lookup_control",
+      "language": "fr",
+      "mode": "bm25",
+      "question": "article 151",
+      "expected_article_ids": [
+        "151"
+      ],
+      "retrieved_article_ids": [
+        "151"
+      ],
+      "context_article_ids": [
+        "151"
+      ],
+      "status": "abstained",
+      "reason": "model_found_no_supported_answer",
+      "citation_article_ids": [],
+      "citation_count": 0,
+      "exact_original_citations": null,
+      "latency_ms": 651.672,
+      "provider_error": null,
+      "manual_review": "no_accepted_claim"
+    },
+    {
+      "id": "lookup151-ar",
+      "case_type": "direct_article_lookup_control",
+      "language": "ar",
+      "mode": "bm25",
+      "question": "المادة 151",
+      "expected_article_ids": [
+        "151"
+      ],
+      "retrieved_article_ids": [
+        "151"
+      ],
+      "context_article_ids": [
+        "151"
+      ],
+      "status": "abstained",
+      "reason": "model_found_no_supported_answer",
+      "citation_article_ids": [],
+      "citation_count": 0,
+      "exact_original_citations": null,
+      "latency_ms": 638.83,
+      "provider_error": null,
+      "manual_review": "no_accepted_claim"
+    }
+  ],
+  "human_review_scope": "Internal evidence check only; not independent legal annotation.",
+  "source_text_redistributed": false,
+  "no_aggregate_performance_rate": true
+}
